@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://milanojs.com/dist/about.html</loc>
-    <lastmod>2013-12-10T09:41:16.726Z</lastmod>
+    <loc>http://milanojs.com/about.html</loc>
+    <lastmod>2013-12-10T17:54:49.265Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://milanojs.com/dist/index.html</loc>
-    <lastmod>2013-12-10T09:41:16.726Z</lastmod>
+    <loc>http://milanojs.com/index.html</loc>
+    <lastmod>2013-12-10T17:54:49.265Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://milanojs.com/dist/learn.html</loc>
-    <lastmod>2013-12-10T09:41:16.726Z</lastmod>
+    <loc>http://milanojs.com/learn.html</loc>
+    <lastmod>2013-12-10T17:54:49.265Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://milanojs.com/dist/meetups.html</loc>
-    <lastmod>2013-12-10T09:41:16.726Z</lastmod>
+    <loc>http://milanojs.com/meetups.html</loc>
+    <lastmod>2013-12-10T17:54:49.265Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
