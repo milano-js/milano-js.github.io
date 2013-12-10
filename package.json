@@ -28,10 +28,7 @@
     "grunt-contrib-watch": "~0.5.3",
     "load-grunt-tasks": "~0.2.0",
     "time-grunt": "~0.1.1",
-    "assemble-contrib-anchors": "*",
-    "assemble-contrib-permalinks": "*",
     "assemble-contrib-sitemap": "*",
-    "assemble-contrib-toc": "*",
     "assemble-markdown-data": "*"
   },
   "licenses": [

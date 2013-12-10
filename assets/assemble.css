@@ -991,9 +991,6 @@ body {
   padding-top: 80px;
 }
 @media (max-width: 979px) {
-  body {
-    padding-top: 0;
-  }
 }
 a:hover,
 a:focus {
@@ -3703,36 +3700,34 @@ input[type="button"].btn-block {
   height: auto !important;
   overflow: visible !important;
 }
-@media screen and (min-width: 768px) {
-  .navbar-brand {
-    float: left;
-    margin-left: -5px;
-    margin-right: 5px;
-  }
-  .navbar .nav {
-    float: left;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  .navbar .nav > li {
-    float: left;
-  }
-  .navbar .nav > li > a {
-    border-radius: 0;
-  }
-  .navbar .nav.pull-right {
-    float: right;
-  }
-  .navbar-toggle {
-    position: relative;
-    top: auto;
-    left: auto;
-    display: none;
-  }
-  .nav-collapse.collapse {
-    height: auto !important;
-    overflow: visible !important;
-  }
+.navbar-brand {
+  float: left;
+  margin-left: -5px;
+  margin-right: 5px;
+}
+.navbar .nav {
+  float: left;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.navbar .nav > li {
+  float: left;
+}
+.navbar .nav > li > a {
+  border-radius: 0;
+}
+.navbar .nav.pull-right {
+  float: right;
+}
+.navbar-toggle {
+  position: relative;
+  top: auto;
+  left: auto;
+  display: none;
+}
+.nav-collapse.collapse {
+  height: auto !important;
+  overflow: visible !important;
 }
 .navbar-btn {
   margin-top: 22px;
