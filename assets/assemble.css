@@ -1617,6 +1617,7 @@ pre .chunk {
   color: #aaaaaa;
 }
 .container {
+  position: relative;
   margin-right: auto;
   margin-left: auto;
 }
@@ -3779,6 +3780,7 @@ input[type="button"].btn-block {
   font-weight: 700;
   font-size: 21px;
   letter-spacing: 5px;
+  margin-left: 120px;
   padding-left: 20px;
   padding-top: 31px;
   text-transform: uppercase;
@@ -4336,8 +4338,8 @@ a.list-group-item.active > .badge,
   color: rgba(255, 255, 255, 0.25);
 }
 .subhead {
-  padding: 90px 0 20px;
-  text-align: left;
+  padding: 90px 0 6px 0;
+  text-align: right;
   background-color: #111111;
 }
 .subhead h1 {
@@ -4560,4 +4562,16 @@ a.list-group-item.active > .badge,
 .panel hr + ul,
 .panel hr + ul {
   padding: 0;
+}
+
+/* milano js */
+.social {
+  display: inline-block;
+  margin: 0;
+}
+#logo {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 100px;
 }
