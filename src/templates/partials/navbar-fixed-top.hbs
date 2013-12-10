@@ -1,0 +1,33 @@
+---
+component: navbar
+---
+<!-- Navbar component
+================================================== -->
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="navbar-brand" href="{{relative page.dest "/index.html"}}">MilanoJS</a>
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="nav-collapse collapse bs-navbar-collapse">
+        <ul class="nav navbar-nav pull-right">
+          <li{{#is title "Blog"}} class="active"{{/is}}>
+            <a href="{{relative page.dest "/about.html"}}">About</a>
+          </li>
+          <li{{#is title "Meetups"}} class="active"{{/is}}>
+            <a href="{{relative page.dest "/meetups.html"}}">Meetups</a>
+          </li>
+          <li{{#is title "Blog"}} class="active"{{/is}}>
+            <a href="{{relative page.dest "/learn.html"}}">Learn JS</a>
+          </li>
+          <li>
+            <a href="https://github.com/Milano-JS">GitHub</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

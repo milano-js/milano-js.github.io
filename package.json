@@ -1,0 +1,49 @@
+{
+  "name": "milanojs",
+  "description": "Milano javascript user group",
+  "version": "0.1.0",
+  "homepage": "http://milanojs.com",
+  "author": {
+    "name": "Maurizio Mangione",
+    "url": "http://github.com/Milano-JS/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Milano-JS/milanojs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Milano-JS/milanojs/issues"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+  "scripts": {
+    "test": "grunt assemble"
+  },
+  "devDependencies": {
+    "assemble": "~0.4.22",
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-connect": "~0.5.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "load-grunt-tasks": "~0.2.0",
+    "time-grunt": "~0.1.1",
+    "assemble-contrib-anchors": "*",
+    "assemble-contrib-permalinks": "*",
+    "assemble-contrib-sitemap": "*",
+    "assemble-contrib-toc": "*",
+    "assemble-markdown-data": "*"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Milano-JS/milanojs/blob/master/LICENSE-MIT"
+    }
+  ],
+  "keywords": [
+    "javascript",
+    "user group",
+    "milano",
+    "milan"
+  ]
+}
