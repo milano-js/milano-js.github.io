@@ -4562,7 +4562,7 @@ a.list-group-item.active > .badge,
 /* milano js */
 .social {
   display: inline-block;
-  margin: 0;
+  margin-left: 10px;
 }
 #logo {
   position: absolute;
