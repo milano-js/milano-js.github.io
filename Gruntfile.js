@@ -19,37 +19,40 @@ module.exports = function(grunt) {
 
   require('time-grunt')(grunt);
 
-  // Project configuration.
   grunt.initConfig({
 
     config: {
       src: 'src',
       dist: '.'
     },
-
     watch: {
       assemble: {
         files: ['<%= config.src %>/{content,data,templates}/{,*/}*.{md,hbs,yml}'],
         tasks: ['assemble']
+      },
+      sass: {
+        files: ['<%= config.src %>/scss/*.scss'],
+        tasks: ['sass', 'autoprefixer', 'csso']
+      },
+      gruntfile: {
+        files: ['Gruntfile.js']
       },
       livereload: {
         options: {
           livereload: '<%= connect.options.livereload %>'
         },
         files: [
-          '<%= config.dist %>/{,*/}*.html',
-          '<%= config.dist %>/assets/{,*/}*.css',
-          '<%= config.dist %>/assets/{,*/}*.js',
-          '<%= config.dist %>/assets/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
+          '{,*/}*.html',
+          'assets/css/*.css',
+          'assets/{,*/}*.js',
+          'assets/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
         ]
       }
     },
-
     connect: {
       options: {
         port: 9000,
         livereload: 35729,
-        // change this to '0.0.0.0' to access the server from outside
         hostname: 'localhost'
       },
       livereload: {
@@ -61,35 +64,65 @@ module.exports = function(grunt) {
         }
       }
     },
-
+    copy: {
+      main: {
+        files: [
+          {expand: true, flatten: true, src: ['bower_components/pure/pure-min.css'], dest: 'assets/css/'}
+        ]
+      }
+    },
+    sass: {
+      dist: {
+        files: {
+          'assets/css/main.css': '<%= config.src %>/scss/main.scss'
+        }
+      }
+    },
+    autoprefixer: {
+      options: {
+        browsers: ['last 1 version']
+      },
+      concat: {
+        src: ['assets/css/*.css', '!assets/css/milanojs.css', '!assets/css/milanojs.min.css'],
+        dest: 'assets/css/milanojs.css'
+      }
+    },
+    csso: {
+      compress: {
+        files: {
+          'assets/css/milanojs.min.css': ['assets/css/milanojs.css']
+        }
+      }
+    },
     assemble: {
       pages: {
         options: {
           flatten: true,
-          assets: '<%= config.dist %>/assets',
+          assets: 'assets',
           layout: '<%= config.src %>/templates/layouts/default.hbs',
           data: '<%= config.src %>/data/*.{json,yml}',
           partials: '<%= config.src %>/templates/partials/*.hbs',
           plugins: ['assemble-contrib-anchors','assemble-contrib-permalinks','assemble-contrib-sitemap','assemble-contrib-toc','assemble-markdown-data']
         },
         files: {
-          '<%= config.dist %>/': ['<%= config.src %>/templates/pages/*.hbs']
+          '.': ['<%= config.src %>/templates/pages/*.hbs']
         }
       }
     },
-
-    // Before generating any new files,
-    // remove any previously-created files.
-    clean: ['<%= config.dist %>/**/*.{html,xml}']
-
+    clean: ['**/*.{html,xml}']
   });
 
   grunt.loadNpmTasks('assemble');
+  require('time-grunt')(grunt);
   require('load-grunt-tasks')(grunt);
 
   grunt.registerTask('server', [
     'clean',
     'assemble',
+    'copy',
+    'sass',
+    'autoprefixer',
+    'csso',
     'connect:livereload',
     'watch'
   ]);

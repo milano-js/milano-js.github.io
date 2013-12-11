@@ -29,7 +29,11 @@
     "load-grunt-tasks": "~0.2.0",
     "time-grunt": "~0.1.1",
     "assemble-contrib-sitemap": "*",
-    "assemble-markdown-data": "*"
+    "assemble-markdown-data": "*",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-autoprefixer": "~0.4.1",
+    "grunt-contrib-sass": "~0.6.0",
+    "grunt-csso": "~0.5.2"
   },
   "licenses": [
     {
