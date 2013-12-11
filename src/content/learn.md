@@ -5,3 +5,4 @@
 - [②ality](http://www.2ality.com/)
 - [PonyFoo](http://blog.ponyfoo.com/)
 - [Codewars](http://www.codewars.com/)
+- [Idiomatic JS](https://github.com/rwaldron/idiomatic.js/#principles-of-writing-consistent-idiomatic-javascript)
