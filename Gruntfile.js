@@ -1,23 +1,10 @@
-/*
- * Generated on 2013-12-10
- * generator-assemble v0.4.3
- * https://github.com/assemble/generator-assemble
- *
- * Copyright (c) 2013 Hariadi Hinta
- * Licensed under the MIT license.
- */
-
 'use strict';
-
-// # Globbing
-// for performance reasons we're only matching one level down:
-// '<%= config.src %>/templates/pages/{,*/}*.hbs'
-// use this if you want to match all subfolders:
-// '<%= config.src %>/templates/pages/**/*.hbs'
 
 module.exports = function(grunt) {
 
+  grunt.loadNpmTasks('assemble');
   require('time-grunt')(grunt);
+  require('load-grunt-tasks')(grunt);
 
   grunt.initConfig({
 
@@ -43,7 +30,7 @@ module.exports = function(grunt) {
         },
         files: [
           '{,*/}*.html',
-          'assets/css/*.css',
+          'assets/{,*/}*.css',
           'assets/{,*/}*.js',
           'assets/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
         ]
@@ -111,10 +98,6 @@ module.exports = function(grunt) {
     },
     clean: ['**/*.{html,xml}']
   });
-
-  grunt.loadNpmTasks('assemble');
-  require('time-grunt')(grunt);
-  require('load-grunt-tasks')(grunt);
 
   grunt.registerTask('server', [
     'clean',
