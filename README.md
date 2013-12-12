@@ -1,3 +1,10 @@
 # Milano JS
+## Il DOM di Milan
 
-The Milan Javascript user group website
+```bash
+npm install && bower install
+```
+
+```bash
+grunt server
+```
