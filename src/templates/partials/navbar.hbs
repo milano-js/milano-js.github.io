@@ -1,0 +1,23 @@
+---
+component: navbar
+---
+
+<nav class="main-nav pad">
+  <a class="logo" href="/index.html">
+    <img src="/assets/img/mijs.png" alt="Milano JS">
+  </a>
+  <ul class="pure-menu pure-menu-open pure-menu-horizontal">
+    <li{{#is title "Home"}} class="hide"{{/is}}>
+      <a href="/index.html">Home</a>
+    </li>
+    <li{{#is title "About"}} class="pure-menu-selected"{{/is}}>
+      <a href="/about.html">About</a>
+    </li>
+    <li{{#is title "Meetups"}} class="pure-menu-selected"{{/is}}>
+      <a href="/meetups.html">Meetups</a>
+    </li>
+    <li{{#is title "Learn"}} class="pure-menu-selected"{{/is}}>
+      <a href="/learn.html">Learn JS</a>
+    </li>
+  </ul>
+</nav>

@@ -2,67 +2,65 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Learn | Milano JS</title>
-    <link rel="stylesheet" href="assets/assemble.css">
-    <link rel="stylesheet" href="assets/monokai.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn | Milano JS - Il DOM di Milan</title>
+    <link rel="stylesheet" href="assets/css/milanojs.min.css">
   </head>
   <body>
+    <div class="full-light">
+      <header class="wrapper">
+        <h1>Milano JS <span>Il DOM di Milan</span></h1>
+        
 
-    
-<div class="navbar navbar-fixed-top">
-  <div class="navbar-inner">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">
-        <img id="logo" src="/assets/img/mijs.png" alt="Milano JS">
-      MilanoJS</a>
-      <div class="nav-collapse collapse bs-navbar-collapse">
-        <ul class="nav navbar-nav pull-right">
-          <li>
-            <a href="../../../../index.html">Home</a>
-          </li>
-          <li>
-            <a href="../../../../about.html">About</a>
-          </li>
-          <li>
-            <a href="../../../../meetups.html">Meetups</a>
-          </li>
-          <li class="active">
-            <a href="../../../../learn.html">Learn JS</a>
-          </li>
-        </ul>
-      </div>
+<nav class="main-nav pad">
+  <a class="logo" href="/index.html">
+    <img src="/assets/img/mijs.png" alt="Milano JS">
+  </a>
+  <ul class="pure-menu pure-menu-open pure-menu-horizontal">
+    <li>
+      <a href="/index.html">Home</a>
+    </li>
+    <li>
+      <a href="/about.html">About</a>
+    </li>
+    <li>
+      <a href="/meetups.html">Meetups</a>
+    </li>
+    <li class="pure-menu-selected">
+      <a href="/learn.html">Learn JS</a>
+    </li>
+  </ul>
+</nav>
+      </header>
     </div>
+    <div class="full-dark">
+      <header class="wrapper">
+        
+<div class="social pad">
+  <div class="sbtn facebook">
+    <iframe src="//www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2Fmilanojavascript&amp;width&amp;height=80&amp;
+              colorscheme=dark&amp;layout=button&amp;show_faces=true&amp;appId=335602729914072" scrolling="no" frameborder="0" style="border:none;
+              overflow:hidden; height:20px; width: 62px;" allowTransparency="true"></iframe>
+  </div>
+  <div class="sbtn github">
+    <iframe src="http://ghbtns.com/github-btn.html?user=milano-js&type=follow&count=false" allowtransparency="true" frameborder="0" scrolling="0"
+            width="128" height="20"></iframe>
+  </div>
+  <div class="sbtn twitter">
+    <a href="https://twitter.com/Milano_JS" class="twitter-follow-button" data-show-count="false">Follow @Milano_JS</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
   </div>
 </div>
 
-
-    <header class="masthead subhead">
-      <div class="container">
-        <div class="row">
-          <div class="col col-lg-12">
-            <div class="social facebook">
-              <iframe src="//www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2Fmilanojavascript&amp;width&amp;height=80&amp;
-              colorscheme=dark&amp;layout=button&amp;show_faces=true&amp;appId=335602729914072" scrolling="no" frameborder="0" style="border:none;
-              overflow:hidden; height:20px; width: 62px;" allowTransparency="true"></iframe>
-            </div>
-            <div class="social github">
-              <iframe src="http://ghbtns.com/github-btn.html?user=milano-js&type=follow&count=false" allowtransparency="true" frameborder="0" scrolling="0"
-                      width="128" height="20"></iframe>
-            </div>
-            <div class="social twitter">
-              <a href="https://twitter.com/Milano_JS" class="twitter-follow-button" data-show-count="false">Follow @Milano_JS</a>
-              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <div class="container">
-      
+      </header>
+    </div>
+    <div class="wrapper">
+      <div class="pure-g-r">
+        <div class="pure-u-1 pad">
+          
 <h2> Learn </h2>
 
-<h3 id="online">online</h3>
+<h3 id="online-resources">online resources</h3>
 <ul>
 <li><a href="https://developer.mozilla.org/en/learn/javascript">Mozilla Developer Network</a></li>
 <li><a href="http://superherojs.com/">Superhero JS</a></li>
@@ -73,9 +71,11 @@
 <li><a href="https://github.com/rwaldron/idiomatic.js/#principles-of-writing-consistent-idiomatic-javascript">Idiomatic JS</a></li>
 </ul>
 
+        </div>
+      </div>
     </div>
 
-    <script src="assets/highlight.pack.js"></script>
+    <script src="assets/js/highlight.pack.js"></script>
     <script>
       hljs.initHighlightingOnLoad();
 

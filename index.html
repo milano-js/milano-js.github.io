@@ -2,67 +2,67 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Home | Milano JS</title>
-    <link rel="stylesheet" href="assets/assemble.css">
-    <link rel="stylesheet" href="assets/monokai.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Milano JS - Il DOM di Milan</title>
+    <link rel="stylesheet" href="assets/css/milanojs.min.css">
   </head>
   <body>
+    <div class="full-light">
+      <header class="wrapper">
+        <h1>Milano JS <span>Il DOM di Milan</span></h1>
+        
 
-    
-<div class="navbar navbar-fixed-top">
-  <div class="navbar-inner">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">
-        <img id="logo" src="/assets/img/mijs.png" alt="Milano JS">
-      MilanoJS</a>
-      <div class="nav-collapse collapse bs-navbar-collapse">
-        <ul class="nav navbar-nav pull-right">
-          <li class="hide">
-            <a href="../../../../index.html">Home</a>
-          </li>
-          <li>
-            <a href="../../../../about.html">About</a>
-          </li>
-          <li>
-            <a href="../../../../meetups.html">Meetups</a>
-          </li>
-          <li>
-            <a href="../../../../learn.html">Learn JS</a>
-          </li>
-        </ul>
-      </div>
+<nav class="main-nav pad">
+  <a class="logo" href="/index.html">
+    <img src="/assets/img/mijs.png" alt="Milano JS">
+  </a>
+  <ul class="pure-menu pure-menu-open pure-menu-horizontal">
+    <li class="hide">
+      <a href="/index.html">Home</a>
+    </li>
+    <li>
+      <a href="/about.html">About</a>
+    </li>
+    <li>
+      <a href="/meetups.html">Meetups</a>
+    </li>
+    <li>
+      <a href="/learn.html">Learn JS</a>
+    </li>
+  </ul>
+</nav>
+      </header>
     </div>
+    <div class="full-dark">
+      <header class="wrapper">
+        
+<div class="social pad">
+  <div class="sbtn facebook">
+    <iframe src="//www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2Fmilanojavascript&amp;width&amp;height=80&amp;
+              colorscheme=dark&amp;layout=button&amp;show_faces=true&amp;appId=335602729914072" scrolling="no" frameborder="0" style="border:none;
+              overflow:hidden; height:20px; width: 62px;" allowTransparency="true"></iframe>
+  </div>
+  <div class="sbtn github">
+    <iframe src="http://ghbtns.com/github-btn.html?user=milano-js&type=follow&count=false" allowtransparency="true" frameborder="0" scrolling="0"
+            width="128" height="20"></iframe>
+  </div>
+  <div class="sbtn twitter">
+    <a href="https://twitter.com/Milano_JS" class="twitter-follow-button" data-show-count="false">Follow @Milano_JS</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
   </div>
 </div>
 
+      </header>
+    </div>
+    <div class="wrapper">
+      <div class="pure-g-r">
+        <div class="pure-u-1 pad">
+          
 
-    <header class="masthead subhead">
-      <div class="container">
-        <div class="row">
-          <div class="col col-lg-12">
-            <div class="social facebook">
-              <iframe src="//www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2Fmilanojavascript&amp;width&amp;height=80&amp;
-              colorscheme=dark&amp;layout=button&amp;show_faces=true&amp;appId=335602729914072" scrolling="no" frameborder="0" style="border:none;
-              overflow:hidden; height:20px; width: 62px;" allowTransparency="true"></iframe>
-            </div>
-            <div class="social github">
-              <iframe src="http://ghbtns.com/github-btn.html?user=milano-js&type=follow&count=false" allowtransparency="true" frameborder="0" scrolling="0"
-                      width="128" height="20"></iframe>
-            </div>
-            <div class="social twitter">
-              <a href="https://twitter.com/Milano_JS" class="twitter-follow-button" data-show-count="false">Follow @Milano_JS</a>
-              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <div class="container">
-      
-
-<pre>
+<pre class="intro">
   <code class="javascript">
+    'use strict';
+
     var MilanoJS = {
       what: 'Javascript user group',
       where: 'Milano - Italia',
@@ -70,7 +70,9 @@
     }
   </code>
 </pre>
-<h3 id="intro">intro</h3>
+<div class="pure-g-r">
+  <div class="pure-u-2-3">
+    <h3 id="intro">intro</h3>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, blanditiis consequuntur deleniti, expedita hic ipsam iusto neque nostrum, officia perspiciatis quia reprehenderit voluptates. Corporis laborum odio placeat quod. Nesciunt, ut.</p>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque illum impedit in ipsum nam nostrum provident quaerat, repellendus reprehenderit tenetur? Beatae consectetur cumque eum harum impedit maiores nulla odio perferendis.</p>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque illum impedit in ipsum nam nostrum provident quaerat, repellendus reprehenderit tenetur? Beatae consectetur cumque eum harum impedit maiores nulla odio perferendis.</p>
@@ -88,11 +90,19 @@
 <li>tre</li>
 </ul>
 
+  </div>
+  <div class="pure-u-1-3">
+    <a class="twitter-timeline" href="https://twitter.com/Milano_JS" data-widget-id="411242779600097280">Tweets by @Milano_JS</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </div>
+</div>
 
 
+        </div>
+      </div>
     </div>
 
-    <script src="assets/highlight.pack.js"></script>
+    <script src="assets/js/highlight.pack.js"></script>
     <script>
       hljs.initHighlightingOnLoad();
 

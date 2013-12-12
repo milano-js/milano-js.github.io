@@ -1,4 +1,4 @@
-###online
+###online resources
 - [Mozilla Developer Network](https://developer.mozilla.org/en/learn/javascript)
 - [Superhero JS](http://superherojs.com/)
 - [JSLint Error Explanations](http://jslinterrors.com/)

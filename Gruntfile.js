@@ -89,7 +89,7 @@ module.exports = function(grunt) {
           layout: '<%= config.src %>/templates/layouts/default.hbs',
           data: '<%= config.src %>/data/*.{json,yml}',
           partials: '<%= config.src %>/templates/partials/*.hbs',
-          plugins: ['assemble-contrib-anchors','assemble-contrib-permalinks','assemble-contrib-sitemap','assemble-contrib-toc','assemble-markdown-data']
+          plugins: ['assemble-contrib-sitemap', 'assemble-markdown-data']
         },
         files: {
           '.': ['<%= config.src %>/templates/pages/*.hbs']

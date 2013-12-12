@@ -2,41 +2,31 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>{{title}} | {{site.title}}</title>
-    <link rel="stylesheet" href="{{assets}}/assemble.css">
-    <link rel="stylesheet" href="{{assets}}/monokai.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}} | {{site.title}} - {{site.payoff}}</title>
+    <link rel="stylesheet" href="{{assets}}/css/milanojs.min.css">
   </head>
   <body>
-
-    {{> navbar-fixed-top }}
-
-    <header class="masthead subhead">
-      <div class="container">
-        <div class="row">
-          <div class="col col-lg-12">
-            <div class="social facebook">
-              <iframe src="//www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2Fmilanojavascript&amp;width&amp;height=80&amp;
-              colorscheme=dark&amp;layout=button&amp;show_faces=true&amp;appId=335602729914072" scrolling="no" frameborder="0" style="border:none;
-              overflow:hidden; height:20px; width: 62px;" allowTransparency="true"></iframe>
-            </div>
-            <div class="social github">
-              <iframe src="http://ghbtns.com/github-btn.html?user=milano-js&type=follow&count=false" allowtransparency="true" frameborder="0" scrolling="0"
-                      width="128" height="20"></iframe>
-            </div>
-            <div class="social twitter">
-              <a href="https://twitter.com/Milano_JS" class="twitter-follow-button" data-show-count="false">Follow @Milano_JS</a>
-              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-            </div>
-          </div>
+    <div class="full-light">
+      <header class="wrapper">
+        <h1>{{site.title}} <span>{{site.payoff}}</span></h1>
+        {{> navbar }}
+      </header>
+    </div>
+    <div class="full-dark">
+      <header class="wrapper">
+        {{> social }}
+      </header>
+    </div>
+    <div class="wrapper">
+      <div class="pure-g-r">
+        <div class="pure-u-1 pad">
+          {{> body }}
         </div>
       </div>
-    </header>
-
-    <div class="container">
-      {{> body }}
     </div>
 
-    <script src="{{assets}}/highlight.pack.js"></script>
+    <script src="{{assets}}/js/highlight.pack.js"></script>
     <script>
       hljs.initHighlightingOnLoad();
 
