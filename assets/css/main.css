@@ -25,7 +25,7 @@ h1 {
   text-align: center; }
   h1 span {
     display: block;
-    font-size: .5em;
+    font-size: 0.5em;
     color: #919191; }
 
 .pure-g > div, .pure-g-r > div {
@@ -88,3 +88,7 @@ footer {
   padding: 2em;
   color: #cfcfcf;
   background-color: #111111; }
+
+.main-nav .pure-menu {
+  position: relative;
+  bottom: -35px; }

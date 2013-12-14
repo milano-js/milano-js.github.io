@@ -102,3 +102,9 @@ footer {
   color: $lightTxt;
   background-color: $darkest;
 }
+.main-nav {
+  .pure-menu {
+    position: relative;
+    bottom: -35px;
+  }
+}
