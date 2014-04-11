@@ -1,26 +1,50 @@
 ---
 title: Home
 content: src/content/home.md
+talks: src/content/talks.md
+meetupMonth: Maggio
+meetupDay: 6
+meetupNumber: 0
 ---
 
-<pre class="intro pure-hidden-phone">
-  <code class="javascript">
-    'use strict';
 
-    var MilanoJS = {
-      what: 'Javascript user group',
-      where: 'Milano - Italia',
-      status: 'in progress...'
-    }
-  </code>
-</pre>
 <div class="pure-g-r">
-  <div class="pure-u-2-3">
-    {{md content}}
-  </div>
-  <div class="pure-u-1-3">
-    <a class="twitter-timeline" href="https://twitter.com/Milano_JS" data-widget-id="411242779600097280">Tweets by @Milano_JS</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  <div class="pure-u-1">
+    <div class="pad">
+      <pre class="intro pure-hidden-phone">
+        <code class="javascript">
+          'use strict';
+
+          var MilanoJS = {
+            what: 'Javascript user group',
+            where: 'Milano - Italia',
+            status: 'active'
+          }
+        </code>
+      </pre>
+    </div>
   </div>
 </div>
+<div class="pure-g-r">
+  <div class="pure-u-2-3">
+    <div class="pad">
+      <div id="talks-box">
+        <h2 class="main">Prossimo incontro #{{meetupNumber}}</h2>
+        <div class="calendar">
+          <span class="binds"></span>
+          <span class="month">{{meetupMonth}}</span>
+          <div class="day">{{meetupDay}}</div>
+        </div>
+        {{md talks}}
+      </div>
+      {{md content}}
+      </div>
+    </div>
+    <div class="pure-u-1-3">
+      <div class="pad">
+        <a class="twitter-timeline" href="https://twitter.com/Milano_JS" data-widget-id="411242779600097280">Tweets by @Milano_JS</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </div>
+    </div>
+  </div>
 

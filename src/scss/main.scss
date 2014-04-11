@@ -5,6 +5,7 @@ $darkest: #111;
 $mainTxt: #333;
 $lightTxt: #cfcfcf;
 $blueTxt: #0084b4;
+$calBg: #D30404;
 
 body {
   overflow-y: scroll;
@@ -38,6 +39,12 @@ h1 {
     color: lighten($darkest, 50);
   }
 }
+
+h2.main {
+  font-size: 2em;
+  margin: 0 0 20px 0;
+}
+
 .pure-g > div, .pure-g-r > div {
   box-sizing: border-box;
 }
@@ -48,7 +55,7 @@ h1 {
   display: none !important;
 }
 .intro {
-  margin-bottom: 20px;
+  margin: 0 0 20px 0;
 }
 .wrapper {
   position: relative;
@@ -88,7 +95,20 @@ h1 {
   display: inline-block;
   margin-left: 10px;
 }
-
+#talks-box {
+  overflow: hidden;
+  position: relative;
+  min-height: 140px;
+  margin-bottom: 60px;
+  ol, ul {
+    float: left;
+    padding: 0;
+    li {
+      margin-left: 20px;
+      padding-bottom: 10px;
+    }
+  }
+}
 .full-light {
   background-color: white;
 }
@@ -101,4 +121,69 @@ footer {
   padding: 2em;
   color: $lightTxt;
   background-color: $darkest;
+}
+
+//calendar
+.calendar {
+  position: relative;
+  display: block;
+  float: left;
+  width: 100px;
+  height: 110px;
+  margin: 0 20px 0 0;
+  background: #fff;
+  text-align: center;
+  font-family: 'Helvetica', sans-serif;
+  .binds {
+    position: absolute;
+    height: 15px;
+    width: 60px;
+    background: transparent;
+    border: 2px solid #999;
+    border-width: 0 5px;
+    top: -6px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .month {
+    background: $calBg;
+    display: block;
+    padding: 8px 0;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom: 2px solid darken($calBg, 10);
+    box-shadow: inset 0 -1px 0 0 darken($calBg, 5);
+  }
+  .day {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 10px 0;
+    font-size: 48px;
+    box-shadow: 0 0 3px #ccc;
+    &:after {
+      content: '';
+      display: block;
+      height: 100%;
+      width: 96%;
+      position: absolute;
+      top: 3px;
+      left: 2%;
+      z-index: -1;
+      box-shadow: 0 0 3px #ccc;
+    }
+    &:before {
+      content: '';
+      display: block;
+      height: 100%;
+      width: 90%;
+      position: absolute;
+      top: 6px;
+      left: 5%;
+      z-index: -1;
+      box-shadow: 0 0 3px #ccc;
+    }
+  }
 }

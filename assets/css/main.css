@@ -28,6 +28,10 @@ h1 {
     font-size: 0.5em;
     color: #919191; }
 
+h2.main {
+  font-size: 2em;
+  margin: 0 0 20px 0; }
+
 .pure-g > div, .pure-g-r > div {
   box-sizing: border-box; }
 
@@ -38,7 +42,7 @@ h1 {
   display: none !important; }
 
 .intro {
-  margin-bottom: 20px; }
+  margin: 0 0 20px 0; }
 
 .wrapper {
   position: relative;
@@ -76,6 +80,18 @@ h1 {
   display: inline-block;
   margin-left: 10px; }
 
+#talks-box {
+  overflow: hidden;
+  position: relative;
+  min-height: 140px;
+  margin-bottom: 60px; }
+  #talks-box ol, #talks-box ul {
+    float: left;
+    padding: 0; }
+    #talks-box ol li, #talks-box ul li {
+      margin-left: 20px;
+      padding-bottom: 10px; }
+
 .full-light {
   background-color: white; }
 
@@ -88,3 +104,61 @@ footer {
   padding: 2em;
   color: #cfcfcf;
   background-color: #111111; }
+
+.calendar {
+  position: relative;
+  display: block;
+  float: left;
+  width: 100px;
+  height: 110px;
+  margin: 0 20px 0 0;
+  background: white;
+  text-align: center;
+  font-family: 'Helvetica', sans-serif; }
+  .calendar .binds {
+    position: absolute;
+    height: 15px;
+    width: 60px;
+    background: transparent;
+    border: 2px solid #999999;
+    border-width: 0 5px;
+    top: -6px;
+    left: 0;
+    right: 0;
+    margin: auto; }
+  .calendar .month {
+    background: #d30404;
+    display: block;
+    padding: 8px 0;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom: 2px solid #a10303;
+    box-shadow: inset 0 -1px 0 0 #ba0404; }
+  .calendar .day {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 10px 0;
+    font-size: 48px;
+    box-shadow: 0 0 3px #cccccc; }
+    .calendar .day:after {
+      content: '';
+      display: block;
+      height: 100%;
+      width: 96%;
+      position: absolute;
+      top: 3px;
+      left: 2%;
+      z-index: -1;
+      box-shadow: 0 0 3px #cccccc; }
+    .calendar .day:before {
+      content: '';
+      display: block;
+      height: 100%;
+      width: 90%;
+      position: absolute;
+      top: 6px;
+      left: 5%;
+      z-index: -1;
+      box-shadow: 0 0 3px #cccccc; }
