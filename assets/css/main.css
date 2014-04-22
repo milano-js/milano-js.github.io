@@ -32,6 +32,12 @@ h2.main {
   font-size: 2em;
   margin: 0 0 20px 0; }
 
+.sold-out {
+  clear: both;
+  padding: 10px;
+  color: white;
+  background-color: #df7514; }
+
 .pure-g > div, .pure-g-r > div {
   box-sizing: border-box; }
 
