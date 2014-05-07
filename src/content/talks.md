@@ -1,4 +1,4 @@
 ###Talk in programma:
 
-1. Benvenuti a Milano JS (Maurizio Mangione)
-2. Introduzione ad Angular JS (Jacopo Nardiello)
+1. Reactive programming with Bacon.js (Francesco Agati)
+2. Front-end tools in the real world (Maurizio Mangione)
