@@ -1,3 +1,5 @@
 ###Talk in programma:
 
-Angular JS workshop (details soon)
+From jQuery plugin to Angular JS directive
+
+(Gianluca Sabena - Mauro Verrocchio)
