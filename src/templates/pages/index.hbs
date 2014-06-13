@@ -1,10 +1,16 @@
 ---
 title: Home
 content: src/content/home.md
+
 talks: src/content/talks.md
 meetupMonth: Luglio
 meetupDay: 1
 meetupNumber: 2
+
+live: src/content/live-workshop.md
+liveMonth: Luglio
+liveDay: 8
+liveNumber: 0
 ---
 
 
@@ -28,8 +34,9 @@ meetupNumber: 2
 <div class="pure-g-r">
   <div class="pure-u-2-3">
     <div class="pad">
-      <div id="talks-box">
-        <h2 class="main">Prossimo incontro #{{meetupNumber}} ore 19:00</h2>
+      <h2 class="main">Prossimi incontri</h2>
+      <div class="meetup-box">
+        <h3>Milano JS #{{meetupNumber}} ore 19:00</h3>
         <div class="calendar">
           <span class="binds"></span>
           <span class="month">{{meetupMonth}}</span>
@@ -37,6 +44,9 @@ meetupNumber: 2
         </div>
         {{md talks}}
       </div>
+
+
+
       {{md content}}
       </div>
     </div>

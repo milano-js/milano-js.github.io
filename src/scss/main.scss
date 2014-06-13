@@ -62,6 +62,15 @@ h2.main {
 .intro {
   margin: 0 0 20px 0;
 }
+.live {
+  padding: 0 4px;
+  color: $mainBg;
+  background-color: $mainTxt;
+  a {
+    text-decoration: none;
+    color: $mainBg;
+  }
+}
 .wrapper {
   position: relative;
   margin: auto;
@@ -100,7 +109,7 @@ h2.main {
   display: inline-block;
   margin-left: 10px;
 }
-#talks-box {
+.meetup-box {
   overflow: hidden;
   position: relative;
   min-height: 140px;

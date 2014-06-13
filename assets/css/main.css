@@ -50,6 +50,14 @@ h2.main {
 .intro {
   margin: 0 0 20px 0; }
 
+.live {
+  padding: 0 4px;
+  color: #f4f4f4;
+  background-color: #333333; }
+  .live a {
+    text-decoration: none;
+    color: #f4f4f4; }
+
 .wrapper {
   position: relative;
   margin: auto;
@@ -86,15 +94,15 @@ h2.main {
   display: inline-block;
   margin-left: 10px; }
 
-#talks-box {
+.meetup-box {
   overflow: hidden;
   position: relative;
   min-height: 140px;
   margin-bottom: 60px; }
-  #talks-box ol, #talks-box ul {
+  .meetup-box ol, .meetup-box ul {
     float: left;
     padding: 0; }
-    #talks-box ol li, #talks-box ul li {
+    .meetup-box ol li, .meetup-box ul li {
       margin-left: 20px;
       padding-bottom: 10px; }
 
