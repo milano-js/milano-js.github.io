@@ -2,25 +2,27 @@
 component: navbar
 ---
 
-<nav class="main-nav pad">
+<div class="col-2-12">
   <a class="logo" href="/index.html">
     <img src="/assets/img/mijs.png" height="100" width="100" alt="Milano JS">
   </a>
-  <ul class="pure-menu pure-menu-open pure-menu-horizontal">
-    <li{{#is title "Home"}} class="hide pure-hidden-phone"{{/is}}>
+</div>
+<div class="col-10-12">
+  <ul class="main-nav">
+    <li{{#is title "Home"}} class="menu-selected"{{/is}}>
       <a href="/index.html">Home</a>
     </li>
-    <li{{#is title "About"}} class="pure-menu-selected"{{/is}}>
+    <li{{#is title "About"}} class="menu-selected"{{/is}}>
       <a href="/about.html">About</a>
     </li>
-    <li{{#is title "Meetups"}} class="pure-menu-selected"{{/is}}>
+    <li{{#is title "Meetups"}} class="menu-selected"{{/is}}>
       <a href="/meetups.html">Meetups</a>
     </li>
-    <li{{#is title "Live"}} class="pure-menu-selected"{{/is}}>
+    <li{{#is title "Live"}} class="menu-selected"{{/is}}>
       <a href="/live.html">Live</a>
     </li>
-    <li{{#is title "Learn"}} class="pure-menu-selected"{{/is}}>
+    <!-- li{{#is title "Learn"}} class="menu-selected"{{/is}}>
       <a href="/learn.html">Learn JS</a>
-    </li>
+    </li -->
   </ul>
-</nav>
+</div>

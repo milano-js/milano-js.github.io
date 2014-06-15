@@ -54,7 +54,7 @@ module.exports = function(grunt) {
     copy: {
       main: {
         files: [
-          {expand: true, flatten: true, src: ['bower_components/pure/pure-min.css'], dest: 'assets/css/'}
+          {expand: true, flatten: true, src: ['bower_components/Simple-Grid/simplegrid.css', 'bower_components/normalize-css/normalize.css'], dest: 'assets/css/'}
         ]
       }
     },

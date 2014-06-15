@@ -3,57 +3,64 @@ title: Home
 content: src/content/home.md
 
 talks: src/content/talks.md
+
 meetupMonth: Luglio
 meetupDay: 1
 meetupNumber: 2
 
 live: src/content/live-workshop.md
+
 liveMonth: Luglio
 liveDay: 8
 liveNumber: 0
 ---
 
+<div class="full-dark">
+  <header class="grid grid-pad">
+    <h2 class="main">Prossimi incontri</h2>
 
-<div class="pure-g-r">
-  <div class="pure-u-1">
-    <div class="pad">
-      <pre class="intro pure-hidden-phone">
-        <code class="javascript">
-          'use strict';
+    <div class="meetup-box col-1-2">
+      <h3>Milano JS #{{meetupNumber}} ore 19:00</h3>
 
-          var MilanoJS = {
-            what: 'Javascript user group',
-            where: 'Milano - Italia',
-            status: 'active'
-          }
-        </code>
-      </pre>
+      <div class="calendar">
+        <span class="binds"></span>
+        <span class="month">{{meetupMonth}}</span>
+
+        <div class="day">{{meetupDay}}</div>
+      </div>
+      {{md talks}}
     </div>
+
+    <div class="meetup-box col-1-2">
+      <h3>Milano JS <strong class="live"><a href="/live.html">Live</a></strong> #{{liveNumber}} ore 19:00</h3>
+
+      <div class="calendar">
+        <span class="binds"></span>
+        <span class="month">{{liveMonth}}</span>
+
+        <div class="day">{{liveDay}}</div>
+      </div>
+      {{md live}}
+    </div>
+  </header>
+</div>
+
+<div class="grid grid-pad">
+  <div class="col-2-3">
+    {{md content}}
+  </div>
+  <div class="col-1-3">
+      <a class="twitter-timeline" href="https://twitter.com/Milano_JS" data-widget-id="411242779600097280">Tweets by
+        @Milano_JS</a>
+      <script>!function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+        if (!d.getElementById(id)) {
+          js = d.createElement(s);
+          js.id = id;
+          js.src = p + "://platform.twitter.com/widgets.js";
+          fjs.parentNode.insertBefore(js, fjs);
+        }
+      }(document, "script", "twitter-wjs");</script>
   </div>
 </div>
-<div class="pure-g-r">
-  <div class="pure-u-2-3">
-    <div class="pad">
-      <h2 class="main">Prossimi incontri</h2>
-      <div class="meetup-box">
-        <h3>Milano JS #{{meetupNumber}} ore 19:00</h3>
-        <div class="calendar">
-          <span class="binds"></span>
-          <span class="month">{{meetupMonth}}</span>
-          <div class="day">{{meetupDay}}</div>
-        </div>
-        {{md talks}}
-      </div>
-
-
-      {{md content}}
-      </div>
-    </div>
-    <div class="pure-u-1-3">
-      <div class="pad">
-        <a class="twitter-timeline" href="https://twitter.com/Milano_JS" data-widget-id="411242779600097280">Tweets by @Milano_JS</a>
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-      </div>
-    </div>
-  </div>
 

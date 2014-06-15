@@ -10,62 +10,42 @@
     <link rel="stylesheet" href="assets/css/milanojs.min.css">
   </head>
   <body>
-    <div class="full-light">
-      <header class="wrapper">
-        <h1>Milano JS <span class="pure-hidden-phone">Il DOM di Milan</span></h1>
+    <div class="full-light top-bar">
+      <header class="grid grid-pad">
         
 
-<nav class="main-nav pad">
+<div class="col-2-12">
   <a class="logo" href="/index.html">
     <img src="/assets/img/mijs.png" height="100" width="100" alt="Milano JS">
   </a>
-  <ul class="pure-menu pure-menu-open pure-menu-horizontal">
+</div>
+<div class="col-10-12">
+  <ul class="main-nav">
     <li>
       <a href="/index.html">Home</a>
     </li>
     <li>
       <a href="/about.html">About</a>
     </li>
-    <li class="pure-menu-selected">
+    <li class="menu-selected">
       <a href="/meetups.html">Meetups</a>
     </li>
     <li>
       <a href="/live.html">Live</a>
     </li>
-    <li>
+    <!-- li>
       <a href="/learn.html">Learn JS</a>
-    </li>
+    </li -->
   </ul>
-</nav>
-      </header>
-    </div>
-    <div class="full-dark">
-      <header class="wrapper">
-        
-<div class="social pad  pure-hidden-phone">
-  <div class="sbtn facebook">
-    <iframe src="//www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2Fmilanojavascript&amp;width&amp;height=80&amp;
-              colorscheme=dark&amp;layout=button&amp;show_faces=true&amp;appId=335602729914072" scrolling="no" frameborder="0" style="border:none;
-              overflow:hidden; height:20px; width: 62px;" allowTransparency="true"></iframe>
-  </div>
-  <div class="sbtn github">
-    <iframe src="http://ghbtns.com/github-btn.html?user=milano-js&type=follow&count=false" allowtransparency="true" frameborder="0" scrolling="0"
-            width="128" height="20"></iframe>
-  </div>
-  <div class="sbtn twitter">
-    <a href="https://twitter.com/Milano_JS" class="twitter-follow-button" data-show-count="false">Follow @Milano_JS</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-  </div>
 </div>
-
       </header>
     </div>
-    <div class="wrapper">
-      <div class="pure-g-r">
-        <div class="pure-u-1 pad">
-          
-<h2>Meetups</h2>
-<h3 id="non-solo-talk-">Non solo &quot;talk&quot;</h3>
+
+    
+<div class="grid grid-pad">
+  <div class="col-1-1">
+    <h2>Meetups</h2>
+    <h3 id="non-solo-talk-">Non solo &quot;talk&quot;</h3>
 <p>L&#39;idea di base del nostro gruppo è quella fare in modo che ogni partecipante, finito l&#39;incontro, se ne possa andare via con qualcosa in più. Per questo motivo cercheremo il più possibile di rendere gli incontri interattivi, di uscire dal solito schema del talk &quot;classico&quot;.
 Questo vuol dire che parleremo di cose concrete, condividendo esperienze e problemi incontrati durante lo sviluppo di applicazioni reali. <a href="/live.html">Cercheremo di mettere mano al codice</a> e di buttare giù una base che potrà poi essere ampliata da ognuno per apprendere e sperimentare.
 Non mancheranno ovviamente i talk dove verrà presentata e spiegata una tecnologia. Diciamo solo che noi preferiamo sporcarci le mani.</p>
@@ -75,15 +55,31 @@ Non mancheranno ovviamente i talk dove verrà presentata e spiegata una tecnolog
 
 <p>I nostri incontri hanno cadenza mensile e vengono sempre comunicati con adeguato anticipo. Per essere sicuro di non perderne uno, seguici su twitter.</p>
 
+  </div>
+</div>
 
-        </div>
-      </div>
-    </div>
+    
 
-    <script src="assets/js/highlight.pack.js"></script>
+<footer>
+  <div class="grid grid-pad">
+    <p>Copyright 2014 &copy; Milano JS</p>
+    
+<div class="sbtn facebook">
+  <iframe src="//www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2Fmilanojavascript&amp;width&amp;height=80&amp;
+            colorscheme=dark&amp;layout=button&amp;show_faces=true&amp;appId=335602729914072" scrolling="no" frameborder="0" style="border:none;
+            overflow:hidden; height:20px; width: 62px;" allowTransparency="true"></iframe>
+</div>
+<div class="sbtn github">
+  <iframe src="http://ghbtns.com/github-btn.html?user=milano-js&type=follow&count=false" allowtransparency="true" frameborder="0" scrolling="0"
+          width="128" height="20"></iframe>
+</div>
+<div class="sbtn twitter">
+  <a href="https://twitter.com/Milano_JS" class="twitter-follow-button" data-show-count="false">Follow @Milano_JS</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+  </div>
+</footer>
     <script>
-      hljs.initHighlightingOnLoad();
-
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)

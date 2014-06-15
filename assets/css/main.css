@@ -1,6 +1,5 @@
 body {
   overflow-y: scroll;
-  padding-bottom: 20px;
   color: #333333;
   background-color: #f4f4f4; }
 
@@ -17,32 +16,26 @@ a {
   color: #0084b4; }
 
 h1 {
-  position: absolute;
-  left: 140px;
-  top: 22px;
   margin: 0 !important;
-  color: #111111;
-  text-align: center; }
+  color: #111111; }
   h1 span {
     display: block;
     font-size: 0.5em;
     color: #919191; }
 
 h2.main {
+  margin: 0;
   font-size: 2em;
-  margin: 0 0 20px 0; }
+  color: #aaaaaa; }
+
+header.grid {
+  position: relative; }
 
 .sold-out {
   clear: both;
   padding: 10px;
   color: white;
   background-color: #df7514; }
-
-.pure-g > div, .pure-g-r > div {
-  box-sizing: border-box; }
-
-.pad {
-  padding: 1em; }
 
 .hide {
   display: none !important; }
@@ -58,25 +51,23 @@ h2.main {
     text-decoration: none;
     color: #f4f4f4; }
 
-.wrapper {
-  position: relative;
-  margin: auto;
-  max-width: 1224px; }
-  @media screen and (max-width: 1024px) {
-    .wrapper {
-      max-width: 960px; } }
 
-.main-nav .pure-menu {
-  padding-left: 0;
-  text-align: right; }
+.main-nav {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  margin: 0;
+  list-style: none; }
+  .main-nav li {
+    display: inline-block;
+    padding: 4px 10px; }
+    .main-nav li.menu-selected {
+      border-bottom: 3px solid #999999; }
 
 .logo {
-  display: block;
-  position: absolute;
-  left: 1em;
-  top: 1em;
+  display: inline-block;
   z-index: 10;
-  text-align: center; }
+  margin-bottom: 20px; }
 
 .social {
   height: 20px;
@@ -98,7 +89,7 @@ h2.main {
   overflow: hidden;
   position: relative;
   min-height: 140px;
-  margin-bottom: 60px; }
+  margin-bottom: 30px; }
   .meetup-box ol, .meetup-box ul {
     float: left;
     padding: 0; }
@@ -115,9 +106,13 @@ h2.main {
   background-color: #dddddd; }
 
 footer {
+  margin-top: 40px;
   padding: 2em;
-  color: #cfcfcf;
-  background-color: #111111; }
+  text-align: center;
+  color: #aaaaaa;
+  font-size: 12px; }
+  footer .grid {
+    border-top: 1px solid #d8d8d8; }
 
 .calendar {
   position: relative;
