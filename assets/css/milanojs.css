@@ -2,6 +2,7 @@ body {
   overflow-y: scroll;
   color: #333333;
   background-color: #f4f4f4;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 pre {
@@ -21,8 +22,12 @@ a {
 }
 
 h1 {
+  position: absolute;
+  left: 180px;
+  top: 10px;
   margin: 0 !important;
   color: #111111;
+  text-align: center;
 }
 
 h1 span {
@@ -31,10 +36,40 @@ h1 span {
   color: #919191;
 }
 
+@media handheld, only screen and (max-width: 767px) {
+  h1 {
+    display: none;
+  }
+}
+
+h2 {
+  font-size: 2em;
+}
+
 h2.main {
   margin: 0;
-  font-size: 2em;
   color: #aaaaaa;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bree Serif", serif;
+  font-weight: normal;
+}
+
+p,
+li {
+  line-height: 28px;
 }
 
 header.grid {
@@ -59,12 +94,12 @@ header.grid {
 .live {
   padding: 0 4px;
   color: #f4f4f4;
-  background-color: #333333;
+  background-color: #f0db4f;
 }
 
 .live a {
   text-decoration: none;
-  color: #f4f4f4;
+  color: #111111;
 }
 
 .main-nav {
@@ -88,6 +123,17 @@ header.grid {
   display: inline-block;
   z-index: 10;
   margin-bottom: 20px;
+}
+
+@media handheld, only screen and (max-width: 767px) {
+  .logo {
+    margin-bottom: 0;
+  }
+
+  .logo img {
+    width: 50px;
+    height: 50px;
+  }
 }
 
 .social {

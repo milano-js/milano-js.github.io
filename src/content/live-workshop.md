@@ -1,5 +1,4 @@
 ###Workshop:
 
-Bacon.js (Francesco Agati)
-
+Bacon.js (Francesco Agati)  
 More info soon...

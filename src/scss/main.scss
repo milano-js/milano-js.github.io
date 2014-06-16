@@ -6,12 +6,14 @@ $mainTxt: #333;
 $lightTxt: #cfcfcf;
 $blueTxt: #0084b4;
 $calBg: #D30404;
+$yellowJS: #F0DB4F;
 
 
 body {
   overflow-y: scroll;
   color: $mainTxt;
   background-color: $mainBg;
+  font-family: "Open Sans",Helvetica,Arial,sans-serif;
 }
 pre {
   margin: 0;
@@ -27,19 +29,40 @@ a {
   color: $blueTxt;
 }
 h1 {
+  position: absolute;
+  left: 180px;
+  top: 10px;
   margin: 0 !important;
   color: $darkest;
+  text-align: center;
   span {
     display: block;
     font-size: .5em;
     color: lighten($darkest, 50);
   }
+  @media handheld, only screen and (max-width: 767px) {
+    display: none;
+  }
 }
-
-h2.main {
-  margin: 0;
+h2 {
   font-size: 2em;
-  color: darken($darkBg, 20);
+  &.main {
+    margin: 0;
+    color: darken($darkBg, 20);
+  }
+}
+h3 {
+  font-size: 1.5em;
+}
+h4 {
+  font-size: 1.2em;
+}
+h2, h3, h4, h5 {
+  font-family: "Bree Serif", serif;
+  font-weight: normal;
+}
+p, li {
+  line-height: 28px;
 }
 header {
   &.grid {
@@ -61,13 +84,11 @@ header {
 .live {
   padding: 0 4px;
   color: $mainBg;
-  background-color: $mainTxt;
+  background-color: $yellowJS;
   a {
     text-decoration: none;
-    color: $mainBg;
+    color: $darkest;
   }
-}
-.top-bar {
 }
 .main-nav {
   position: absolute;
@@ -87,6 +108,13 @@ header {
   display: inline-block;
   z-index: 10;
   margin-bottom: 20px;
+  @media handheld, only screen and (max-width: 767px) {
+    margin-bottom: 0;
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
 }
 .social {
   height: 20px;
