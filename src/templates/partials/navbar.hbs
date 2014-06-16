@@ -4,7 +4,7 @@ component: navbar
 
 <div class="col-2-12">
   <a class="logo" href="/index.html">
-    <img src="/assets/img/mijs.png" height="100" width="100" alt="Milano JS">
+    <img src="/assets/img/mijs.png" height="110" width="110" alt="Milano JS">
   </a>
   <h1>Milano JS <span>il DOM di Milan!</span></h1>
 </div>
@@ -18,6 +18,9 @@ component: navbar
     </li>
     <li{{#is title "Live"}} class="menu-selected"{{/is}}>
       <a href="/live.html">Live</a>
+    </li>
+    <li{{#is title "Community"}} class="menu-selected"{{/is}}>
+      <a href="/community.html">Community</a>
     </li>
     <!-- li{{#is title "Learn"}} class="menu-selected"{{/is}}>
       <a href="/learn.html">Learn JS</a>

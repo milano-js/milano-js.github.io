@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learn | Milano JS - Il DOM di Milan</title>
+    <title>Community | Milano JS - Il DOM di Milan</title>
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -32,10 +32,10 @@
     <li>
       <a href="/live.html">Live</a>
     </li>
-    <li>
+    <li class="menu-selected">
       <a href="/community.html">Community</a>
     </li>
-    <!-- li class="menu-selected">
+    <!-- li>
       <a href="/learn.html">Learn JS</a>
     </li -->
   </ul>
@@ -48,19 +48,22 @@
 
 <div class="grid grid-pad">
   <div class="col-1-1">
-    <h2> Learn </h2>
-    <h3 id="online-resources">online resources</h3>
-<ul>
-<li><a href="https://developer.mozilla.org/en/learn/javascript">Mozilla Developer Network</a></li>
-<li><a href="http://superherojs.com/">Superhero JS</a></li>
-<li><a href="http://jslinterrors.com/">JSLint Error Explanations</a></li>
-<li><a href="http://www.2ality.com/">②ality</a></li>
-<li><a href="http://blog.ponyfoo.com/">PonyFoo</a></li>
-<li><a href="http://www.codewars.com/">Codewars</a></li>
-<li><a href="https://github.com/rwaldron/idiomatic.js/#principles-of-writing-consistent-idiomatic-javascript">Idiomatic JS</a></li>
-</ul>
-<p>Work in progress</p>
+    <h3 id="community-">Community:</h3>
+<p>Rendi Milano JS migliore partecipando attivamente alle discussioni sul gruppo.</p>
 
+    <iframe id="forum_embed"
+            src="javascript:void(0)"
+            scrolling="no"
+            frameborder="0"
+            width="100%"
+            height="800">
+    </iframe>
+    <script type="text/javascript">
+      document.getElementById('forum_embed').src =
+          'https://groups.google.com/forum/embed/?place=forum/milanojs'
+          + '&showsearch=true&showpopout=true&showtabs=false'
+          + '&parenturl=' + encodeURIComponent(window.location.href);
+    </script>
   </div>
 </div>
 
