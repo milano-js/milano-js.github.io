@@ -21,6 +21,10 @@ a {
   color: #0084b4;
 }
 
+img {
+  max-width: 100%;
+}
+
 h1 {
   position: absolute;
   left: 180px;
@@ -53,6 +57,10 @@ h2.main {
 
 h3 {
   font-size: 1.5em;
+}
+
+.grid h3 {
+  margin-top: 0;
 }
 
 h4 {

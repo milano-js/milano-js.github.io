@@ -8,7 +8,6 @@ $blueTxt: #0084b4;
 $calBg: #D30404;
 $yellowJS: #F0DB4F;
 
-
 body {
   overflow-y: scroll;
   color: $mainTxt;
@@ -27,6 +26,9 @@ pre {
 a {
   text-decoration: none;
   color: $blueTxt;
+}
+img {
+  max-width: 100%;
 }
 h1 {
   position: absolute;
@@ -53,6 +55,9 @@ h2 {
 }
 h3 {
   font-size: 1.5em;
+  .grid & {
+    margin-top: 0;
+  }
 }
 h4 {
   font-size: 1.2em;

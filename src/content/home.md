@@ -1,3 +1,5 @@
+###In collaborazione con:
+<a href="http://2014.fromthefront.it/"><img src="https://scontent-a-fra.xx.fbcdn.net/hphotos-prn2/t1.0-9/1796442_630815756991951_249330011_n.jpg" alt="From the front 2014"></a>
 ###Javascript a Milano
 
 Pensare che in una città come Milano non esistesse un gruppo dedicato a Javascript ci sembrava incredibile; quindi l'abbiamo creato noi!
