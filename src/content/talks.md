@@ -1,4 +1,3 @@
 ###Talk in programma:
 
-From jQuery plugin to Angular JS directive  
-(Gianluca Sabena - Mauro Verrocchio)
+__Declarative data visualization__ (Andrea Ferretti)
