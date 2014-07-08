@@ -55,6 +55,12 @@ h2.main {
   color: #aaaaaa;
 }
 
+@media handheld, only screen and (max-width: 767px) {
+  h2.main {
+    margin-left: 20px;
+  }
+}
+
 h3 {
   font-size: 1.5em;
 }
@@ -129,6 +135,12 @@ header.grid {
 
 .main-nav li a {
   display: inline-block;
+}
+
+@media handheld, only screen and (max-width: 767px) {
+  #home-link {
+    display: none;
+  }
 }
 
 .logo {
