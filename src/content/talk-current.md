@@ -1,3 +1,3 @@
 ###Talk in programma:
 
-__Declarative data visualization__ (Andrea Ferretti)
+__Meteor JS: i vantaggi di usare javascript nel client, nel server e nel db__ (Luigi Maselli)
