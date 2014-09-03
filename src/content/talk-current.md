@@ -1,3 +1,3 @@
 ###Talk in programma:
 
-__Meteor JS: i vantaggi di usare javascript nel client, nel server e nel db__ (Luigi Maselli)
+__Metascript: A language that compiles to Javascript__ (Massimiliano Mantione)
