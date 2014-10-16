@@ -1,3 +1,3 @@
 ###Talk in programma:
 
-__Metascript: A language that compiles to Javascript__ (Massimiliano Mantione)
+__Polymer - Lego for the web__ <br>(Maurizio Mangione)
