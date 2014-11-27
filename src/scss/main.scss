@@ -161,6 +161,11 @@ header {
       padding-bottom: 10px;
     }
   }
+  .host {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-size: 1.1rem;
+  }
 }
 .full-light {
   background-color: white;
@@ -243,5 +248,18 @@ footer {
       z-index: -1;
       box-shadow: 0 0 3px #ccc;
     }
+  }
+}
+
+// codemotion talk and codelab
+.codemotion-box {
+  h4 {
+    margin-bottom: 74px;
+  }
+}
+.eventbrite {
+  display: block;
+  img {
+    display: block;
   }
 }

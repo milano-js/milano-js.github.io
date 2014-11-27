@@ -137,6 +137,10 @@ header.grid {
     .meetup-box ol li, .meetup-box ul li {
       margin-left: 20px;
       padding-bottom: 10px; }
+  .meetup-box .host {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-size: 1.1rem; }
 
 .full-light {
   background-color: white; }
@@ -212,3 +216,11 @@ footer {
       left: 5%;
       z-index: -1;
       box-shadow: 0 0 3px #cccccc; }
+
+.codemotion-box h4 {
+  margin-bottom: 74px; }
+
+.eventbrite {
+  display: block; }
+  .eventbrite img {
+    display: block; }
