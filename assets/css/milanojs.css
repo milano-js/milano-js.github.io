@@ -198,6 +198,12 @@ header.grid {
   padding-bottom: 10px;
 }
 
+.meetup-box .host {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-size: 1.1rem;
+}
+
 .full-light {
   background-color: white;
 }
@@ -289,7 +295,19 @@ footer .grid {
   box-shadow: 0 0 3px #cccccc;
 }
 
-/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+.codemotion-box h4 {
+  margin-bottom: 74px;
+}
+
+.eventbrite {
+  display: block;
+}
+
+.eventbrite img {
+  display: block;
+}
+
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**
  * 1. Set default font family to sans-serif.
@@ -319,7 +337,8 @@ body {
 
 /**
  * Correct `block` display not defined for any HTML5 element in IE 8/9.
- * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
 
@@ -332,6 +351,7 @@ footer,
 header,
 hgroup,
 main,
+menu,
 nav,
 section,
 summary {
@@ -381,7 +401,7 @@ template {
  */
 
 a {
-  background: transparent;
+  background-color: transparent;
 }
 
 /**
