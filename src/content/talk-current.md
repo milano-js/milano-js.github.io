@@ -1,3 +1,3 @@
 ###Talk in programma:
 
-__ServiceWorker__ <br>(Sandro Paganotti)
+__Real world React JS__ <br>(Mirko Mariani)
