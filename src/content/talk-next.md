@@ -1,3 +1,3 @@
 ###Talk in programma:
 
-__TBD__ <br>
+__I love 3D__ <br> (Jeremy Tammik)
