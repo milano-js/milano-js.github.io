@@ -132,6 +132,18 @@ header {
     }
   }
 }
+
+.sponsor {
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  img {
+    margin: 0 auto;
+    display: block;
+  }
+}
+
 .social {
   height: 20px;
   text-align: right;

@@ -110,6 +110,15 @@ header.grid {
         width: 50px;
         height: 50px; } }
 
+.sponsor {
+  text-align: center;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 20px;
+  padding-bottom: 10px; }
+  .sponsor img {
+    margin: 0 auto;
+    display: block; }
+
 .social {
   height: 20px;
   text-align: right; }
