@@ -1,3 +1,3 @@
 ###Talk in programma:
 
-__Real world React JS__ <br>(Mirko Mariani)
+__I love 3D__ <br> (Jeremy Tammik)
