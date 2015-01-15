@@ -1,3 +1,3 @@
 ###Talk in programma:
 
-__TDB__ <br>
+__TypeScript, Flow, AtScript: Javascript sposa i tipi__ <br>(Giulio Canti)
