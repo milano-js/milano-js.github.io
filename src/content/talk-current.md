@@ -1,3 +1,3 @@
 ###Talk in programma:
 
-__I love 3D__ <br> (Jeremy Tammik)
+__TypeScript, Flow, AtScript: static e runtime checking in Javascript__ (Giulio Canti)
