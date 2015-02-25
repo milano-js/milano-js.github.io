@@ -318,6 +318,12 @@ footer .grid {
   display: block;
 }
 
+#mc_embed_signup {
+  background: transparent none;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+}
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**
