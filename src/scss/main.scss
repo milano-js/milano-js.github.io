@@ -57,9 +57,13 @@ h2 {
   }
 }
 h3 {
+  color: #ccc;
   font-size: 1.5em;
+  span {
+    color: #fff;
+  }
   .grid & {
-    margin-top: 0;
+    margin: 0;
   }
 }
 h4 {
@@ -160,11 +164,17 @@ header {
   display: inline-block;
   margin-left: 10px;
 }
+.map {
+  iframe {
+    margin-bottom: -5px;
+  }
+}
 .meetup-box {
-  overflow: hidden;
-  position: relative;
-  min-height: 140px;
-  margin-bottom: 30px;
+  margin-top: -20px;
+  padding: 10px 20px;
+  background-color: #666;
+  text-align: center;
+  color: #fff;
   ol, ul {
     float: left;
     padding: 0;

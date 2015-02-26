@@ -44,9 +44,12 @@ h2 {
         margin-left: 20px; } }
 
 h3 {
+  color: #cccccc;
   font-size: 1.5em; }
+  h3 span {
+    color: white; }
   .grid h3 {
-    margin-top: 0; }
+    margin: 0; }
 
 h4 {
   font-size: 1.2em; }
@@ -135,11 +138,15 @@ header.grid {
   display: inline-block;
   margin-left: 10px; }
 
+.map iframe {
+  margin-bottom: -5px; }
+
 .meetup-box {
-  overflow: hidden;
-  position: relative;
-  min-height: 140px;
-  margin-bottom: 30px; }
+  margin-top: -20px;
+  padding: 10px 20px;
+  background-color: #666666;
+  text-align: center;
+  color: white; }
   .meetup-box ol, .meetup-box ul {
     float: left;
     padding: 0; }
