@@ -70,7 +70,7 @@ module.exports = function(grunt) {
         browsers: ['last 1 version']
       },
       concat: {
-        src: ['assets/css/*.css', '!assets/css/milanojs.css', '!assets/css/milanojs.min.css'],
+        src: 'assets/css/main.css',
         dest: 'assets/css/milanojs.css'
       }
     },
