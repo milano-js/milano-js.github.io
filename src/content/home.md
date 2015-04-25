@@ -1,18 +1,15 @@
-###Javascript a Milano
+##Programma
 
-Pensare che in una città come Milano non esistesse un gruppo dedicato a Javascript ci sembrava incredibile; quindi l'abbiamo creato noi!
+- Keynote (Marco Firrincieli - Maurizio Mangione)
+- Reusable D3.js components (Jacopo Nardiello)
+- From jQuery to Angular (Mauro Verrocchio)
+- **Break**
+- Javascript ES6 today (Luigi Maselli)
+- Why you might like ScalaJS (Andrea Ferretti)
+- You Can Have it Both Ways: Using Web Components in a React UI (Massimiliano Mantione)
+- **Break**
+- The Sorrows of young adopter (Maurizio Mangione)
+- Runtime type introspection (Giulio Canti)
+- Const is the new let (Mirko Mariani)
 
-Anche se potrà sembrare una frase banale, nel nostro mondo tutto si muove velocemente. Servono continuamente nuovi stimoli, strumenti per poter stare al passo coi tempi e qualcuno con cui confrontarsi.
-Far parte di uno User Group è un modo per condividere le proprie conoscenze, migliorarle e imparare cose nuove.
-
-###Obiettivi del gruppo
-- Diventare un punto di riferimento per gli sviluppatori Javascript di Milano e dintorni;
-- Condividere esperienze e promuovere tecnologie che ruotano intorno all'ecosistema Javascript;
-- Organizzare talk, meetup, workshop ed eventi atti a migliorare le proprie capacità e a dare nuovi stimoli.
-
-###Come contribuire
-- Parla di Milano JS!
-- Seguici sui social network
-- Vieni ai nostri incontri
-- Proponiti come relatore per una delle nostre serate
-- Contribuisci con le tue idee
+<img src="assets/img/bday/sponsor.jpg" />

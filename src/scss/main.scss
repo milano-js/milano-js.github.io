@@ -80,7 +80,18 @@ h2, h3, h4, h5 {
 p, li {
   line-height: 28px;
 }
+
+.bday {
+  text-align: center;
+  h2 {
+    span {
+      display: block;
+      color: #666;
+    }
+  }
+}
 header {
+  background-color: #FDDE01;
   &.grid {
     position: relative;
   }
@@ -129,6 +140,9 @@ header {
   }
 }
 .logo {
+  position: absolute;
+  left: 0;
+  top: 0;
   display: inline-block;
   z-index: 10;
   margin-bottom: 20px;
@@ -174,9 +188,8 @@ header {
   }
 }
 .meetup-box {
-  margin-top: -20px;
   padding: 10px 20px;
-  background-color: #666;
+  background-color: #333;
   text-align: center;
   color: #fff;
   ol, ul {
@@ -202,14 +215,10 @@ header {
   background-color: $darkBg;
 }
 footer {
-  margin-top: 40px;
   padding: 2em;
   text-align: center;
   color: lighten($darkest, 60);
   font-size: 12px;
-  .grid {
-    border-top: 1px solid darken($darkBg, 2);
-  }
 }
 
 //calendar

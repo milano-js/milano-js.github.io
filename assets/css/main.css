@@ -390,8 +390,16 @@ h2, h3, h4, h5 {
 p, li {
   line-height: 28px; }
 
-header.grid {
-  position: relative; }
+.bday {
+  text-align: center; }
+  .bday h2 span {
+    display: block;
+    color: #666; }
+
+header {
+  background-color: #FDDE01; }
+  header.grid {
+    position: relative; }
 
 .sold-out {
   clear: both;
@@ -432,6 +440,9 @@ header.grid {
     display: none; } }
 
 .logo {
+  position: absolute;
+  left: 0;
+  top: 0;
   display: inline-block;
   z-index: 10;
   margin-bottom: 20px; }
@@ -471,9 +482,8 @@ header.grid {
   margin-bottom: -5px; }
 
 .meetup-box {
-  margin-top: -20px;
   padding: 10px 20px;
-  background-color: #666;
+  background-color: #333;
   text-align: center;
   color: #fff; }
   .meetup-box ol, .meetup-box ul {
@@ -496,13 +506,10 @@ header.grid {
   background-color: #dddddd; }
 
 footer {
-  margin-top: 40px;
   padding: 2em;
   text-align: center;
   color: #aaaaaa;
   font-size: 12px; }
-  footer .grid {
-    border-top: 1px solid #d8d8d8; }
 
 .calendar {
   position: relative;
