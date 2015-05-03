@@ -1,10 +1,10 @@
 ##Programma
 
 - Keynote (Marco Firrincieli - Maurizio Mangione)
-- Reusable D3.js components (Jacopo Nardiello)
+- Javascript ES6 today (Luigi Maselli)
 - From jQuery to Angular (Mauro Verrocchio)
 - **Break**
-- Javascript ES6 today (Luigi Maselli)
+- Introducing Deep Event Driven Analysis (Jacopo Nardiello)
 - Why you might like ScalaJS (Andrea Ferretti)
 - You Can Have it Both Ways: Using Web Components in a React UI (Massimiliano Mantione)
 - **Break**
