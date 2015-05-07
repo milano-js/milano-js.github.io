@@ -91,7 +91,6 @@ p, li {
   }
 }
 header {
-  background-color: #FDDE01;
   &.grid {
     position: relative;
   }
@@ -142,7 +141,7 @@ header {
 .logo {
   position: absolute;
   left: 0;
-  top: 0;
+  top: 17px;
   display: inline-block;
   z-index: 10;
   margin-bottom: 20px;
@@ -157,7 +156,6 @@ header {
 
 .sponsor {
   text-align: center;
-  border-bottom: 1px solid #ccc;
   margin-bottom: 20px;
   padding-bottom: 10px;
   img {
