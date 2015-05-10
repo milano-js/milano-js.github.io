@@ -1,0 +1,141 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-y: scroll;
+  font-family: "Open Sans", Arial, serif;
+  background-color: #dadada;
+}
+
+h1 {
+  margin: 20px 0;
+  span {
+    display: block;
+    font-size: 20px;
+    color: #dfdfdf;
+  }
+}
+
+h2 {
+  &.next-meetup {
+    margin-top: 10px;
+    color: #666;
+  }
+}
+
+h3 {
+  span {
+    font-size: 20px;
+  }
+}
+
+h2, h3, h4, h5 {
+  font-family: "Bree Serif", serif;
+  font-weight: normal;
+}
+
+nav {
+  margin-bottom: 20px;
+  a {
+    display: block;
+    padding: 6px 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background .5s;
+    &:hover {
+      color: #333;
+      background-color: #dfdfdf;
+    }
+  }
+}
+
+.em {
+  font-size: 20px;
+}
+
+.cover {
+  position: relative;
+  min-height: 500px;
+  text-align: center;
+  background: transparent url(../img/cover.jpg) no-repeat center 0;
+}
+
+.cover-credits {
+  position: absolute;
+  right: 0;
+  bottom: -10px;
+  padding: 5px 10px;
+  color: #fff;
+  background-color: rgba(#000, .7);
+}
+
+.logo-col {
+  height: 100%;
+  color: #fff;
+  background-color: rgba(#000, .7);
+}
+
+.logo {
+  width: 200px;
+  max-width: 100%;
+  margin-top: 20px;
+  border: 2px solid #000;
+}
+
+.newsletter {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 4px solid #333;
+  color: #fff;
+  background-color: rgba(#000, .7);
+  form {
+    margin: 0;
+    input {
+      display: inline-block;
+      margin: 0 0 0 10px;
+      &[type=email] {
+        width: 50%;
+      }
+    }
+    label {
+      display: inline;
+    }
+  }
+}
+
+.calendar {
+  position: relative;
+  width: 100px;
+  margin-top: 10px;
+  text-align: center;
+  border-bottom: 2px solid #9f9f9f;
+  background-color: #fff;
+  p {
+    margin: 0;
+  }
+  .day {
+    font-size: 40px;
+  }
+  .month {
+    padding: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    background-color: #bf0800;
+  }
+}
+
+.fb-page {
+  width: 100%;
+  margin: 20px 0;
+}
