@@ -17,17 +17,17 @@ body {
 }
 
 h1 {
-  margin: 20px 0;
+  margin-bottom: 10px;
   span {
     display: block;
-    font-size: 20px;
+    font-size: 18px;
     color: #dfdfdf;
   }
 }
 
 h2 {
   &.next-meetup {
-    margin-top: 10px;
+    margin-bottom: 0;
     color: #666;
   }
 }
@@ -38,13 +38,21 @@ h3 {
   }
 }
 
+h4 {
+  color: #666;
+}
+
 h2, h3, h4, h5 {
   font-family: "Bree Serif", serif;
   font-weight: normal;
 }
 
+.hide {
+  display: none;
+}
+
 nav {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   a {
     display: block;
     padding: 6px 0;
@@ -60,7 +68,8 @@ nav {
 }
 
 .em {
-  font-size: 20px;
+  margin-bottom: 10px;
+  font-size: 16px;
 }
 
 .cover {
@@ -73,10 +82,11 @@ nav {
 .cover-credits {
   position: absolute;
   right: 0;
-  bottom: -10px;
-  padding: 5px 10px;
+  top: 10px;
+  padding: 2px 5px;
   color: #fff;
-  background-color: rgba(#000, .7);
+  font-size: 12px;
+  background-color: rgba(#000, .5);
 }
 
 .logo-col {
@@ -90,6 +100,10 @@ nav {
   max-width: 100%;
   margin-top: 20px;
   border: 2px solid #000;
+  transition: all .7s;
+  &:hover {
+    border: 2px solid #fff;
+  }
 }
 
 .newsletter {
@@ -113,29 +127,33 @@ nav {
   }
 }
 
-.calendar {
-  position: relative;
-  width: 100px;
-  margin-top: 10px;
-  text-align: center;
-  border-bottom: 2px solid #9f9f9f;
+.main-content {
+  margin-top: 20px;
+}
+
+.map-frame {
+  padding: 10px;
+  border: 1px solid #ccc;
   background-color: #fff;
-  p {
-    margin: 0;
-  }
-  .day {
-    font-size: 40px;
-  }
-  .month {
-    padding: 4px;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #fff;
-    background-color: #bf0800;
-  }
 }
 
 .fb-page {
   width: 100%;
+  margin-bottom: 20px;
+  background-color: #dfdfdf;
+}
+
+.sponsor {
+  margin-top: 20px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  h4 {
+    margin-bottom: 10px;
+  }
+}
+
+footer {
   margin: 20px 0;
+  padding: 10px 0;
+  border-top: 1px solid #ccc;
 }

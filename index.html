@@ -31,7 +31,7 @@
             <h1>Milano JS <span>il DOM di Milan</span></h1>
             <nav class="main-nav">
               <a href="http://lanyrd.com/series/milano-js/">eventi passati</a>
-              <a href="speakers.html">speakers</a>
+              <!-- a href="speakers.html">speakers</a -->
               <a href="about.html">about</a>
             </nav>
             <p class="em">info@milanojs.com</p>
@@ -42,7 +42,7 @@
         </div>
       </div>
     </section>
-    <div class="container">
+    <div class="container main-container">
       <section class="newsletter">
 
         <!-- Begin MailChimp Signup Form -->
@@ -64,31 +64,35 @@
         <!--End mc_embed_signup-->
 
       </section>
-      <div class="row">
+      <div class="row main-content">
         <div class="eight columns">
-          <div class="calendar">
-            <p class="month">giugno</p>
-            <p class="day">13</p>
+          <div class="talk">
+            <h2 class="next-meetup">9 Giugno 2015</h2>
+            <h3>Tranducers FTW! <span>(Massimiliano Mantione)</span></h3>
+            <p>Over time we have seen several “utility” frameworks for dealing with Javascript data structures and processing abstractions.It all started simple with Underscode, became more functional with Lodash, and reached the Next Level with Ramda, but it got a bit messy when developers looked for a way out of callback hell (generally through promises or one of the reactive frameworks like Rx, Bacon, Highland, Kefir…).Then the Clojure world brought us transducers. They redefine the “processing a sequence” concept encompassing the usual “map”, “reduce”, and “filter” functions, and can be applied to both synchronous and asynchronous computations.In this talk we will see how to use them in Javascript (mostly through underarm), and especially how they can help you producing better code.</p>
+            <div class="map-frame">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2797.0069000733693!2d9.20309423016357!3d45.48980579943327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xf85d28f3d532d3b5!2sCopernico+Milano!5e0!3m2!1sen!2sit!4v1431020946555" width="100%" height="300" frameborder="0" style="border:0"></iframe>
+            </div>
           </div>
-          <h2 class="next-meetup">Prossimo incontro #13</h2>
-          <h3>Tranducers FTW! <span>(Massimiliano Mantione)</span></h3>
-          <p>Over time we have seen several “utility” frameworks for dealing with Javascript data structures and processing abstractions.It all started simple with Underscode, became more functional with Lodash, and reached the Next Level with Ramda, but it got a bit messy when developers looked for a way out of callback hell (generally through promises or one of the reactive frameworks like Rx, Bacon, Highland, Kefir…).Then the Clojure world brought us transducers. They redefine the “processing a sequence” concept encompassing the usual “map”, “reduce”, and “filter” functions, and can be applied to both synchronous and asynchronous computations.In this talk we will see how to use them in Javascript (mostly through underarm), and especially how they can help you producing better code.</p>
+          <div class="about hide">
+            about
+          </div>
         </div>
         <div class="four columns">
           <div class="fb-page" data-href="https://www.facebook.com/milanojavascript" data-width="100%" data-hide-cover="true" data-show-facepile="true" data-show-posts="false"></div>
-          <a class="twitter-timeline" href="https://twitter.com/Milano_JS" data-widget-id="411242779600097280">Tweets by
-            @Milano_JS</a>
-          <script>!function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
-            if (!d.getElementById(id)) {
-              js = d.createElement(s);
-              js.id = id;
-              js.src = p + "://platform.twitter.com/widgets.js";
-              fjs.parentNode.insertBefore(js, fjs);
-            }
-          }(document, "script", "twitter-wjs");</script>
+
+          <a class="twitter-timeline" href="https://twitter.com/Milano_JS" data-widget-id="411242779600097280">Tweets by @Milano_JS</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+          <div class="sponsor">
+            <h4>Sponsored by:</h4>
+            <a href="https://www.jetbrains.com/"><img src="img/jetbrains.png" alt="Jetbrains"></a>
+          </div>
         </div>
       </div>
+      <footer>
+        <p>Milano JS - The javascript user group</p>
+      </footer>
     </div>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -98,5 +102,6 @@
       ga('create', 'UA-46346613-1', 'milanojs.com');
       ga('send', 'pageview');
     </script>
+    <script src="js/milano.js"></script>
   </body>
 </html>
