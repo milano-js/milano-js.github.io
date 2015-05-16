@@ -21,7 +21,7 @@ h1 span {
   font-size: 18px;
   color: #dfdfdf; }
 
-h2.next-meetup {
+.main-content h2 {
   margin-bottom: 0;
   color: #666; }
 
@@ -72,12 +72,16 @@ nav a:hover {
   font-size: 12px;
   background-color: rgba(0, 0, 0, 0.5); }
 
-.logo-col {
+#logo-col {
   height: 100%;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.7); }
 
+.home {
+  display: inline-block; }
+
 .logo {
+  position: relative;
   width: 200px;
   max-width: 100%;
   margin-top: 20px;

@@ -26,7 +26,7 @@ h1 {
 }
 
 h2 {
-  &.next-meetup {
+  .main-content & {
     margin-bottom: 0;
     color: #666;
   }
@@ -89,13 +89,18 @@ nav {
   background-color: rgba(#000, .5);
 }
 
-.logo-col {
+#logo-col {
   height: 100%;
   color: #fff;
   background-color: rgba(#000, .7);
 }
 
+.home {
+  display: inline-block;
+}
+
 .logo {
+  position: relative;
   width: 200px;
   max-width: 100%;
   margin-top: 20px;

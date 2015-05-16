@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,700|Bree+Serif">
     <link rel="stylesheet" href="bower_components/skeleton/css/skeleton.css"/>
     <link rel="stylesheet" href="styles/milanojs.css">
+    <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
+    <link rel="import" href="bower_components/mark-down/mark-down.html">
   </head>
   <body>
     <div id="fb-root"></div>
@@ -24,15 +26,15 @@
     <section class="cover">
       <div class="container">
         <div class="row">
-          <div class="four columns logo-col">
-            <a href="index.html">
+          <div id="logo-col" class="four columns">
+            <a class="home" href="content/next-meetup.md">
               <img class="logo" src="img/mijs.svg" alt="Milano JS">
             </a>
             <h1>Milano JS <span>il DOM di Milan</span></h1>
-            <nav class="main-nav">
-              <a href="http://lanyrd.com/series/milano-js/">eventi passati</a>
-              <!-- a href="speakers.html">speakers</a -->
-              <a href="about.html">about</a>
+            <nav id="main-nav">
+              <a href="content/past-events.md">eventi passati</a>
+              <!-- a href="content/speakers.md">speakers</a -->
+              <a href="content/about.md">about</a>
             </nav>
             <p class="em">info@milanojs.com</p>
           </div>
@@ -66,17 +68,7 @@
       </section>
       <div class="row main-content">
         <div class="eight columns">
-          <div class="talk">
-            <h2 class="next-meetup">9 Giugno 2015</h2>
-            <h3>Tranducers FTW! <span>(Massimiliano Mantione)</span></h3>
-            <p>Over time we have seen several “utility” frameworks for dealing with Javascript data structures and processing abstractions.It all started simple with Underscode, became more functional with Lodash, and reached the Next Level with Ramda, but it got a bit messy when developers looked for a way out of callback hell (generally through promises or one of the reactive frameworks like Rx, Bacon, Highland, Kefir…).Then the Clojure world brought us transducers. They redefine the “processing a sequence” concept encompassing the usual “map”, “reduce”, and “filter” functions, and can be applied to both synchronous and asynchronous computations.In this talk we will see how to use them in Javascript (mostly through underarm), and especially how they can help you producing better code.</p>
-            <div class="map-frame">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2797.0069000733693!2d9.20309423016357!3d45.48980579943327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xf85d28f3d532d3b5!2sCopernico+Milano!5e0!3m2!1sen!2sit!4v1431020946555" width="100%" height="300" frameborder="0" style="border:0"></iframe>
-            </div>
-          </div>
-          <div class="about hide">
-            about
-          </div>
+          <mark-down id="content" text="##loading..."></mark-down>
         </div>
         <div class="four columns">
           <div class="fb-page" data-href="https://www.facebook.com/milanojavascript" data-width="100%" data-hide-cover="true" data-show-facepile="true" data-show-posts="false"></div>
@@ -91,7 +83,7 @@
         </div>
       </div>
       <footer>
-        <p>Milano JS - The javascript user group</p>
+        <p>&copy; 2015 Milano JS - The javascript user group</p>
       </footer>
     </div>
     <script>
@@ -102,6 +94,8 @@
       ga('create', 'UA-46346613-1', 'milanojs.com');
       ga('send', 'pageview');
     </script>
+    <script src="bower_components/fetch/fetch.js"></script>
+    <script src="bower_components/es6-promise/promise.min.js"></script>
     <script src="js/milano.js"></script>
   </body>
 </html>
