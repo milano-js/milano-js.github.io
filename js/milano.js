@@ -2,8 +2,7 @@
   'use strict';
 
   var nav = document.getElementById('logo-col'),
-      content = document.getElementById('content'),
-      pageToFetch = 'content/next-meetup.md';
+      content = document.getElementById('content');
 
   nav.addEventListener('click', function(e) {
     e.preventDefault();
@@ -23,6 +22,6 @@
       });
   }
 
-  getContent(pageToFetch);
+  getContent('content/next-meetup.md');
 
 })();
