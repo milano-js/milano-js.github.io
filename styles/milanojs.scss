@@ -27,14 +27,13 @@ h1 {
 
 h2 {
   .main-content & {
-    margin-bottom: 0;
     color: #666;
   }
 }
 
 h3 {
-  span {
-    font-size: 20px;
+  .main-content & {
+    margin-bottom: 0;
   }
 }
 
@@ -105,7 +104,7 @@ nav {
   max-width: 100%;
   margin-top: 20px;
   border: 2px solid #000;
-  transition: all .7s;
+  transition: all .5s;
   &:hover {
     border: 2px solid #fff;
   }
@@ -151,8 +150,8 @@ nav {
 .sponsor {
   margin-top: 20px;
   text-align: center;
-  border-top: 1px solid #ccc;
   h4 {
+
     margin-bottom: 10px;
   }
 }
