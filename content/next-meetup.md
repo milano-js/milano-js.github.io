@@ -1,6 +1,6 @@
 ##9 Giugno 2015
 ###Tranducers FTW!
-####(Massimiliano Mantione)
+####Speaker: Massimiliano Mantione
 
 Over time we have seen several “utility” frameworks for dealing with Javascript data structures and processing abstractions.It all started simple with Underscode, became more functional with Lodash, and reached the Next Level with Ramda, but it got a bit messy when developers looked for a way out of callback hell (generally through promises or one of the reactive frameworks like Rx, Bacon, Highland, Kefir…).Then the Clojure world brought us transducers. They redefine the “processing a sequence” concept encompassing the usual “map”, “reduce”, and “filter” functions, and can be applied to both synchronous and asynchronous computations.In this talk we will see how to use them in Javascript (mostly through underarm), and especially how they can help you producing better code.
 
