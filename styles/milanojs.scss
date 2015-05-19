@@ -50,6 +50,11 @@ h2, h3, h4, h5 {
   display: none;
 }
 
+.changed {
+  transition: background .5s;
+  background-color: #FFE000;
+}
+
 nav {
   margin-bottom: 10px;
   a {

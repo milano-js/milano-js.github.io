@@ -2,7 +2,8 @@
   'use strict';
 
   var nav = document.getElementById('logo-col'),
-      content = document.getElementById('content');
+      content = document.getElementById('content'),
+      txt = document.getElementsByClassName('txt')[0];
 
   nav.addEventListener('click', function(e) {
     e.preventDefault();
@@ -11,7 +12,8 @@
     } else if (e.target && e.target.nodeName == 'IMG') {
       getContent(e.target.parentNode.getAttribute('href'));
     }
-    content.scrollIntoView();
+    //content.scrollIntoView();
+    highlightUpdatedContent();
   });
 
   function getContent(pageToFetch) {
@@ -21,6 +23,13 @@
       }).then(function (text) {
         content.setAttribute('text', text);
       });
+  }
+
+  function highlightUpdatedContent() {
+    txt.classList.add('changed');
+    setTimeout(function() {
+      txt.classList.remove('changed');
+    }, 800);
   }
 
   getContent('content/next-meetup.md');
