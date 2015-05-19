@@ -11,6 +11,7 @@
     } else if (e.target && e.target.nodeName == 'IMG') {
       getContent(e.target.parentNode.getAttribute('href'));
     }
+    content.scrollIntoView();
   });
 
   function getContent(pageToFetch) {
