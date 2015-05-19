@@ -15,11 +15,10 @@ body {
 
 h1 {
   margin-bottom: 10px; }
-
-h1 span {
-  display: block;
-  font-size: 18px;
-  color: #dfdfdf; }
+  h1 span {
+    display: block;
+    font-size: 18px;
+    color: #dfdfdf; }
 
 .main-content h2 {
   color: #666; }
@@ -39,18 +38,16 @@ h2, h3, h4, h5 {
 
 nav {
   margin-bottom: 10px; }
-
-nav a {
-  display: block;
-  padding: 6px 0;
-  font-size: 20px;
-  font-weight: bold;
-  text-decoration: none;
-  transition: background 0.5s; }
-
-nav a:hover {
-  color: #333;
-  background-color: #dfdfdf; }
+  nav a {
+    display: block;
+    padding: 6px 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.5s; }
+    nav a:hover {
+      color: #333;
+      background-color: #dfdfdf; }
 
 .em {
   margin-bottom: 10px;
@@ -86,9 +83,8 @@ nav a:hover {
   margin-top: 20px;
   border: 2px solid #000;
   transition: all 0.5s; }
-
-.logo:hover {
-  border: 2px solid #fff; }
+  .logo:hover {
+    border: 2px solid #fff; }
 
 .newsletter {
   padding: 10px;
@@ -96,19 +92,15 @@ nav a:hover {
   border-bottom: 4px solid #333;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.7); }
-
-.newsletter form {
-  margin: 0; }
-
-.newsletter form input {
-  display: inline-block;
-  margin: 0 0 0 10px; }
-
-.newsletter form input[type=email] {
-  width: 50%; }
-
-.newsletter form label {
-  display: inline; }
+  .newsletter form {
+    margin: 0; }
+    .newsletter form input {
+      display: inline-block;
+      margin: 0 0 0 10px; }
+      .newsletter form input[type=email] {
+        width: 50%; }
+    .newsletter form label {
+      display: inline; }
 
 .main-content {
   margin-top: 20px; }
@@ -126,9 +118,8 @@ nav a:hover {
 .sponsor {
   margin-top: 20px;
   text-align: center; }
-
-.sponsor h4 {
-  margin-bottom: 10px; }
+  .sponsor h4 {
+    margin-bottom: 10px; }
 
 footer {
   margin: 20px 0;
