@@ -13,33 +13,23 @@
     <link rel="import" href="bower_components/mark-down/mark-down.html">
   </head>
   <body>
-    <div id="fb-root"></div>
-    <script>
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/it_IT/sdk.js#xfbml=1&version=v2.3&appId=335602729914072";
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
     <section class="cover">
       <div class="container">
         <div class="row">
           <div id="logo-col" class="four columns">
-            <a class="home" href="content/next-meetup.md">
+            <a class="home" href="content/next-event.md">
               <img class="logo" src="img/mijs.svg" alt="Milano JS">
             </a>
             <h1>Milano JS <span>il DOM di Milan</span></h1>
             <nav id="main-nav">
               <a href="content/past-events.md">eventi passati</a>
               <!-- a href="content/speakers.md">speakers</a -->
-              <a href="content/about.md">about</a>
+              <a href="content/about.md">chi siamo</a>
             </nav>
             <p class="em">info@milanojs.com</p>
           </div>
           <div class="eight columns">
-            <p class="cover-credits">Photo: Alessandro Bellini</p>
+            <p class="cover-credits">Foto: Alessandro Bellini</p>
           </div>
         </div>
       </div>
@@ -71,11 +61,6 @@
           <mark-down id="content" text="##loading..."></mark-down>
         </div>
         <div class="four columns">
-          <div class="fb-page" data-href="https://www.facebook.com/milanojavascript" data-hide-cover="true" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/milanojavascript"><a href="https://www.facebook.com/milanojavascript">Milano JS</a></blockquote></div></div>
-
-          <a class="twitter-timeline" href="https://twitter.com/Milano_JS" data-widget-id="411242779600097280">Tweets by @Milano_JS</a>
-          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
           <div class="sponsor">
             <h4>Sponsored by:</h4>
             <a href="https://www.jetbrains.com/"><img src="img/jetbrains.png" alt="Jetbrains"></a>
@@ -83,7 +68,7 @@
         </div>
       </div>
       <footer>
-        <p>&copy; 2015 Milano JS - The javascript user group</p>
+        <p>&copy; 2015 Milano JS - The javascript user group. Seguici su <a href="https://www.facebook.com/milanojavascript">Facebook</a> e <a href="https://twitter.com/milano_js">Twitter</a></p>
       </footer>
     </div>
     <script>
