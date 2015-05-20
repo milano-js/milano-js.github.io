@@ -32,6 +32,6 @@
     }, 800);
   }
 
-  getContent('content/next-meetup.md');
+  getContent('content/next-event.md');
 
 })();
