@@ -11,7 +11,8 @@ body {
 body {
   overflow-y: scroll;
   font-family: "Open Sans", Arial, serif;
-  background-color: #dadada; }
+  font-size: 1.8em;
+  background-color: #eaeaea; }
 
 h1 {
   margin-bottom: 10px; }
@@ -29,16 +30,22 @@ h1 {
 h4 {
   color: #666; }
 
+h5 {
+  margin-bottom: 0; }
+
 h2, h3, h4, h5 {
   font-family: "Bree Serif", serif;
   font-weight: normal; }
+
+a {
+  color: #21A5CE; }
 
 .hide {
   display: none; }
 
 .changed {
   transition: background 0.5s;
-  background-color: #FFE000; }
+  background-color: rgba(255, 224, 0, 0.5); }
 
 nav {
   margin-bottom: 10px; }
@@ -109,10 +116,12 @@ nav {
 .main-content {
   margin-top: 20px; }
 
-.map-frame {
+.frame {
   padding: 10px;
   border: 1px solid #ccc;
   background-color: #fff; }
+  .frame.about img {
+    max-width: 100%; }
 
 .fb-page {
   width: 100%;
