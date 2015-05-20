@@ -1,0 +1,140 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box; }
+
+html,
+body {
+  margin: 0;
+  padding: 0; }
+
+body {
+  overflow-y: scroll;
+  font-family: "Open Sans", Arial, serif;
+  font-size: 1.8em;
+  background-color: #eaeaea; }
+
+h1 {
+  margin-bottom: 10px; }
+  h1 span {
+    display: block;
+    font-size: 18px;
+    color: #dfdfdf; }
+
+.main-content h2 {
+  color: #666; }
+
+.main-content h3 {
+  margin-bottom: 0; }
+
+h4 {
+  color: #666; }
+
+h5 {
+  margin-bottom: 0; }
+
+h2, h3, h4, h5 {
+  font-family: "Bree Serif", serif;
+  font-weight: normal; }
+
+a {
+  color: #21A5CE; }
+
+.hide {
+  display: none; }
+
+.changed {
+  transition: background 0.5s;
+  background-color: rgba(255, 224, 0, 0.5); }
+
+nav {
+  margin-bottom: 10px; }
+  nav a {
+    display: block;
+    padding: 6px 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.5s; }
+    nav a:hover {
+      color: #333;
+      background-color: #dfdfdf; }
+
+.em {
+  margin-bottom: 10px;
+  font-size: 16px; }
+
+.cover {
+  position: relative;
+  min-height: 500px;
+  text-align: center;
+  background: transparent url(../img/cover.jpg) no-repeat center 0; }
+
+.cover-credits {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  padding: 2px 5px;
+  color: #fff;
+  font-size: 12px;
+  background-color: rgba(0, 0, 0, 0.5); }
+
+#logo-col {
+  height: 100%;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7); }
+
+.home {
+  display: inline-block; }
+
+.logo {
+  position: relative;
+  width: 200px;
+  max-width: 100%;
+  margin-top: 20px;
+  border: 2px solid #000;
+  transition: all 0.5s; }
+  .logo:hover {
+    border: 2px solid #fff; }
+
+.newsletter {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 4px solid #333;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7); }
+  .newsletter form {
+    margin: 0; }
+    .newsletter form input {
+      display: inline-block;
+      margin: 0 0 0 10px; }
+      .newsletter form input[type=email] {
+        width: 50%; }
+    .newsletter form label {
+      display: inline; }
+
+.main-content {
+  margin-top: 20px; }
+
+.frame {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff; }
+  .frame.about img {
+    max-width: 100%; }
+
+.fb-page {
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #dfdfdf; }
+
+.sponsor {
+  margin-top: 20px;
+  text-align: center; }
+  .sponsor h4 {
+    margin-bottom: 10px; }
+
+footer {
+  margin: 20px 0;
+  padding: 10px 0;
+  border-top: 1px solid #ccc; }

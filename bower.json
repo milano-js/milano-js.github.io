@@ -1,8 +1,32 @@
 {
   "name": "milanojs",
-  "version": "0.2.0",
+  "version": "2.0.0",
+  "homepage": "https://github.com/milano-js/milano-js.github.io",
+  "authors": [
+    "Maurizio Mangione <granzebru@gmail.com>"
+  ],
+  "description": "Milano JS website",
+  "main": "index.html",
+  "keywords": [
+    "milano",
+    "js",
+    "javascript",
+    "user",
+    "group"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
   "dependencies": {
-    "Simple-Grid": "ThisIsDallas/Simple-Grid",
-    "normalize-css": "~3.0.1"
+    "skeleton": "~2.0.4",
+    "polymer": "Polymer/polymer#^0.9.0",
+    "fetch": "~0.8.1",
+    "es6-promise": "~2.1.0",
+    "mark-down": "git://github.com/Granze/mark-down#0.9"
   }
 }

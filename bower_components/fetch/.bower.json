@@ -1,0 +1,27 @@
+{
+  "name": "fetch",
+  "version": "0.8.1",
+  "main": "fetch.js",
+  "devDependencies": {
+    "es6-promise": "1.0.0"
+  },
+  "ignore": [
+    ".*",
+    "*.md",
+    "examples/",
+    "Makefile",
+    "package.json",
+    "script/",
+    "test/"
+  ],
+  "homepage": "https://github.com/github/fetch",
+  "_release": "0.8.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.8.1",
+    "commit": "09c316d2450c08fde129336438b3a44de4e8177c"
+  },
+  "_source": "git://github.com/github/fetch.git",
+  "_target": "~0.8.1",
+  "_originalSource": "fetch"
+}
