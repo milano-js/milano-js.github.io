@@ -11,7 +11,7 @@ Siamo molto fieri del nostro lavoro e orgogliosi di essere diventati un punto di
 ####Fondatori
 
 #####Maurizio Mangione (AKA Granze)
-Free climber, apprendista skater, amante di Javascript e delle sue stranezze. 
+Free climber e apprendista skater. Dal 2000 si occupa di frontend, ama Javascript e le sue stranezze.  
 - maurizio@milanojs.com
 - @granze (Twitter, Github)
 
