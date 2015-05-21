@@ -20,6 +20,9 @@ h1 {
     display: block;
     font-size: 18px;
     color: #dfdfdf; }
+  @media screen and (max-width: 376px) {
+    h1 {
+      display: none; } }
 
 .main-content h2 {
   color: #666; }
@@ -69,6 +72,11 @@ nav {
   min-height: 500px;
   text-align: center;
   background: transparent url(../img/cover.jpg) no-repeat center 0; }
+  @media screen and (max-width: 376px) {
+    .cover {
+      height: 200px;
+      min-height: 100px;
+      background: #000 none; } }
 
 .cover-credits {
   position: absolute;
@@ -78,11 +86,17 @@ nav {
   color: #fff;
   font-size: 12px;
   background-color: rgba(0, 0, 0, 0.5); }
+  @media screen and (max-width: 376px) {
+    .cover-credits {
+      display: none; } }
 
 #logo-col {
   height: 100%;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.7); }
+  @media screen and (max-width: 376px) {
+    #logo-col {
+      background: transparent none; } }
 
 .home {
   display: inline-block; }
@@ -96,6 +110,10 @@ nav {
   transition: all 0.5s; }
   .logo:hover {
     border: 2px solid #fff; }
+  @media screen and (max-width: 376px) {
+    .logo {
+      width: 50px;
+      margin-top: 10px; } }
 
 .newsletter {
   padding: 10px;
@@ -112,6 +130,9 @@ nav {
         width: 50%; }
     .newsletter form label {
       display: inline; }
+  @media screen and (max-width: 376px) {
+    .newsletter {
+      margin: 0 -20px; } }
 
 .main-content {
   margin-top: 20px; }

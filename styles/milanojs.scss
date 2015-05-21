@@ -1,3 +1,5 @@
+$break-small: 376px;
+
 *,
 *:after,
 *:before {
@@ -23,6 +25,9 @@ h1 {
     display: block;
     font-size: 18px;
     color: #dfdfdf;
+  }
+  @media screen and (max-width: $break-small) {
+    display: none;
   }
 }
 
@@ -90,6 +95,12 @@ nav {
   min-height: 500px;
   text-align: center;
   background: transparent url(../img/cover.jpg) no-repeat center 0;
+  @media screen and (max-width: $break-small) {
+    height: 200px;
+    min-height: 100px;
+    background: #000 none;
+  }
+
 }
 
 .cover-credits {
@@ -100,12 +111,18 @@ nav {
   color: #fff;
   font-size: 12px;
   background-color: rgba(#000, .5);
+  @media screen and (max-width: $break-small) {
+    display: none;
+  }
 }
 
 #logo-col {
   height: 100%;
   color: #fff;
   background-color: rgba(#000, .7);
+  @media screen and (max-width: $break-small) {
+    background: transparent none;
+  }
 }
 
 .home {
@@ -121,6 +138,10 @@ nav {
   transition: all .5s;
   &:hover {
     border: 2px solid #fff;
+  }
+  @media screen and (max-width: $break-small) {
+    width: 50px;
+    margin-top: 10px;
   }
 }
 
@@ -142,6 +163,9 @@ nav {
     label {
       display: inline;
     }
+  }
+  @media screen and (max-width: $break-small) {
+    margin: 0 -20px;
   }
 }
 
