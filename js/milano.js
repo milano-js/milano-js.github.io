@@ -21,7 +21,7 @@
       .then(function(response) {
         return response.text();
       }).then(function (text) {
-        content.setAttribute('text', text);
+        content.setAttribute('markdown', text);
       });
   }
 
