@@ -150,10 +150,13 @@ nav {
   background-color: #dfdfdf; }
 
 .sponsor {
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: center; }
   .sponsor h4 {
-    margin-bottom: 10px; }
+    margin-bottom: 30px; }
+  .sponsor a {
+    margin-bottom: 20px;
+    display: inline-block; }
 
 footer {
   margin: 20px 0;
