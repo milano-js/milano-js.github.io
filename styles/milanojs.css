@@ -30,6 +30,9 @@ h1 {
 .main-content h3 {
   margin-bottom: 0; }
 
+h3.event-title {
+  font-size: 2.4rem; }
+
 h4 {
   color: #666; }
 
