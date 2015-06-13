@@ -1,0 +1,19 @@
+{
+  "name": "eventbrite-events",
+  "version": "0.1.0",
+  "description": "A polymer element that renders eventbrite events",
+  "license": "MIT",
+  "main": "eventbrite-events.html",
+  "keywords": [
+    "polymer",
+    "web-components"
+  ],
+  "ignore": [
+    "**/.*",
+    "bower_components"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0",
+    "iron-ajax": "PolymerElements/iron-ajax#^1.0.0"
+  }
+}
