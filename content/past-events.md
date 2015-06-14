@@ -1,3 +1,32 @@
 ##Eventi passati
 
-Puoi trovare la lista degli eventi passati sulla nostra [pagina di Lanyrd](http://lanyrd.com/series/milano-js/)
+**9/6/2015**
+####Transducers FTW! (Massimiliano Mantione)
+**5/5/2015**
+####Milano JS - the good party
+**14/4/2015**
+####Firefox OS Development for newbie (Daniele Scasciafratte)
+**10/3/2015**
+####TypeScript, Flow, AtScript: static e runtime checking in Javascript (Giulio Canti )
+**10/2/2015**
+####I love 3D (Jeremy Tammik)
+**13/1/2015**
+####React JS in the real world (Mirko Mariani)
+**9/12/2014**
+####Discover ServiceWorker (Sandro Paganotti)
+**4/11/2014**
+####Polymer: lego for the web (Maurizio Mangione) 
+**7/10/2014**
+####Metascript: going beyond Javascript limitations (Massimiliano Mantione)
+**2/9/2014**
+####Meteor JS: i vantaggi di usare javascript nel client, nel server e nel db (Luigi Maselli)
+**5/8/2014**
+####Declarative data visualization (Andrea Ferretti)
+**8/7/2014**
+####Introduzione alla Functional Reactive Programming con Bacon.js  (Francesco Agati)
+**1/7/2014**
+####From jQuery plugin to Angular JS directive (Gianluca Sabena - Mauro Verrocchio)
+**3/6/2014**
+####Reactive programming with Bacon.js (Francesco Agati) - Front-end tools in the real world (Maurizio Mangione)
+**6/5/2014**
+####Introduzione ad AngularJS e unit testing (Jacopo Nardiello)
