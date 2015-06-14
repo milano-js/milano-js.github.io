@@ -7,7 +7,7 @@
 **14/4/2015**
 ####Firefox OS Development for newbie (Daniele Scasciafratte)
 **10/3/2015**
-####TypeScript, Flow, AtScript: static e runtime checking in Javascript (Giulio Canti )
+####TypeScript, Flow, AtScript: static e runtime checking in Javascript (Giulio Canti)
 **10/2/2015**
 ####I love 3D (Jeremy Tammik)
 **13/1/2015**
@@ -23,7 +23,7 @@
 **5/8/2014**
 ####Declarative data visualization (Andrea Ferretti)
 **8/7/2014**
-####Introduzione alla Functional Reactive Programming con Bacon.js  (Francesco Agati)
+####Introduzione alla Functional Reactive Programming con Bacon.js (Francesco Agati)
 **1/7/2014**
 ####From jQuery plugin to Angular JS directive (Gianluca Sabena - Mauro Verrocchio)
 **3/6/2014**
