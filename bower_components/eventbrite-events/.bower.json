@@ -16,14 +16,13 @@
     "iron-ajax": "PolymerElements/iron-ajax#^1.0.0"
   },
   "homepage": "https://github.com/milano-js/eventbrite-events",
-  "_release": "7683412409",
+  "_release": "e399445f0e",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "768341240931a0afddf6655af910dcb35c628419"
+    "commit": "e399445f0e97cc7be39368ca547eb9f284d22e98"
   },
   "_source": "git@github.com:milano-js/eventbrite-events.git",
   "_target": "*",
-  "_originalSource": "git@github.com:milano-js/eventbrite-events.git",
-  "_direct": true
+  "_originalSource": "git@github.com:milano-js/eventbrite-events.git"
 }

@@ -2,6 +2,14 @@
 <link rel="import" href="../iron-ajax/iron-ajax.html">
 
 <dom-module id="eventbrite-events">
+  <style>
+    .calendar-icon {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAmVBMVEUAAAAKCgoKCwsfICAfICEtLi9KGRQ9P0A9P0FLGhRsbm9sb3BqSkZtIxtzJh51d3h2eHiPlJaQlJeQlZevp6mvqKrJztHKz9LlSzu9lpS9l5W9l5a9w8fCrq7Crq/Eys3Eys7L0NPMPzDU2dvU2dzVlI3aRzfc4OLc4ePeRzje4+Xf4+XlSzvmSzvm6uzm6+znTDzr7/Ds8PGR4h2DAAAAGXRSTlMADg8rLD5UVVVVfn5/f39/f8PExenq+/z+1VNJgAAAAJtJREFUeNp9zckSgjAQRdEGRVEhgEYFldEBEgaF//84i6SNZKF38arrbBrGDAMw04RPQQDYdgfYgu4JRukKLYyT9iVq4ySUStjpzCSyKGJEYlMUjcTxkug+tFyBzl3LEegPWj5intcZx5kgTzmOwpo/qw5HYZZWlxJHIedd2eH8e+TpjzyBm36Y1K8FWofbt+vRAtHMXqrsOfzoDb1GJDLId2UJAAAAAElFTkSuQmCC) no-repeat;
+    }
+  </style>
   <template>
     <iron-ajax
       auto
@@ -10,7 +18,7 @@
       last-response="{{eventbrite}}">
     </iron-ajax>
     <template is="dom-repeat" items="[[eventbrite.events]]">
-      <p class="event-date">[[_formatDate(item.start.local)]]</p>
+      <span class="event-date"><i class="calendar-icon"></i>[[_formatDate(item.start.local)]]</span>
       <article>
         <h3 class="event-title">[[_getEventTitle(item.description.text)]]</h3>
         <p class="event-description">[[_getEventDescription(item.description.text)]]</p>
