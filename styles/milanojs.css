@@ -137,6 +137,9 @@ nav {
 .main-content {
   margin-top: 20px; }
 
+#eventi-passati ~ h4 {
+  font-size: 2.4rem; }
+
 #eventi-passati ~ p {
   margin-bottom: 0; }
 
