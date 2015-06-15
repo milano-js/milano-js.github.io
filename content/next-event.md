@@ -9,6 +9,6 @@ Per farlo useremo tool come Mocha/Chai e Sinon per lo unit testing e Protractor 
 
 Non mancherà una parte pratica per spiegare come coprire con i test applicazioni esistenti.
 
-###Partecipa al talk e vinci il biglietto di FtF
-Gli amici di From the Front anche quest'anno ci supportano mettendo a disposizione un biglietto, che verrà estratto a sorte durante il meetup, e sconti per tutti!
+###Partecipa e vinci il biglietto di FtF
+Anche quest'anno gli amici di From the Front ci supportano mettendo a disposizione un biglietto, che verrà estratto a sorte durante il prossimo meetup. Per tutti gli altri ci saranno degli sconti per l'acquisto per biglietto.
 [![From the Front](http://blog.fromthefront.it/assets/img/ftf2015-banner.png)](http://2015.fromthefront.it/)
