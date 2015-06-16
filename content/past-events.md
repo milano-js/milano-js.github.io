@@ -10,7 +10,7 @@
 ####Firefox OS Development for newbie (Daniele Scasciafratte)
 
 **10/3/2015**
-####TypeScript, Flow, AtScript: static e runtime checking in Javascript (Giulio Canti)
+####TypeScript, Flow, AtScript: static e runtime checking in Javascript (Giulio Canti) [slide](http://gcanti.github.io/slides/milanojs-10-03-2015/#/)
 
 **10/2/2015**
 ####I love 3D (Jeremy Tammik)
