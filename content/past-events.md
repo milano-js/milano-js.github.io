@@ -7,7 +7,7 @@
 ####Milano JS - the good party
 
 **14/4/2015**
-####Firefox OS Development for newbie (Daniele Scasciafratte)
+####Firefox OS Development for newbie (Daniele Scasciafratte) [slides](http://mte90.github.io/Talk-FFOS-Newbie)
 
 **10/3/2015**
 ####TypeScript, Flow, AtScript: static e runtime checking in Javascript (Giulio Canti) [slide](http://gcanti.github.io/slides/milanojs-10-03-2015/#/)
@@ -31,7 +31,7 @@
 ####Meteor JS: i vantaggi di usare javascript nel client, nel server e nel db (Luigi Maselli)
 
 **5/8/2014**
-####Declarative data visualization (Andrea Ferretti) 
+####Declarative data visualization (Andrea Ferretti)
 
 **8/7/2014**
 ####Introduzione alla Functional Reactive Programming con Bacon.js (Francesco Agati)
