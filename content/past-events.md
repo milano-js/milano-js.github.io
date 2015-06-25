@@ -7,7 +7,7 @@
 ####Milano JS - the good party
 
 **14/4/2015**
-####Firefox OS Development for newbie (Daniele Scasciafratte) [slides](http://mte90.github.io/Talk-FFOS-Newbie)
+####Firefox OS Development for newbie (Daniele Scasciafratte) [slide](http://mte90.github.io/Talk-FFOS-Newbie)
 
 **10/3/2015**
 ####TypeScript, Flow, AtScript: static e runtime checking in Javascript (Giulio Canti) [slide](http://gcanti.github.io/slides/milanojs-10-03-2015/#/)
