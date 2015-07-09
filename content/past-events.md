@@ -1,8 +1,7 @@
 ##Eventi passati
 
 **7/7/2015**
-####Javascript test dummies (Mauro Verrocchio)
-[slide](http://go.shr.lc/1LTVfk4)
+####Javascript test dummies (Mauro Verrocchio) [slide](http://go.shr.lc/1LTVfk4)
 
 **9/6/2015**
 ####Transducers FTW! (Massimiliano Mantione) [slide](http://massimiliano-mantione.github.io/talks/MilanoJs2015Transducers/GHP/index.html#/)
