@@ -1,6 +1,9 @@
 ##4 Agosto 2015
 ###Milano JS Cocktail
 
+####Sponsored by:
+[![Caffeina.it](http://i.imgur.com/Vh7NURe.png?1)](http://caffeina.it)
+
 Per sfidare il caldo di agosto e la pigrizia incombente, abbiamo pensato ad un incontro atipico. Prima di tutto la location: il bar di Copernico, poi i drink offerti da [Caffeina](http://caffeina.it) e la discussione su un tema fondamentale come quello dell'Open Source. Parleremo dei vari aspetti che lo caratterizzano, dei tool utili per i nostri progetti, dei vari tipi di licenza e, soprattutto, del perché è così importante.
 
 I non addetti ai lavori sono oramai gli unici a stupirsi quando scoprono che aziende come Facebook, Twitter e persino Googole e Microsoft pubblicano i sorgenti di parte del proprio software attraverso i servizi di GitHub.
@@ -10,10 +13,6 @@ In pochi anni si è affermato come l'unica piattaforma di condivisione dei sorge
 
 Inoltre GitHub ha aggiunto a git alcune funzionalità che lo rendono più social come un ottimo motore di ricerca o la gestione delle wiki o anche nuovi concetti come il "fork" e le "pull request".
 Queste funzionalità permettono l'accesso a programmi e librerie più facile per tutti e rendono la possibilità di collaborare sempre più facile.
-
-
-####Sponsored by:
-[![Caffeina.it](http://i.imgur.com/Vh7NURe.png?1)](http://caffeina.it)
 
 #####L'incontro si terrà presso il bar di Copernico
 <div class="frame">
