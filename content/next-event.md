@@ -10,7 +10,7 @@ I non addetti ai lavori sono oramai gli unici a stupirsi quando scoprono che azi
 
 Nato nel 2007 il cosiddetto "social network dei programmatori" ha ormai 9 milioni di utenti tra cui appunto alcuni dei grandi nomi della tecnologia moderna. In pochi anni si è affermato come l'unica piattaforma di condivisione dei sorgenti del proprio codice ed ha sbaragliato la concorrenza di servizi più blasonati o nati prima come Google Code o SourceForge.
 
-Inoltre GitHub ha aggiunto a git alcune funzionalità che lo rendono più social come un ottimo motore di ricerca, la gestione delle wiki e nuovi concetti come il "fork" e le "pull request". Queste funzionalità permettono il libero accesso a programmi e librerie e rendono la possibilità di collaborare e sempre più facile e immediata.
+Inoltre GitHub ha aggiunto a git alcune funzionalità che lo rendono più social come un ottimo motore di ricerca, la gestione delle wiki e nuovi concetti come il "fork" e le "pull request". Queste funzionalità permettono il libero accesso a programmi e librerie e rendono la possibilità di collaborare sempre più facile e immediata.
 
 #####L'incontro si terrà presso il bar di Copernico
 <div class="frame">
