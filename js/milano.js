@@ -1,26 +1,15 @@
 (function() {
   'use strict';
 
-  var nav = document.getElementById('logo-col'),
-      content = document.getElementById('content'),
+  var content = document.getElementById('content'),
       txt = document.getElementsByClassName('txt')[0];
-
-  nav.addEventListener('click', function(e) {
-    e.preventDefault();
-    if(e.target && e.target.nodeName == 'A') {
-      getContent(e.target.getAttribute('href'));
-    } else if (e.target && e.target.nodeName == 'IMG') {
-      getContent(e.target.parentNode.getAttribute('href'));
-    }
-    //content.scrollIntoView();
-    highlightUpdatedContent();
-  });
 
   function getContent(pageToFetch) {
     fetch(pageToFetch)
       .then(function(response) {
         return response.text();
       }).then(function (text) {
+        highlightUpdatedContent();
         content.setAttribute('markdown', text);
       });
   }
@@ -32,6 +21,17 @@
     }, 800);
   }
 
-  getContent('content/next-event.md');
+  page('/', function() {
+    getContent('content/next-event.md');
+  });
 
+  page('/about', function() {
+    getContent('content/about.md');
+  });
+
+  page('/past', function() {
+    getContent('content/past-events.md');
+  });
+
+  page({hashbang: true});
 })();
