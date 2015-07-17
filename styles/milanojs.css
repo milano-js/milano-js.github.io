@@ -46,6 +46,9 @@ a {
 .hide {
   display: none; }
 
+img {
+  max-width: 100%; }
+
 .changed {
   transition: background 0.5s;
   background-color: rgba(255, 224, 0, 0.5); }
