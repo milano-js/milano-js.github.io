@@ -8,7 +8,7 @@
 
 Per sfidare il caldo di agosto e la pigrizia incombente, abbiamo pensato ad un incontro atipico. Prima di tutto la location: il bar di Copernico, poi i drink offerti da Caffeina e la discussione su un tema fondamentale come quello dell'Open Source. Parleremo dei vari aspetti che lo caratterizzano, dei tool utili per i nostri progetti, dei vari tipi di licenza e, soprattutto, del perché è così importante.
 
-I non addetti ai lavori sono oramai gli unici a stupirsi quando scoprono che aziende come Facebook, Twitter e persino Googole e Microsoft pubblicano i sorgenti di parte del proprio software attraverso i servizi di GitHub.
+I non addetti ai lavori sono oramai gli unici a stupirsi quando scoprono che aziende come Facebook, Twitter e persino Google e Microsoft pubblicano i sorgenti di parte del proprio software attraverso i servizi di GitHub.
 
 Nato nel 2007 il cosiddetto "social network dei programmatori" ha ormai 9 milioni di utenti tra cui appunto alcuni dei grandi nomi della tecnologia moderna. In pochi anni si è affermato come l'unica piattaforma di condivisione dei sorgenti del proprio codice ed ha sbaragliato la concorrenza di servizi più blasonati o nati prima come Google Code o SourceForge.
 
