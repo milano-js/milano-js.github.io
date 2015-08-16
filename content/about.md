@@ -13,7 +13,7 @@ Siamo molto fieri del nostro lavoro e orgogliosi di essere diventati un punto di
 #####Maurizio Mangione (AKA Granze)
 Free climber e apprendista skater. Dal 2000 si occupa di frontend, ama Javascript e le sue stranezze.
 
-E' Google Developers Expert su Web Technologies (Polymer)  
+È Google Developers Expert su Web Technologies (Polymer)
 - maurizio@milanojs.com
 - @granze (Twitter, Github)
 
