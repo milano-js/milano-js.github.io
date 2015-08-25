@@ -2,6 +2,8 @@
 ###Node.js 1o1
 ####Sandro Mosca
 
+<a href="http://www.eventbrite.it/e/biglietti-milano-js-18204140073?ref=ebtn" target="_blank"><img src="https://www.eventbrite.it/custombutton?eid=18204140073" alt="Eventbrite - Milano JS" /></a>
+
 In un mercato in crescita esponenziale dove la velocità di sviluppo continua a essere una componente critica, è vitale mantenere performance elevate e uptime vicino al 100%.
 
 In questo talk lo speaker andrà ad analizzare, basandosi sulla sua esperienza personale a [trovamoda.com](http://www.trovamoda.com/), come l'utilizzo di Node.js unito alle innovazioni di ES6, determinate librerie (come cluster e mocha), workflow e tool, può accelerare lo sviluppo e rivelarsi una valida soluzione nell'ambiente tecnologico contemporaneo.
