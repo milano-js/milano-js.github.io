@@ -1,5 +1,5 @@
 ##1 Settembre 2015 ore 19:00
-###Node.js 1o1
+###Node.js 101
 ####Sandro Mosca
 
 <a href="http://www.eventbrite.it/e/biglietti-milano-js-18204140073?ref=ebtn" target="_blank"><img src="https://www.eventbrite.it/custombutton?eid=18204140073" alt="Eventbrite - Milano JS" /></a>
