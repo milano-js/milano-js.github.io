@@ -1,5 +1,8 @@
 ##Eventi passati
 
+**1/9/2015**
+####Node.js 101 (Sandro Mosca)
+
 **4/8/2015**
 ####Milano JS Cocktail
 
