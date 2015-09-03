@@ -1,6 +1,6 @@
 ##6 Ottobre 2015 ore 19:00
 ###Flux/Redux
-####Francesco Strazzullo
+####<a href="https://twitter.com/TheStrazz86" target="_blank">Francesco Strazzullo</a>
 
 L'obiettivo della serata sarà quello di fare una panoramica su Flux e Redux. Questi due pattern architetturali ci permettono di isolare la business logic delle nostre applicazioni e fanno ormai parte di molti stack basati su React. 
 Valuteremo insieme caratteristiche, pregi e difetti di entrambe le architetture, aiutandoci con un’analisi del codice di due todo list che ci permetterà di valutarne al meglio le differenze sostanziali.
