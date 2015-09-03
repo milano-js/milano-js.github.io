@@ -1,12 +1,9 @@
-##1 Settembre 2015 ore 19:00
-###Node.js 101
-####Sandro Mosca
+##6 Ottobre 2015 ore 19:00
+###Flux/Redux
+####Francesco Strazzullo
 
-<a href="http://www.eventbrite.it/e/biglietti-milano-js-18204140073?ref=ebtn" target="_blank"><img src="https://www.eventbrite.it/custombutton?eid=18204140073" alt="Eventbrite - Milano JS" /></a>
-
-In un mercato in crescita esponenziale dove la velocità di sviluppo continua a essere una componente critica, è vitale mantenere performance elevate e uptime vicino al 100%.
-
-In questo talk lo speaker andrà ad analizzare, basandosi sulla sua esperienza personale a [trovamoda.com](http://www.trovamoda.com/), come l'utilizzo di Node.js unito alle innovazioni di ES6, determinate librerie (come cluster e mocha), workflow e tool, può accelerare lo sviluppo e rivelarsi una valida soluzione nell'ambiente tecnologico contemporaneo.
+L'obiettivo della serata sarà quello di fare una panoramica su Flux e Redux. Questi due pattern architetturali ci permettono di isolare la business logic delle nostre applicazioni e fanno ormai parte di molti stack basati su React. 
+Valuteremo insieme caratteristiche, pregi e difetti di entrambe le architetture, aiutandoci con un’analisi del codice di due todo list che ci permetterà di valutarne al meglio le differenze sostanziali.
 
 #####L'incontro si terrà in StartMiUp presso Copernico
 <div class="frame">
