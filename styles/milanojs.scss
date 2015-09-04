@@ -215,6 +215,18 @@ nav {
   }
 }
 
+[class^="icon"] {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.3em;
+}
+
+@media screen and (min-width: $break-small) {
+  .social-icons {
+    float: right;
+  }
+}
+
 footer {
   margin: 20px 0;
   padding: 10px 0;

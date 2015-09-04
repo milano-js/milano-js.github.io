@@ -1,10 +1,7 @@
-*,
-*:after,
-*:before {
+*, *:after, *:before {
   box-sizing: border-box; }
 
-html,
-body {
+html, body {
   margin: 0;
   padding: 0; }
 
@@ -50,7 +47,7 @@ img {
   max-width: 100%; }
 
 .changed {
-  transition: background 0.5s;
+  transition: background .5s;
   background-color: rgba(255, 224, 0, 0.5); }
 
 nav {
@@ -61,7 +58,7 @@ nav {
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
-    transition: background 0.5s; }
+    transition: background .5s; }
     nav a:hover {
       color: #333;
       background-color: #dfdfdf; }
@@ -110,7 +107,7 @@ nav {
   max-width: 100%;
   margin-top: 20px;
   border: 2px solid #000;
-  transition: all 0.5s; }
+  transition: all .5s; }
   .logo:hover {
     border: 2px solid #fff; }
   @media screen and (max-width: 376px) {
@@ -142,7 +139,6 @@ nav {
 
 #eventi-passati ~ h4 {
   font-size: 2.4rem; }
-
 #eventi-passati ~ p {
   margin-bottom: 0; }
 
@@ -167,6 +163,13 @@ nav {
     margin-bottom: 20px;
     display: inline-block; }
 
+[class^="icon"] {
+  color: #333; 
+  text-decoration: none;
+  font-size: 1.3em; }
+@media screen and (min-width: 376px) {
+  .social-icons {
+    float: right; } }
 footer {
   margin: 20px 0;
   padding: 10px 0;
