@@ -164,12 +164,19 @@ nav {
     display: inline-block; }
 
 [class^="icon"] {
-  color: #333; 
+  color: #333;
   text-decoration: none;
+  font-size: 1em; }
+  .main-content [class^="icon"] {
+    position: relative;
+    bottom: -4px; }
+
+.social-icons {
   font-size: 1.3em; }
-@media screen and (min-width: 376px) {
-  .social-icons {
-    float: right; } }
+  @media screen and (min-width: 376px) {
+    .social-icons {
+      float: right; } }
+
 footer {
   margin: 20px 0;
   padding: 10px 0;

@@ -218,13 +218,18 @@ nav {
 [class^="icon"] {
   color: #333;
   text-decoration: none;
-  font-size: 1.3em;
+  font-size: 1em;
+  .main-content & {
+    position: relative;
+    bottom: -4px;
+  }
 }
 
-@media screen and (min-width: $break-small) {
-  .social-icons {
+.social-icons {
+  @media screen and (min-width: $break-small) {
     float: right;
   }
+  font-size: 1.3em;
 }
 
 footer {
