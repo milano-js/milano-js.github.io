@@ -5,7 +5,6 @@
 L'obiettivo della serata sarà quello di fare una panoramica su Flux e Redux. Questi due pattern architetturali ci permettono di isolare la business logic delle nostre applicazioni e fanno ormai parte di molti stack basati su React. 
 Valuteremo insieme caratteristiche, pregi e difetti di entrambe le architetture, aiutandoci con un’analisi del codice di due todo list che ci permetterà di valutarne al meglio le differenze sostanziali.
 
-#####Ecco i biglietti, affrettatevi perché sono meno del solito
 <a href="http://www.eventbrite.it/e/biglietti-milano-js-18711943928?ref=ebtn" target="_blank"><img src="https://www.eventbrite.it/custombutton?eid=18711943928" alt="Eventbrite - Milano JS" /></a>
 
 #####L'incontro si terrà in StartMiUp presso Copernico
