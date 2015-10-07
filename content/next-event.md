@@ -2,7 +2,11 @@
 ###How a promise can get you out of callback hell
 ####Andrea Lattuada <a href="https://twitter.com/utaal" target="_blank" class="icon-twitter"></a>
 
-In virtù delle sue origini nel browser, Javascript è un linguaggio orientato alla programmazione asincrona - il codice viene spesso eseguito in risposta ad un'azione. Sul server, dove si ritrova la natura single-threaded del linguaggio, non è possibile attendere in modo sincrono la risposta a chiamate di sistema bloccanti. Il programmatore è chiamato a fornire delle funzioni di callback che saranno eseguite dal runtime quando l'attività sarà stata completata. La programmazione basata su callback può risultare in codice "ad albero di natale". Queste sono tipicamente difficili da leggere, rifattorizzare e mantenere. Esploreremo una serie di astrazioni e librerie di utilità volte a mitigare questo problema e compareremo codice scritto facendo uso di questi strumenti con quello basato su callback. Parleremo di Promise, fibers, estensioni alla sintassi come async/await e altro.
+Javascript è un linguaggio orientato alla programmazione asincrona; il codice viene spesso eseguito in risposta ad un'azione.
+Sul server, essendo single-threaded, non è possibile attendere in modo sincrono la risposta a chiamate di sistema esterni. Si usano quindi delle funzioni di callback che saranno eseguite dal runtime quando l'attività sarà completata.
+La programmazione basata su callback può risultare in codice "ad albero di natale" tipicamente difficile da leggere, rifattorizzare e mantenere.
+
+Esploreremo una serie di astrazioni e librerie volte a mitigare questo problema. Parleremo di Promise, fibers, estensioni alla sintassi come async/await e altro.
 
 #####L'incontro si terrà in StartMiUp presso Copernico
 <div class="frame">
