@@ -1,11 +1,12 @@
-##6 Ottobre 2015 ore 19:00
-###Flux/Redux
-####Francesco Strazzullo <a href="https://twitter.com/thestrazz86" target="_blank" class="icon-twitter"></a>
+##3 Novembre 2015 ore 19:00
+###Async Await
+####Andrea Lattuada
 
-L'obiettivo della serata sarà quello di fare una panoramica su Flux e Redux. Questi due pattern architetturali ci permettono di isolare la business logic delle nostre applicazioni e fanno ormai parte di molti stack basati su React. 
-Valuteremo insieme caratteristiche, pregi e difetti di entrambe le architetture, aiutandoci con un’analisi del codice di due todo list che ci permetterà di valutarne al meglio le differenze sostanziali.
-
-<a href="http://www.eventbrite.it/e/biglietti-milano-js-18711943928?ref=ebtn" target="_blank"><img src="https://www.eventbrite.it/custombutton?eid=18711943928" alt="Eventbrite - Milano JS" /></a>
+"How a promise can get you out of callback hell". Si può parlare delle varie alternative sintattiche e basate su librerie per esprimere operazioni asincrone parallele o in serie: 
+- callbacks,
+- promises (futures),
+- fibers,
+- supporto sintattico (in particolare async/await proposto per ES7) e CPS transformation (IcedCoffeeScript e discendenti)
 
 #####L'incontro si terrà in StartMiUp presso Copernico
 <div class="frame">
