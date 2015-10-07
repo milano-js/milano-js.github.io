@@ -1,6 +1,6 @@
 ##3 Novembre 2015 ore 19:00
 ###Async Await
-####Andrea Lattuada
+####Andrea Lattuada <a href="https://twitter.com/utaal" target="_blank" class="icon-twitter"></a>
 
 "How a promise can get you out of callback hell". Si può parlare delle varie alternative sintattiche e basate su librerie per esprimere operazioni asincrone parallele o in serie: 
 - callbacks,
