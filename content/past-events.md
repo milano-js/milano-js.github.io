@@ -1,7 +1,7 @@
 ##Eventi passati
 
 **6/10/2015**
-####Flux/Redux (Francesco Strazzullo)
+####Flux/Redux (Francesco Strazzullo) [slide](http://slides.com/francescostrazzullo/react-flux-redux-milanojs#/)
 
 **1/9/2015**
 ####Node.js 101 (Sandro Mosca)
