@@ -2,9 +2,7 @@
 ###How a promise can get you out of callback hell
 ####Andrea Lattuada <a href="https://twitter.com/utaal" target="_blank" class="icon-twitter"></a>
 
-Javascript è un linguaggio orientato alla programmazione asincrona; il codice viene spesso eseguito in risposta ad un'azione.
-Sul server, essendo single-threaded, non è possibile attendere in modo sincrono la risposta a chiamate di sistema esterni. Si usano quindi delle funzioni di callback che saranno eseguite dal runtime quando l'attività sarà completata.
-La programmazione basata su callback può risultare in codice "ad albero di natale" tipicamente difficile da leggere, rifattorizzare e mantenere.
+In javascript si scrive spesso codice per reagire ad un evento o un’azione come un click su un pulsante nel browser o il ricevimento di una richiesta sul server: questo codice viene spesso fornito al sistema sotto forma di funzioni di callback, che verranno invocate al momento opportuno. Nella gestione di una serie di azioni ed eventi, questo stile di programmazione ("CPS") può risultare in codice "ad albero di natale”, costituito da tante funzioni anonime una dentro l’altra e tipicamente difficile da leggere, rifattorizzare e mantenere.
 
 Esploreremo una serie di astrazioni e librerie volte a mitigare questo problema. Parleremo di Promise, fibers, estensioni alla sintassi come async/await e altro.
 
