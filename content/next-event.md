@@ -2,6 +2,8 @@
 ###How a promise can get you out of callback hell
 ####Andrea Lattuada <a href="https://twitter.com/utaal" target="_blank" class="icon-twitter"></a>
 
+<a href="http://www.eventbrite.it/e/biglietti-milano-js-19042800529?ref=ebtn" target="_blank"><img src="https://www.eventbrite.it/custombutton?eid=19042800529" alt="Eventbrite - Milano JS" /></a>
+
 In javascript si scrive spesso codice per reagire ad un evento o un’azione come un click su un pulsante nel browser o il ricevimento di una richiesta sul server: questo codice viene spesso fornito al sistema sotto forma di funzioni di callback, che verranno invocate al momento opportuno. Nella gestione di una serie di azioni ed eventi, questo stile di programmazione ("CPS") può risultare in codice "ad albero di natale”, costituito da tante funzioni anonime una dentro l’altra e tipicamente difficile da leggere, rifattorizzare e mantenere.
 
 Esploreremo una serie di astrazioni e librerie volte a mitigare questo problema. Parleremo di Promise, fibers, estensioni alla sintassi come async/await e altro.
