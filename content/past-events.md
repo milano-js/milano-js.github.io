@@ -1,5 +1,8 @@
 ##Eventi passati
 
+**3/11/2015**
+####How a promise can get you out of callback hell (Andrea Lattuada)
+
 **6/10/2015**
 ####Flux/Redux (Francesco Strazzullo) [slide](http://slides.com/francescostrazzullo/react-flux-redux-milanojs#/)
 
