@@ -1,7 +1,7 @@
 ##Eventi passati
 
 **3/11/2015**
-####How a promise can get you out of callback hell (Andrea Lattuada)
+####How a promise can get you out of callback hell (Andrea Lattuada) [slide](https://speakerdeck.com/utaal/milanojs-how-a-promise-can-get-you-out-of-callback-hell)
 
 **6/10/2015**
 ####Flux/Redux (Francesco Strazzullo) [slide](http://slides.com/francescostrazzullo/react-flux-redux-milanojs#/)
