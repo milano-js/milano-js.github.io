@@ -1,12 +1,14 @@
-##3 Novembre 2015 ore 19:00
-###How a promise can get you out of callback hell
-####Andrea Lattuada <a href="https://twitter.com/utaal" target="_blank" class="icon-twitter"></a>
+##1 Dicembre 2015 ore 19:00
+###A tour of JavaScript: from weird to great
+####Gabriele Petronella  <a href="https://twitter.com/gabro" target="_blank" class="icon-twitter"></a>
 
-<a href="http://www.eventbrite.it/e/biglietti-milano-js-19042800529?ref=ebtn" target="_blank"><img src="https://www.eventbrite.it/custombutton?eid=19042800529" alt="Eventbrite - Milano JS" /></a>
+JavaScript è un linguaggio unico e spesso non in senso positivo.
 
-In javascript si scrive spesso codice per reagire ad un evento o un’azione come un click su un pulsante nel browser o il ricevimento di una richiesta sul server: questo codice viene spesso fornito al sistema sotto forma di funzioni di callback, che verranno invocate al momento opportuno. Nella gestione di una serie di azioni ed eventi, questo stile di programmazione ("CPS") può risultare in codice "ad albero di natale”, costituito da tante funzioni anonime una dentro l’altra e tipicamente difficile da leggere, rifattorizzare e mantenere.
+Le sue innegabili stranezze hanno da sempre spaventato developer di tutto il mondo e lo hanno reso un facile bersaglio di critiche e prese in giro.
 
-Esploreremo una serie di astrazioni e librerie volte a mitigare questo problema. Parleremo di Promise, fibers, estensioni alla sintassi come async/await e altro.
+In questo talk vediamo come molte delle stranezze di Javascript siano ormai una vestigia del passato, grazie alle novità introdotte da ECMAScript 6 (ES6), la nuova versione di Javascript, diventata ufficiale a partire dallo scorso giugno.
+
+Parleremo poi di come è possibile utilizzare ES6 anche supportando browser "antichi" e daremo infine un'occhiata a quello che ci riserva il futuro prossimo con ES7.
 
 #####L'incontro si terrà in StartMiUp presso Copernico
 <div class="frame">
