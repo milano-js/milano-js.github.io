@@ -1,6 +1,6 @@
 ##1 Dicembre 2015 ore 19:00
 ###A tour of JavaScript: from weird to great
-####Gabriele Petronella  <a href="https://twitter.com/gabro" target="_blank" class="icon-twitter"></a>
+####Gabriele Petronella  <a href="https://twitter.com/gabro27" target="_blank" class="icon-twitter"></a>
 
 JavaScript è un linguaggio unico e spesso non in senso positivo.
 
