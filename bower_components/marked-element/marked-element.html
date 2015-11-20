@@ -11,24 +11,15 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <link rel="import" href="marked-import.html">
 
 <!--
-Element wrapper for the [marked](https://github.com/chjj/marked) library.
+Element wrapper for the [marked](http://marked.org/) library.
 
-`<marked-element>` accepts Markdown source, and renders it to a child
-element with the class `markdown-html`. This child element can be styled
-as you would a normal DOM element. If you do not provide a child element
-with the `markdown-html` class, the Markdown source will still be rendered,
-but to a shadow DOM child that cannot be styled.
+`<marked-element>` accepts Markdown source either via its `markdown` attribute:
 
-The Markdown source can be specified either via the `markdown` attribute:
-
-    <marked-element markdown="`Markdown` is _awesome_!">
-      <div class="markdown-html"></div>
-    </marked-element>
+    <marked-element markdown="`Markdown` is _awesome_!"></marked-element>
 
 Or, you can provide it via a `<script type="text/markdown">` element child:
 
     <marked-element>
-      <div class="markdown-html"></div>
       <script type="text/markdown">
         Check out my markdown!
 
@@ -45,34 +36,15 @@ Or, you can provide it via a `<script type="text/markdown">` element child:
 
 Note that the `<script type="text/markdown">` approach is _static_. Changes to
 the script content will _not_ update the rendered markdown!
-
-### Styling
-If you are using a child with the `markdown-html` class, you can style it
-as you would a regular DOM element:
-
-    .markdown-html p {
-      color: red;
-    }
-
-    .markdown-html td:first-child {
-      padding-left: 24px;
-    }
-
 @element marked-element
 @group Molecules
 @hero hero.svg
 @demo demo/index.html
 -->
 <dom-module id="marked-element">
+
   <template>
-    <style>
-      /* Thanks IE 10. */
-      .hidden {
-        display: none !important;
-      }
-    </style>
-    <content select=".markdown-html"></content>
-    <div id="content" class="hidden"></div>
+    <div id="content"></div>
   </template>
 
 </dom-module>
@@ -121,22 +93,11 @@ as you would a regular DOM element:
      */
     attached: function() {
       this._attached = true;
-      this._outputElement = this.outputElement;
       this.render();
     },
 
     detached: function() {
       this._attached = false;
-    },
-
-    get outputElement () {
-      var child = Polymer.dom(this).queryDistributedElements('.markdown-html')[0];
-
-      if (child)
-        return child;
-
-      this.toggleClass('hidden', false, this.$.content);
-      return this.$.content;
     },
 
     /**
@@ -151,11 +112,11 @@ as you would a regular DOM element:
     render: function() {
       if (!this._attached) return;
       if (!this.markdown) {
-        Polymer.dom(this._outputElement).innerHTML = '';
+        this.$.content.innerHTML = '';
         return;
       }
 
-      Polymer.dom(this._outputElement).innerHTML = marked(this.markdown, {
+      this.$.content.innerHTML = marked(this.markdown, {
         highlight: this._highlight.bind(this),
       });
     },

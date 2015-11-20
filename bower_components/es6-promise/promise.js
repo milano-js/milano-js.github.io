@@ -3,7 +3,7 @@
  * @copyright Copyright (c) 2014 Yehuda Katz, Tom Dale, Stefan Penner and contributors (Conversion to ES6 API by Jake Archibald)
  * @license   Licensed under MIT license
  *            See https://raw.githubusercontent.com/jakearchibald/es6-promise/master/LICENSE
- * @version   3.0.2
+ * @version   2.1.0
  */
 
 (function() {
@@ -33,9 +33,7 @@
     var lib$es6$promise$asap$$len = 0;
     var lib$es6$promise$asap$$toString = {}.toString;
     var lib$es6$promise$asap$$vertxNext;
-    var lib$es6$promise$asap$$customSchedulerFn;
-
-    var lib$es6$promise$asap$$asap = function asap(callback, arg) {
+    function lib$es6$promise$asap$$asap(callback, arg) {
       lib$es6$promise$asap$$queue[lib$es6$promise$asap$$len] = callback;
       lib$es6$promise$asap$$queue[lib$es6$promise$asap$$len + 1] = arg;
       lib$es6$promise$asap$$len += 2;
@@ -43,21 +41,11 @@
         // If len is 2, that means that we need to schedule an async flush.
         // If additional callbacks are queued before the queue is flushed, they
         // will be processed by this flush that we are scheduling.
-        if (lib$es6$promise$asap$$customSchedulerFn) {
-          lib$es6$promise$asap$$customSchedulerFn(lib$es6$promise$asap$$flush);
-        } else {
-          lib$es6$promise$asap$$scheduleFlush();
-        }
+        lib$es6$promise$asap$$scheduleFlush();
       }
     }
 
-    function lib$es6$promise$asap$$setScheduler(scheduleFn) {
-      lib$es6$promise$asap$$customSchedulerFn = scheduleFn;
-    }
-
-    function lib$es6$promise$asap$$setAsap(asapFn) {
-      lib$es6$promise$asap$$asap = asapFn;
-    }
+    var lib$es6$promise$asap$$default = lib$es6$promise$asap$$asap;
 
     var lib$es6$promise$asap$$browserWindow = (typeof window !== 'undefined') ? window : undefined;
     var lib$es6$promise$asap$$browserGlobal = lib$es6$promise$asap$$browserWindow || {};
@@ -71,10 +59,15 @@
 
     // node
     function lib$es6$promise$asap$$useNextTick() {
+      var nextTick = process.nextTick;
       // node version 0.10.x displays a deprecation warning when nextTick is used recursively
-      // see https://github.com/cujojs/when/issues/410 for details
+      // setImmediate should be used instead instead
+      var version = process.versions.node.match(/^(?:(\d+)\.)?(?:(\d+)\.)?(\*|\d+)$/);
+      if (Array.isArray(version) && version[1] === '0' && version[2] === '10') {
+        nextTick = setImmediate;
+      }
       return function() {
-        process.nextTick(lib$es6$promise$asap$$flush);
+        nextTick(lib$es6$promise$asap$$flush);
       };
     }
 
@@ -126,7 +119,7 @@
       lib$es6$promise$asap$$len = 0;
     }
 
-    function lib$es6$promise$asap$$attemptVertx() {
+    function lib$es6$promise$asap$$attemptVertex() {
       try {
         var r = require;
         var vertx = r('vertx');
@@ -146,7 +139,7 @@
     } else if (lib$es6$promise$asap$$isWorker) {
       lib$es6$promise$asap$$scheduleFlush = lib$es6$promise$asap$$useMessageChannel();
     } else if (lib$es6$promise$asap$$browserWindow === undefined && typeof require === 'function') {
-      lib$es6$promise$asap$$scheduleFlush = lib$es6$promise$asap$$attemptVertx();
+      lib$es6$promise$asap$$scheduleFlush = lib$es6$promise$asap$$attemptVertex();
     } else {
       lib$es6$promise$asap$$scheduleFlush = lib$es6$promise$asap$$useSetTimeout();
     }
@@ -159,7 +152,7 @@
 
     var lib$es6$promise$$internal$$GET_THEN_ERROR = new lib$es6$promise$$internal$$ErrorObject();
 
-    function lib$es6$promise$$internal$$selfFulfillment() {
+    function lib$es6$promise$$internal$$selfFullfillment() {
       return new TypeError("You cannot resolve a promise with itself");
     }
 
@@ -185,7 +178,7 @@
     }
 
     function lib$es6$promise$$internal$$handleForeignThenable(promise, thenable, then) {
-       lib$es6$promise$asap$$asap(function(promise) {
+       lib$es6$promise$asap$$default(function(promise) {
         var sealed = false;
         var error = lib$es6$promise$$internal$$tryThen(then, thenable, function(value) {
           if (sealed) { return; }
@@ -212,7 +205,7 @@
     function lib$es6$promise$$internal$$handleOwnThenable(promise, thenable) {
       if (thenable._state === lib$es6$promise$$internal$$FULFILLED) {
         lib$es6$promise$$internal$$fulfill(promise, thenable._result);
-      } else if (thenable._state === lib$es6$promise$$internal$$REJECTED) {
+      } else if (promise._state === lib$es6$promise$$internal$$REJECTED) {
         lib$es6$promise$$internal$$reject(promise, thenable._result);
       } else {
         lib$es6$promise$$internal$$subscribe(thenable, undefined, function(value) {
@@ -243,7 +236,7 @@
 
     function lib$es6$promise$$internal$$resolve(promise, value) {
       if (promise === value) {
-        lib$es6$promise$$internal$$reject(promise, lib$es6$promise$$internal$$selfFulfillment());
+        lib$es6$promise$$internal$$reject(promise, lib$es6$promise$$internal$$selfFullfillment());
       } else if (lib$es6$promise$utils$$objectOrFunction(value)) {
         lib$es6$promise$$internal$$handleMaybeThenable(promise, value);
       } else {
@@ -266,7 +259,7 @@
       promise._state = lib$es6$promise$$internal$$FULFILLED;
 
       if (promise._subscribers.length !== 0) {
-        lib$es6$promise$asap$$asap(lib$es6$promise$$internal$$publish, promise);
+        lib$es6$promise$asap$$default(lib$es6$promise$$internal$$publish, promise);
       }
     }
 
@@ -275,7 +268,7 @@
       promise._state = lib$es6$promise$$internal$$REJECTED;
       promise._result = reason;
 
-      lib$es6$promise$asap$$asap(lib$es6$promise$$internal$$publishRejection, promise);
+      lib$es6$promise$asap$$default(lib$es6$promise$$internal$$publishRejection, promise);
     }
 
     function lib$es6$promise$$internal$$subscribe(parent, child, onFulfillment, onRejection) {
@@ -289,7 +282,7 @@
       subscribers[length + lib$es6$promise$$internal$$REJECTED]  = onRejection;
 
       if (length === 0 && parent._state) {
-        lib$es6$promise$asap$$asap(lib$es6$promise$$internal$$publish, parent);
+        lib$es6$promise$asap$$default(lib$es6$promise$$internal$$publish, parent);
       }
     }
 
@@ -546,7 +539,7 @@
     /**
       Promise objects represent the eventual result of an asynchronous operation. The
       primary way of interacting with a promise is through its `then` method, which
-      registers callbacks to receive either a promise's eventual value or the reason
+      registers callbacks to receive either a promise’s eventual value or the reason
       why the promise cannot be fulfilled.
 
       Terminology
@@ -669,9 +662,6 @@
     lib$es6$promise$promise$$Promise.race = lib$es6$promise$promise$race$$default;
     lib$es6$promise$promise$$Promise.resolve = lib$es6$promise$promise$resolve$$default;
     lib$es6$promise$promise$$Promise.reject = lib$es6$promise$promise$reject$$default;
-    lib$es6$promise$promise$$Promise._setScheduler = lib$es6$promise$asap$$setScheduler;
-    lib$es6$promise$promise$$Promise._setAsap = lib$es6$promise$asap$$setAsap;
-    lib$es6$promise$promise$$Promise._asap = lib$es6$promise$asap$$asap;
 
     lib$es6$promise$promise$$Promise.prototype = {
       constructor: lib$es6$promise$promise$$Promise,
@@ -882,7 +872,7 @@
 
         if (state) {
           var callback = arguments[state - 1];
-          lib$es6$promise$asap$$asap(function(){
+          lib$es6$promise$asap$$default(function(){
             lib$es6$promise$$internal$$invokeCallback(state, child, callback, result);
           });
         } else {
