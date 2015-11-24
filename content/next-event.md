@@ -10,6 +10,7 @@ In questo talk vediamo come molte delle stranezze di Javascript siano ormai una 
 
 Parleremo poi di come è possibile utilizzare ES6 anche supportando browser "antichi" e daremo infine un'occhiata a quello che ci riserva il futuro prossimo con ES7.
 
+<a href="http://www.eventbrite.it/e/biglietti-milano-js-19698342272?ref=ebtn" target="_blank"><img src="https://www.eventbrite.it/custombutton?eid=19698342272" alt="Eventbrite - Milano JS" /></a>
 
 #####L'incontro si terrà in Google Italia
 <div class="frame">
