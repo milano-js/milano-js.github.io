@@ -1,4 +1,4 @@
-##Chi siamo
+## Chi siamo
 
 Pensare che in una città come Milano non esistesse un gruppo dedicato a Javascript ci sembrava incredibile; quindi l'abbiamo creato noi!
 
@@ -8,9 +8,9 @@ In questi mesi abbiamo imparato tante cose e tante altre le abbiamo insegnate, s
 
 Siamo molto fieri del nostro lavoro e orgogliosi di essere diventati un punto di riferimento non solo per gli utenti, ma anche per le altre community italiane che si sono formate prendendo ispirazione da Milano JS. Questa è per noi, oltre che una gioia, una grande responsabiltà e siamo ancora più motivati a non fermarci, continuando a migliorare incontro dopo incontro.
 
-####Fondatori
+#### Fondatori
 
-#####Maurizio Mangione (AKA Granze)
+##### Maurizio Mangione (AKA Granze)
 Free climber e apprendista skater. Dal 2000 si occupa di frontend, ama Javascript e le sue stranezze.
 
 È Google Developers Expert su Web Technologies (Polymer)
@@ -18,7 +18,7 @@ Free climber e apprendista skater. Dal 2000 si occupa di frontend, ama Javascrip
 - @granze (Twitter, Github)
 
 
-#####Marco Firrincieli (AKA Firry)
+##### Marco Firrincieli (AKA Firry)
 Informatico con la passione per i viaggi e la musica. Da 2 anni fa parte del gruppo di R&D di UniCredit.
 - marco@milanojs.com
 - @mfirry (Twitter, Github)
