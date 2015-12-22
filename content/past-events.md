@@ -1,7 +1,7 @@
 ## Eventi passati
 
 **1/12/2015**
-####A tour of JavaScript: from weird to great (Gabriele Petronella) [slide](https://speakerdeck.com/gabro/es2015-and-beyond)
+#### A tour of JavaScript: from weird to great (Gabriele Petronella) [slide](https://speakerdeck.com/gabro/es2015-and-beyond)
 
 **3/11/2015**
 #### How a promise can get you out of callback hell (Andrea Lattuada) [slide](https://speakerdeck.com/utaal/milanojs-how-a-promise-can-get-you-out-of-callback-hell)
