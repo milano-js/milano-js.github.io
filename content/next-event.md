@@ -2,6 +2,8 @@
 ### A Skype-like chat with WebRTC and socket.io
 #### Michele di Salvatore  <a href="https://twitter.com/mikdisal" target="_blank" class="icon-twitter"></a>
 
+<a href="http://www.eventbrite.it/e/biglietti-milano-js-20417073015?ref=ebtn" target="_blank"><img src="https://www.eventbrite.it/custombutton?eid=20417073015" alt="Eventbrite - Milano JS" /></a>
+
 WebRTC è una tecnologia nata nel 2011 con lo scopo di portare la videochat su browser in modo nativo, ispirandosi alle chat IRC.
 
 IRC permette a 2 utenti di chattare direttamente, o a gruppi di persone di parlare all'interno di una stanza.
