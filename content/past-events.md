@@ -1,6 +1,6 @@
 ## Eventi passati
 **12/01/2016**
-#### A Skype-like chat with WebRTC and socket.io (Michele di Salvatore)
+#### A Skype-like chat with WebRTC and socket.io (Michele di Salvatore) [slide](http://www.slideshare.net/micheledisalvatore/webrt-socketio-building-a-skypelike-video-chat-with-native-javascript)
 
 **1/12/2015**
 #### A tour of JavaScript: from weird to great (Gabriele Petronella) [slide](https://speakerdeck.com/gabro/es2015-and-beyond)
