@@ -1,7 +1,7 @@
 ## Eventi passati
 
 **02/02/2016**
-#### React Native (Guido Bellomo)
+#### React Native (Guido Bellomo) [slide](http://www.slideshare.net/GuidoBellomo/umarells)
 
 **12/01/2016**
 #### A Skype-like chat with WebRTC and socket.io (Michele di Salvatore) [slide](http://www.slideshare.net/micheledisalvatore/webrt-socketio-building-a-skypelike-video-chat-with-native-javascript)
