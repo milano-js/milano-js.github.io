@@ -2,9 +2,9 @@
 ### JsDoc & ESLint
 #### Alberto Congiu <a href="https://twitter.com/4lbertoc" target="_blank" class="icon-twitter"></a>
 
-Documentazione e Linting sono strumenti utili a mantenere la codebase pulita e consistente. In particolare, JsDoc e EsLint aiutano ad applicare le best practices, ma non solo. Vedremo come JsDoc va oltre la semplice descrizione di funzioni e come EsLint, grazie alla sua modularità, consente di personalizzare le regole di analisi del codice che scriviamo.
-
 <a href="http://www.eventbrite.it/e/biglietti-milano-js-22134417639?ref=ebtn" target="_blank"><img src="https://www.eventbrite.it/custombutton?eid=22134417639" alt="Eventbrite - Milano JS" /></a>
+
+Documentazione e Linting sono strumenti utili a mantenere la codebase pulita e consistente. In particolare, JsDoc e EsLint aiutano ad applicare le best practices, ma non solo. Vedremo come JsDoc va oltre la semplice descrizione di funzioni e come EsLint, grazie alla sua modularità, consente di personalizzare le regole di analisi del codice che scriviamo.
 
 ##### L'incontro si terrà presso il [TAG](http://milano-merano.talentgarden.org) di via Merano
 <div class="frame">
