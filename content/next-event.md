@@ -1,10 +1,10 @@
-## 01 Marzo 2016 ore 19:00
-### JsDoc & ESLint
-#### Alberto Congiu <a href="https://twitter.com/4lbertoc" target="_blank" class="icon-twitter"></a>
+## 05 Aprile 2016 ore 19:00
+### Introduzione a GraphQL
+#### Marco Sampellegrini 
 
-<a href="http://www.eventbrite.it/e/biglietti-milano-js-22134417639?ref=ebtn" target="_blank"><img src="https://www.eventbrite.it/custombutton?eid=22134417639" alt="Eventbrite - Milano JS" /></a>
-
-Documentazione e Linting sono strumenti utili a mantenere la codebase pulita e consistente. In particolare, JsDoc e EsLint aiutano ad applicare le best practices, ma non solo. Vedremo come JsDoc va oltre la semplice descrizione di funzioni e come EsLint, grazie alla sua modularità, consente di personalizzare le regole di analisi del codice che scriviamo.
+GraphQL è un nuovo approccio per lo sviluppo di API, pensato per semplificare la comunicazione fra frontend e backend.
+Rilasciato solo qualche mese fa, Graphql è stato sviluppato da Facebook, dove è in produzione già da 3 anni.
+Segue lo stesso approccio dichiarativo di React ed insieme permettono di architetturare applicazioni JS full stack.
 
 ##### L'incontro si terrà presso il [TAG](http://milano-merano.talentgarden.org) di via Merano
 <div class="frame">
