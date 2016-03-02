@@ -1,5 +1,8 @@
 ## Eventi passati
 
+**01/03/2016**
+#### JsDoc & ESLint (Alberto Congiu)
+
 **02/02/2016**
 #### React Native (Guido Bellomo) [slide](http://www.slideshare.net/GuidoBellomo/umarells)
 
