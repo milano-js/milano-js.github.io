@@ -6,7 +6,7 @@ GraphQL è un nuovo approccio per lo sviluppo di API, pensato per semplificare l
 Rilasciato solo qualche mese fa, Graphql è stato sviluppato da Facebook, dove è in produzione già da 3 anni.
 Segue lo stesso approccio dichiarativo di React ed insieme permettono di architetturare applicazioni JS full stack.
 
-<div style="width:100%; text-align:left;" ><iframe  src="//eventbrite.it/tickets-external?eid=24240738702&ref=etckt" frameborder="0" height="214" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a class="powered-by-eb" style="color: #dddddd; text-decoration: none;" target="_blank" href="http://www.eventbrite.it/r/etckt">Con tecnologia Eventbrite</a></div></div>
+<div style="width:100%; text-align:left;" ><iframe  src="//eventbrite.it/tickets-external?eid=24240738702&ref=etckt" frameborder="0" height="250" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ></div></div>
 
 ##### L'incontro si terrà presso il [TAG](http://milano-merano.talentgarden.org) di via Merano
 <div class="frame">
