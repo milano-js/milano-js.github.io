@@ -1,5 +1,8 @@
 ## Eventi passati
 
+**05/04/2016**
+#### Introduzione a GraphQL (Marco Sampellegrini) [slide](http://alpacaaa.net/talks/milanojs-graphql-2016/)
+
 **01/03/2016**
 #### JsDoc & ESLint (Alberto Congiu) [slide](https://docs.google.com/presentation/d/1x843lXw8odqWoVMLTDX4xS2Tsh1vVFfQtGvuysiGRCs/edit)
 
