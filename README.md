@@ -1,4 +1,4 @@
 # Milano JS
 ## Il DOM di Milan
 
-[http://milanojs.com](http://milanojs.com)
+[![Slack Status](http://metalsmith-slack.herokuapp.com/badge.svg)](http://milanojs.herokuapp.com/)
