@@ -1,7 +1,10 @@
-*, *:after, *:before {
+*,
+*:after,
+*:before {
   box-sizing: border-box; }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0; }
 
@@ -139,6 +142,7 @@ nav {
 
 #eventi-passati ~ h4 {
   font-size: 2.4rem; }
+
 #eventi-passati ~ p {
   margin-bottom: 0; }
 
@@ -176,6 +180,14 @@ nav {
   @media screen and (min-width: 376px) {
     .social-icons {
       float: right; } }
+
+.bday-sponsor {
+  display: flex;
+  align-items: center; }
+  .bday-sponsor a {
+    margin-right: 20px; }
+    .bday-sponsor a:last-child {
+      margin-right: 0; }
 
 footer {
   margin: 20px 0;

@@ -232,6 +232,17 @@ nav {
   font-size: 1.3em;
 }
 
+.bday-sponsor {
+  display: flex;
+  align-items: center;
+  a {
+    margin-right: 20px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
 footer {
   margin: 20px 0;
   padding: 10px 0;
