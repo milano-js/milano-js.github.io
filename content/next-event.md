@@ -4,7 +4,7 @@
 Durante il prossimo incontro festeggeremo i primi due anni di attività di Milano JS.
 Vogliamo che questo sia un giorno speciale per la nostra community, quindi non ci limiteremo al solo talk tecnico ma ci saranno tante sorprese. Non Mancate!
 
-> Presto i biglietti e maggiori info. Se volete essere sicuri di non perdervi la possibilità di partecipare, iscrivetevi alla newsletter. ;)
+<a href="http://www.eventbrite.it/e/biglietti-milano-js-2nd-birthday-24877706891?ref=ebtn" target="_blank"><img src="https://www.eventbrite.it/custombutton?eid=24877706891" alt="Eventbrite - Milano JS 2nd Birthday!" /></a>
 
 ### RxJS (Angelo Simone Scotto)
 Nate da un'idea di Erik Meijer e sviluppate dal suo team in Microsoft, le Reactive Extensions (Rx) rappresentano una API in grado di supportare la programmazione asincrona ed event-based.
