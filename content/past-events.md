@@ -1,7 +1,7 @@
 ## Eventi passati
 
 **03/05/2016**
-#### RxJS (Angelo Simone Scotto) [slide](https://drive.google.com/file/d/0BwEf4zUICaH7N2hVbHpGcDFSOHM/view?usp=sharing)
+#### RxJS (Angelo Simone Scotto) [slide](https://drive.google.com/file/d/0BwEf4zUICaH7RmVDZUYyQnprNGs/view?usp=sharing)
 
 **05/04/2016**
 #### Introduzione a GraphQL (Marco Sampellegrini) [slide](http://alpacaaa.net/talks/milanojs-graphql-2016/)
