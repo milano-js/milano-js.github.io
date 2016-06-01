@@ -2,6 +2,8 @@
 ### Elm
 #### Marco Perone
 
+<a href="http://www.eventbrite.it/e/biglietti-milano-js-25771257525?ref=ebtn" target="_blank"><img src="https://www.eventbrite.it/custombutton?eid=25771257525" alt="Eventbrite - Milano JS" /></a>
+
 Lo sviluppo front-end sta evolvendo molto rapidamente, con nuovi frameworks che compaiono e declinano molto rapidamente. Tra le varie opzioni che uno sviluppatore ha a disposizione per realizzare la parte client-side di una applicazione web, Elm emerge come uno degli approcci più originali e promettenti. Combina i principi della programmazione reattiva con l'eleganza di un linguaggio funzionale fortemente tipizzato, garantendo una facile integrazione con il codice javascript.
 
 In questo talk Marco ci guiderà alla scoperta di Elm, esplorando gli aspetti più interessanti del linguaggio e ponendo l'attenzione in particolare sull'archittetura che emerge naturalmente sviluppando applicazioni con Elm, garantendo modularità, riutilizzo del codice e testabilità.
