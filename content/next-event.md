@@ -1,12 +1,11 @@
-## 07 Giugno 2016 ore 19:00
-### Elm
-#### Marco Perone
+## 05 Luglio 2016 ore 19:00
+### Architetture Unilaterali in Javascript
+#### Matteo Ronchi
 
-<a href="http://www.eventbrite.it/e/biglietti-milano-js-25771257525?ref=ebtn" target="_blank"><img src="https://www.eventbrite.it/custombutton?eid=25771257525" alt="Eventbrite - Milano JS" /></a>
+Una delle scelte più complesse da affrontare durante la realizzazione di una Single Page Application è quale pattern architetturale utilizzare. Esistono infiniti framework con moltissime interpretazioni dei principali pattern, e scegliere il più indicato per uno specifico progetto non è banale. Negli ultimi anni le architetture basate su flussi di dati unilaterali hanno dimostrato di essere particolarmente efficaci e, spesso, più facili da mantenere di architetture basate su interpretazioni del pattern MVC. 
 
-Lo sviluppo front-end sta evolvendo molto rapidamente, con nuovi frameworks che compaiono e declinano molto rapidamente. Tra le varie opzioni che uno sviluppatore ha a disposizione per realizzare la parte client-side di una applicazione web, Elm emerge come uno degli approcci più originali e promettenti. Combina i principi della programmazione reattiva con l'eleganza di un linguaggio funzionale fortemente tipizzato, garantendo una facile integrazione con il codice javascript.
-
-In questo talk Marco ci guiderà alla scoperta di Elm, esplorando gli aspetti più interessanti del linguaggio e ponendo l'attenzione in particolare sull'archittetura che emerge naturalmente sviluppando applicazioni con Elm, garantendo modularità, riutilizzo del codice e testabilità.
+E' possibile ottenere flussi di dati unilaterali utilizzando tecniche molto diverse, durante il talk si vedranno alcuni degli approcci maggiormente diffusi cercando di comprenderne i diversi punti di forza e debolezza per poter scegliere la soluzione migliore a seconda del progetto da realizzare.
+Le tecniche presentate saranno indipendenti dal layer UI ed utilizzabili con i principali framework moderni basati su componenti.
 
 ##### L'incontro si terrà presso il [TAG](http://milano-merano.talentgarden.org) di via Merano
 <div class="frame">
