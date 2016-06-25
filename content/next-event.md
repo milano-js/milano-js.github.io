@@ -2,6 +2,8 @@
 ### Architetture Unilaterali in Javascript
 #### Matteo Ronchi
 
+<a href="http://www.eventbrite.it/e/biglietti-milano-js-26258959254?ref=ebtn" target="_blank"><img src="https://www.eventbrite.it/custombutton?eid=26258959254" alt="Eventbrite - Milano JS" /></a>
+
 Una delle scelte più complesse da affrontare durante la realizzazione di una Single Page Application è quale pattern architetturale utilizzare. Esistono infiniti framework con moltissime interpretazioni dei principali pattern, e scegliere il più indicato per uno specifico progetto non è banale. Negli ultimi anni le architetture basate su flussi di dati unilaterali hanno dimostrato di essere particolarmente efficaci e, spesso, più facili da mantenere di architetture basate su interpretazioni del pattern MVC. 
 
 E' possibile ottenere flussi di dati unilaterali utilizzando tecniche molto diverse, durante il talk si vedranno alcuni degli approcci maggiormente diffusi cercando di comprenderne i diversi punti di forza e debolezza per poter scegliere la soluzione migliore a seconda del progetto da realizzare.
