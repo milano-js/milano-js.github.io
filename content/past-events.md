@@ -1,5 +1,11 @@
 ## Eventi passati
 
+**05/07/2016**
+#### Unilateral Data Flows in Javascript (Matteo Ronchi) [slide](https://speakerdeck.com/cef62/unilateral-data-flows-in-javascript)
+
+**07/06/2016**
+#### Elm (Marco Perone) [slide](http://marcosh.github.io/presentations/2016/06/07/elm-milano-js.html#/)
+
 **03/05/2016**
 #### RxJS (Angelo Simone Scotto) [slide](https://drive.google.com/file/d/0BwEf4zUICaH7RmVDZUYyQnprNGs/view?usp=sharing)
 
