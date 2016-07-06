@@ -1,13 +1,10 @@
-## 05 Luglio 2016 ore 19:00
-### Architetture Unilaterali in Javascript
-#### Matteo Ronchi
+Milano JS se ne va in vacanza, ci rivediamo a Settembre.
 
-<a href="http://www.eventbrite.it/e/biglietti-milano-js-26258959254?ref=ebtn" target="_blank"><img src="https://www.eventbrite.it/custombutton?eid=26258959254" alt="Eventbrite - Milano JS" /></a>
+## 06 Settembre 2016 ore 19:00
+### Angular 2
+#### Fabio Biondi
 
-Una delle scelte più complesse da affrontare durante la realizzazione di una Single Page Application è quale pattern architetturale utilizzare. Esistono infiniti framework con moltissime interpretazioni dei principali pattern, e scegliere il più indicato per uno specifico progetto non è banale. Negli ultimi anni le architetture basate su flussi di dati unilaterali hanno dimostrato di essere particolarmente efficaci e, spesso, più facili da mantenere di architetture basate su interpretazioni del pattern MVC. 
-
-E' possibile ottenere flussi di dati unilaterali utilizzando tecniche molto diverse, durante il talk si vedranno alcuni degli approcci maggiormente diffusi cercando di comprenderne i diversi punti di forza e debolezza per poter scegliere la soluzione migliore a seconda del progetto da realizzare.
-Le tecniche presentate saranno indipendenti dal layer UI ed utilizzabili con i principali framework moderni basati su componenti.
+Presto maggiori info sul talk. Save the date!
 
 ##### L'incontro si terrà presso il [TAG](http://milano-merano.talentgarden.org) di via Merano
 <div class="frame">
