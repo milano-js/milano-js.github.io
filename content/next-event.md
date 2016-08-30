@@ -1,8 +1,5 @@
-Milano JS se ne va in vacanza, ci rivediamo a Settembre.
-
 ## 06 Settembre 2016 ore 19:00
-### Angular 2
-#### Fabio Biondi
+### TBD
 
 Presto maggiori info sul talk. Save the date!
 
