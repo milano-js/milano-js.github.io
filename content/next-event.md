@@ -1,7 +1,8 @@
 ## 06 Settembre 2016 ore 19:00
-### TBD
+### Vue.js 2.0 (Francesco Agati)
 
-Presto maggiori info sul talk. Save the date!
+Vue.js è una view library per implementare interfacce web dinamiche con data binding (simile ad angular.js) e un sistema a componenti.
+La versione 2.0 introduce importanti novità come un nuovo motore di rendering basato sul virtual DOM di snabbdom.js, il Server Side Rendering con hydration della view client side,  supporto per nuovi templating come JSX e HyperScript, un minor consumo di memoria e migliori performance nei tempi di rendering.
 
 ##### L'incontro si terrà presso il [TAG](http://milano-merano.talentgarden.org) di via Merano
 <div class="frame">
