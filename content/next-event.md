@@ -1,12 +1,9 @@
-## 06 Settembre 2016 ore 19:00
-### Vue.js 2.0 (Francesco Agati)
+## ?? Ottobre 2016 ore 19:00
+### TBD
 
+Fra pochi giorni i dettagli del prossimo incontro.
 
-<a href="http://www.eventbrite.it/e/biglietti-milano-js-27431580596?ref=ebtn" target="_blank"><img src="https://www.eventbrite.it/custombutton?eid=27431580596" alt="Eventbrite - Milano JS" /></a>
-
-
-Vue.js è una view library per implementare interfacce web dinamiche con data binding (simile ad angular.js) e un sistema a componenti.
-La versione 2.0 introduce importanti novità come un nuovo motore di rendering basato sul virtual DOM di snabbdom.js, il Server Side Rendering con hydration della view client side, supporto per nuovi template come JSX e HyperScript. Allo stesso tempo garatisce un minor consumo di memoria e migliori performance nei tempi di rendering.
+Per rimanere sempre aggiornati, iscrivetevi alla newsletter e/o seguiteci su [Twitter](https://twitter.com/milano_js)
 
 ##### L'incontro si terrà presso il [TAG](http://milano-merano.talentgarden.org) di via Merano
 <div class="frame">
