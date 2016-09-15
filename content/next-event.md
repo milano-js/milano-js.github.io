@@ -1,5 +1,5 @@
-## ?? Ottobre 2016 ore 19:00
-### TBD
+## 11 Ottobre 2016 ore 19:00
+### Angular 2 (Fabio Biondi)
 
 Fra pochi giorni i dettagli del prossimo incontro.
 
