@@ -1,9 +1,21 @@
 ## 11 Ottobre 2016 ore 19:00
-### Angular 2 (Fabio Biondi)
+### Angular 2 Components (Fabio Biondi)
 
-Fra pochi giorni i dettagli del prossimo incontro.
+> Presto sarà possibile registrarsi all'evento. Iscrivetevi alla newsletter se volete assicurarvi un posto!
 
-Per rimanere sempre aggiornati, iscrivetevi alla newsletter e/o seguiteci su [Twitter](https://twitter.com/milano_js)
+Un approccio totalmente component-based e l’utilizzo di un flow unidirezionale sono alcune delle caratteristiche fondamentali che contraddistinguono Angular 2.
+I componenti rimangono il fulcro di ogni applicazione tuttavia, seppur con molte similitudini, le novità introdotte sono molte e durante questo incontro le analizzeremo e le confronteremo con la precedente versione del framework:
+
+- Typescript e Angular2: data type, decorator, interfacce
+- Component metadata
+- Template view e built-in directives
+- Component class
+- Input e output: relazione padre-figlio e comunicazione tra componenti
+- Hooks e Component LifeCycle
+- Styling components
+- Transclusion
+- Dependency Injection 
+
 
 ##### L'incontro si terrà presso il [TAG](http://milano-merano.talentgarden.org) di via Merano
 <div class="frame">
