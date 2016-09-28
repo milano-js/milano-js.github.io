@@ -1,7 +1,7 @@
 ## 11 Ottobre 2016 ore 19:00
 ### Angular 2 Components (Fabio Biondi)
 
-
+<br>
 <a href="http://www.eventbrite.it/e/biglietti-milano-js-28235531234?ref=ebtnebtckt" target="_blank"><img src="https://www.eventbrite.it/custombutton?eid=28235531234" alt="Eventbrite - Milano JS" /></a>
 
 Un approccio totalmente component-based e l’utilizzo di un flow unidirezionale sono alcune delle caratteristiche fondamentali che contraddistinguono Angular 2.
