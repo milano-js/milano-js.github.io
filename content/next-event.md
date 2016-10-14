@@ -1,22 +1,7 @@
-## 11 Ottobre 2016 ore 19:00
-### Angular 2 Components (Fabio Biondi)
+## 2 Novembre 2016 ore 19:00
+### Taking Polymer to production: we did it! (Salvatore Laisa)
 
-<br>
-<a href="http://www.eventbrite.it/e/biglietti-milano-js-28235531234?ref=ebtnebtckt" target="_blank"><img src="https://www.eventbrite.it/custombutton?eid=28235531234" alt="Eventbrite - Milano JS" /></a>
-
-Un approccio totalmente component-based e l’utilizzo di un flow unidirezionale sono alcune delle caratteristiche fondamentali che contraddistinguono Angular 2.
-I componenti rimangono il fulcro di ogni applicazione tuttavia, seppur con molte similitudini, le novità introdotte sono molte e durante questo incontro le analizzeremo e le confronteremo con la precedente versione del framework:
-
-- Typescript e Angular2: data type, decorator, interfacce
-- Component metadata
-- Template view e built-in directives
-- Component class
-- Input e output: relazione padre-figlio e comunicazione tra componenti
-- Hooks e Component LifeCycle
-- Styling components
-- Transclusion
-- Dependency Injection 
-
+Ci sono forti probabilità che Polymer NON sia il framework che tu stia utilizzando nei tuoi attuali progetti, ecco perché in questo talk non mi concentrerò sui paragoni con questo o quell'altro framework ma più che altro su quali siano i casi d'uso in cui difficilmente vorreste evitarlo. Parlerò anche di come gestire applicazioni complesse, quali sono state le sfide di aver portato progetti basati su Polymer in produzione e ovviamente ci saranno slide con gatti. Ah, vi avevo detto che Polymer 2 è in arrivo?
 
 ##### L'incontro si terrà presso il [TAG](http://milano-merano.talentgarden.org) di via Merano
 <div class="frame">
