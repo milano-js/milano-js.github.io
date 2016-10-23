@@ -1,5 +1,11 @@
 ## Eventi passati
 
+**11/10/2016**
+#### Angular 2 (Fabio Biondi)
+
+**06/09/2016**
+#### Vue.js 2 (Francesco Agati)
+
 **05/07/2016**
 #### Unilateral Data Flows in Javascript (Matteo Ronchi) [slide](https://speakerdeck.com/cef62/unilateral-data-flows-in-javascript)
 
