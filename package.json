@@ -1,0 +1,23 @@
+{
+  "name": "milano-js.github.io",
+  "version": "1.0.0",
+  "description": "Milano JS Website",
+  "main": "index.html",
+  "scripts": {
+    "build": "npm run precache",
+    "precache": "sw-precache --config=sw-precache-config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milano-js/milano-js.github.io.git"
+  },
+  "author": "Maurizio Mangione",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/milano-js/milano-js.github.io/issues"
+  },
+  "homepage": "https://github.com/milano-js/milano-js.github.io#readme",
+  "devDependencies": {
+    "sw-precache": "^4.2.1"
+  }
+}
