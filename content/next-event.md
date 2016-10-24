@@ -1,7 +1,7 @@
 ## 2 Novembre 2016 ore 19:00
-### Taking Polymer to production: we did it! (Salvatore Laisa)
+### Portare Polymer in produzione: noi l'abbiamo fatto! (Salvatore Laisa)
 
-Ci sono forti probabilità che Polymer NON sia il framework che tu stia utilizzando nei tuoi attuali progetti, ecco perché in questo talk non mi concentrerò sui paragoni con questo o quell'altro framework ma più che altro su quali siano i casi d'uso in cui difficilmente vorreste evitarlo. Parlerò anche di come gestire applicazioni complesse, quali sono state le sfide di aver portato progetti basati su Polymer in produzione e ovviamente ci saranno slide con gatti. Ah, vi avevo detto che Polymer 2 è in arrivo?
+Ci sono forti probabilità che Polymer NON sia il framework che stai utilizzando nei tuoi attuali progetti.Ecco perché in questo talk ci si concentrerà non sui paragoni tra framework ma su quali siano i casi d'uso in cui Polymer può davvero fare la differenza. Si parlerà anche di come gestire applicazioni complesse, quali sono state le sfide di aver portato progetti basati su Polymer in produzione e ovviamente ci saranno slide con gatti. Aspettando l'imminente arrivo di Polymer 2...
 
 ##### L'incontro si terrà presso il [TAG](http://milano-merano.talentgarden.org) di via Merano
 <div class="frame">
