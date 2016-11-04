@@ -1,5 +1,8 @@
 ## Eventi passati
 
+**03/11/2016**
+#### Taking Polymer to production: we did it! (Salvatore Laisa) [slide](https://docs.google.com/presentation/d/10jEeA1zEfcbjQ2R-o8rscD1Le_6GoUaE0Zpe0XhwmFM/edit#slide=id.p)
+
 **11/10/2016**
 #### Angular 2 (Fabio Biondi)
 
