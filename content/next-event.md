@@ -1,7 +1,7 @@
-## 2 Novembre 2016 ore 19:00
-### Portare Polymer in produzione: noi l'abbiamo fatto! (Salvatore Laisa)
+## 13 Dicembre 2016 ore 19:00
+### 10 TDD MYTHS (Francesco Negri)
 
-Ci sono forti probabilità che Polymer NON sia il framework che stai utilizzando nei tuoi attuali progetti.Ecco perché in questo talk ci si concentrerà non sui paragoni tra framework ma su quali siano i casi d'uso in cui Polymer può davvero fare la differenza. Si parlerà anche di come gestire applicazioni complesse, quali sono state le sfide di aver portato progetti basati su Polymer in produzione e ovviamente ci saranno slide con gatti. Aspettando l'imminente arrivo di Polymer 2...
+Esistono molte regole su come scrivere test automatici. Il problema è che alcune di esse sono soltanto miti tramandati di programmatore in programmatore, mentre altre sono addirittura pericolose e controproducenti. Vedremo 10 di queste regole e quando trasgredirle, con degli esempi concreti dal mondo JavaScript.
 
 ##### L'incontro si terrà presso il [TAG](http://milano-merano.talentgarden.org) di via Merano
 <div class="frame">
