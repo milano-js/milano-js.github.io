@@ -1,9 +1,9 @@
 (function() {
   'use strict';
 
-  // if ('serviceWorker' in navigator) {
-  //   navigator.serviceWorker.register('/service-worker.js', { scope: '/' });
-  // }
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js', { scope: '/' });
+  }
 
   var content = document.getElementById('content'),
       txt = document.getElementsByClassName('txt')[0];
