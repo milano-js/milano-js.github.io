@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["img/cover.jpg","74fc159ee6a09939585aa02282ad8179"],["img/jetbrains.png","59c1c44bcfe94e8405e0c740d02ff0eb"],["img/mijs.svg","36f89ea2ac2f16879a72cfee405b992f"],["img/oreilly.png","ec6ed6211802e0f4f8d034c521edbb71"],["img/pluralsight.png","a8206094054cf9806b8ace53fa45d349"],["img/slack.png","dfdebd83079ca606129739d06e143a1e"],["index.html","1eed36cfae41b7f4299aebff3d869ce4"],["js/milano.js","33a483c720b934a2948f1e1e9c89223d"],["styles/milanojs.css","4d328474151b6490a92de059a9694a8a"]];
+var precacheConfig = [["img/cover.jpg","74fc159ee6a09939585aa02282ad8179"],["img/jetbrains.png","59c1c44bcfe94e8405e0c740d02ff0eb"],["img/mijs.svg","36f89ea2ac2f16879a72cfee405b992f"],["img/oreilly.png","ec6ed6211802e0f4f8d034c521edbb71"],["img/pluralsight.png","a8206094054cf9806b8ace53fa45d349"],["img/slack.png","dfdebd83079ca606129739d06e143a1e"],["index.html","7a15fafd71829ccd534f4c24280182a6"],["js/milano.js","33a483c720b934a2948f1e1e9c89223d"],["styles/milanojs.css","4d328474151b6490a92de059a9694a8a"]];
 var cacheName = 'sw-precache-v2-sw-precache-' + (self.registration ? self.registration.scope : '');
 
 
