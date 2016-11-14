@@ -1,0 +1,10 @@
+{
+  "name": "Milano JS",
+  "short_name": "Milano JS",
+  "theme_color": "#ffe000",
+  "background_color": "#454545",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/"
+}
