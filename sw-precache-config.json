@@ -3,6 +3,16 @@
     "styles/**.css",
     "index.html",
     "img/**.*",
-    "js/**.js"
+    "js/**.js",
+    "content/**.md",
+    "bower_components/polymer/**.html",
+    "bower_components/marked/lib/marked.js",
+    "bower_components/es6-promise/promise.min.js",
+    "bower_components/fetch/fetch.js",
+    "bower_components/marked-element/marked-element.html",
+    "bower_components/webcomponentsjs/webcomponents-lite.min.js",
+    "bower_components/page.js/page.js",
+    "bower_components/skeleton/css/skeleton.css",
+    "bower_components/marked-element/marked-import.html"
   ]
 }
