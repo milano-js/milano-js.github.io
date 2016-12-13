@@ -1,4 +1,4 @@
-## 13 Dicembre 2016 ore 19:00
+## 20 Dicembre 2016 ore 19:00
 ### 10 TDD MYTHS (Francesco Negri)
 
 <a href="http://www.eventbrite.it/e/biglietti-milano-js-29941140758?ref=ebtn"><img src="https://www.eventbrite.it/custombutton?eid=29941140758" alt="Eventbrite - Milano JS" /></a>
