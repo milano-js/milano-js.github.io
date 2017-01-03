@@ -1,9 +1,7 @@
-## 20 Dicembre 2016 ore 19:00
-### 10 TDD MYTHS (Francesco Negri)
+## 10 Gennaio 2017 ore 19:00
+### Flow (Gabriele Petronella)
 
-<a href="http://www.eventbrite.it/e/biglietti-milano-js-29941140758?ref=ebtn"><img src="https://www.eventbrite.it/custombutton?eid=29941140758" alt="Eventbrite - Milano JS" /></a>
-
-Esistono molte regole su come scrivere test automatici. Il problema è che alcune di esse sono soltanto miti tramandati di programmatore in programmatore, mentre altre sono addirittura pericolose e controproducenti. Vedremo 10 di queste regole e quando trasgredirle, con degli esempi concreti dal mondo JavaScript.
+TypeError: “x" is not a function. Quale sviluppatore JavaScript non ha mai incontrato questo errore, magari su un sito in produzione? Non sarebbe invece fantastico intercettare questi errori durante lo sviluppo? In questo talk presenteremo Flow, uno static typechecker per javascript che ci può aiutare a scrivere codice più affidabile e sicuro. Il talk conterrà esempi concreti e demo. ATTENZIONE: può causare forti sbalzi di JavaScript fatigue!
 
 ##### L'incontro si terrà presso il [TAG](http://milano-merano.talentgarden.org) di via Merano
 <div class="frame">
