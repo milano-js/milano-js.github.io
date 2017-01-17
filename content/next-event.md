@@ -1,11 +1,8 @@
-## 10 Gennaio 2017 ore 19:00
-### Flow (Gabriele Petronella)
+## 7 Febbraio 2017 ore 19:00
+### Typescript (Michele Aponte)
+Presto tutti i dettagli.
 
-<a href="http://www.eventbrite.it/e/biglietti-milano-js-30854659116?ref=ebtn" target="_blank"><img src="https://www.eventbrite.it/custombutton?eid=30854659116" alt="Eventbrite - Milano JS" /></a>
-
-TypeError: “x" is not a function. Quale sviluppatore JavaScript non ha mai incontrato questo errore, magari su un sito in produzione? Non sarebbe invece fantastico intercettare questi errori durante lo sviluppo? In questo talk presenteremo Flow, uno static typechecker per javascript che ci può aiutare a scrivere codice più affidabile e sicuro. Il talk conterrà esempi concreti e demo. ATTENZIONE: può causare forti sbalzi di JavaScript fatigue!
-
-##### L'incontro si terrà presso il [TAG](http://milano-merano.talentgarden.org) di via Merano
+##### L'incontro si terrà presso il [Talent Garden Milano Merano](http://milano-merano.talentgarden.org)
 <div class="frame">
   [![TAG via Merano](img/tagmap.png)](http://go.shr.lc/2foWPRr)
 </div>
