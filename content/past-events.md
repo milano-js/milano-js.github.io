@@ -1,5 +1,11 @@
 ## Eventi passati
 
+**10/01/2017**
+#### An introduction to FlowType (Gabriele Petronella) [slide](https://speakerdeck.com/gabro/an-introduction-to-flowtype)
+
+**20/12/2016**
+#### 10 TDD MYTHS (Francesco Negri) [slide](https://github.com/dhinus/talks/tree/master/2016-12-20-milanojs)
+
 **02/11/2016**
 #### Taking Polymer to production: we did it! (Salvatore Laisa) [slide](https://docs.google.com/presentation/d/10jEeA1zEfcbjQ2R-o8rscD1Le_6GoUaE0Zpe0XhwmFM/edit#slide=id.p)
 
