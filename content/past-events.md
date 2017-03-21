@@ -1,5 +1,8 @@
 ## Eventi passati
 
+**7 Marzo 2017**
+#### Ho scritto un browser game usando Redux Saga (Riccardo Gueli Alletti)
+
 **10/01/2017**
 #### An introduction to FlowType (Gabriele Petronella) [slide](https://speakerdeck.com/gabro/an-introduction-to-flowtype)
 
