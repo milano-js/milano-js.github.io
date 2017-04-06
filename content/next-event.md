@@ -1,5 +1,5 @@
 ## 2 Maggio  2017 ore 19:00
-### Milano JS 3th Birthday!!!
+### Milano JS 3rd Birthday!!!
 
 Come ogni anno ci si trova per festeggiare il compleanno di Milano JS.
 
