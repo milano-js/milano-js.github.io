@@ -4,7 +4,6 @@
     "index.html",
     "img/**.*",
     "js/**.js",
-    "content/**.md",
     "bower_components/polymer/**.html",
     "bower_components/marked/lib/marked.js",
     "bower_components/es6-promise/promise.min.js",
