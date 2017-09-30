@@ -1,7 +1,9 @@
 ## 3 ottobre 2017 ore 19:00
 ### Web Animation API (Davide di Pumpo)
 
-Tanto tempo fa quando ti chiedevano un sito dinamico, intendevano una roba con la intro fatta in flash. Tanto é cambiato da allora e forse per shock da quelle intro da diverse decine di mega, magari a causa di difficile implementazione, ma insomma l'animazione é diventata un cittadino di seconda categoria. Ma le *Web Animation API* sono qui per cambiare le carte in tavola. Scopriremo non solo il come ma anche il perché dietro le Web Animation API e come usarle da subito
+Tanto tempo fa quando ti chiedevano un sito dinamico, intendevano una roba con la intro fatta in flash. Molto è cambiato da allora, vuoi per il trauma di intro così pesanti, vuoi per la difficile implementazione. Qualunque sia il motivo, di fatto l'animazione è diventata un cittadino di seconda categoria. 
+
+Le Web Animation API sono qui per cambiare le carte in tavola. Scopriremo non solo il come ma anche il perché dietro le Web Animation API e come utilizzarle da subito.
 
 ##### L'incontro si terrà presso il Talent Garden di via Merano 
 
