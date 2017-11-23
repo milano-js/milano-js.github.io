@@ -1,9 +1,13 @@
-## 3 ottobre 2017 ore 19:00
-### Web Animation API (Davide di Pumpo)
+## 7 novembre 2017 ore 19:00
+### Web Components: Not the same talk about it (Salvatore Laisa)
 
-Tanto tempo fa quando ti chiedevano un sito dinamico, intendevano una roba con la intro fatta in flash. Molto è cambiato da allora, vuoi per il trauma di intro così pesanti, vuoi per la difficile implementazione. Qualunque sia il motivo, di fatto l'animazione è diventata un cittadino di seconda categoria. 
+<a href="https://www.eventbrite.it/e/biglietti-milano-js-39291529021?ref=ebtn" target="_blank"><img src="https://www.eventbrite.it/custombutton?eid=39291529021" alt="Eventbrite - Milano JS" /></a>
 
-Le Web Animation API sono qui per cambiare le carte in tavola. Scopriremo non solo il come ma anche il perché dietro le Web Animation API e come utilizzarle da subito.
+
+C'è una lunga tradizione di librerie Javascript... e questo talk non parlerà di nessuna di queste!
+Parleremo invece di uno standard: partendo dalle basi (ma senza soffermarci troppo), introducendo la cross-operabilità
+con vari framework/librerie, integrando API "insolite" , passando da esempi real-world e sfatando miti.
+Non aspettatevi il solito talk!
 
 ##### L'incontro si terrà presso il Talent Garden di via Merano 
 
