@@ -1,12 +1,13 @@
-## 5 dicembre 2017 ore 19:00
-### Elm in Production (Marco Sampellegrini)
-
-<a href="https://www.eventbrite.it/e/biglietti-milano-js-40548797545?ref=ebtn" target="_blank"><img src="https://www.eventbrite.it/custombutton?eid=40548797545" alt="Eventbrite - Milano JS" /></a>
+## 22 gennaio 2018 ore 19:00
+### Building Resilient Microservice APIs with REST and API Gateway (Vincenzo Chianese)
 
 
-Le Single page applications che sviluppiamo sono sempre più complesse e difficili da mantenere. Può la programmazione funzionale riportare ordine nel nostro lavoro?
+Building a microservices based architecture from an existing monolithic application is a non-trivial task with a lot of challenges. You will likely end up in with a completely different system in terms of architecture, components and more importantly the API surface you’re exposing; and that means breaking changes for your clients.
+Is there a better way?
 
-In questo talk vedremo come Elm, un linguaggio puramente funzionale, ci ha aiutato a migrare un'applicazione rendendola più robusta e corretta. Elm ci garantisce che non vedremo mai errori a runtime — "undefined is not a function" sarà solo un ricordo del passato!
+In this presentation we will deconstruct a sample monolithic application and refactor it into a set of microservices using a naive approach, taming all the problems that will rise one by one, and discover how a proper RESTful architecture combined with an API Gateway are invaluable tools for journey.
+
+By the end of the presentation, we’ll fully make the switch from a monolithic application to microservices based version (and viceversa) without breaking the clients at all.
 
 ##### L'incontro si terrà presso il Talent Garden di via Merano 
 
