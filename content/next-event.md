@@ -2,9 +2,11 @@
 
 ### Measuring User-centric performance
 
+<a href="https://www.eventbrite.it/e/biglietti-milano-js-measuring-user-centric-performance-44590122256?ref=ebtn" target="_blank"><img src="https://www.eventbrite.it/custombutton?eid=44590122256" alt="Eventbrite - Milano JS - Measuring User-centric performance" /></a>
+
 User-centric tracking is a model that helps you understand and measure performance so that users can have the best possible experience. With the addition of a few new browser APIs we can measure the First Contentful Paint (FCP), Time to Interactive (TTI) and Component First Paint (CFP). To leverage these new APIs we are going to use Perfume.js (http://zizzamia.github.io/perfume/). It not only helps us measure performance that matters (#perfmatters) but also reports to Google Analytics, ultimately preventing regression through integration in your end-to-end tests.
 
-### Speaker: Leonardo Zizzamia
+#### Speaker: Leonardo Zizzamia
 
 Leonardo is a Co-Founder of Plan, the command center for work life, fully implemented in the latest available version of Angular. He is a Google Developer Expert in Web Technologies and Angular.
 
