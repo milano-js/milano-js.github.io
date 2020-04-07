@@ -1,8 +1,7 @@
-## 16 maggio 2018 ore 19:00
+## Standby mode
 
-### Milano JS The Good Party (4th edition)
+Cari amici di Milano JS, 
+per il momento ci siamo presi una pausa ma torneremo presto.
 
-<a href="https://www.eventbrite.it/e/biglietti-milano-js-the-good-party-4th-edition-45989166836?ref=ebtn" target="_blank"><img src="https://www.eventbrite.it/custombutton?eid=45989166836" alt="Eventbrite - Milano JS - The Good Party (4th edition)" /></a>
+Se ti manca la nostra community non disperare e unisciti a noi su [Italia JS](http://italiajs.herokuapp.com)
 
-#### L'incontro si terrà presso Microsoft House.
-Maggiori info su [Eventbrite](https://www.eventbrite.it/e/biglietti-milano-js-the-good-party-4th-edition-45989166836?ref=website).
