@@ -92,7 +92,7 @@ nav a:hover {
 
 .cover {
   position: relative;
-  min-height: 500px;
+  min-height: 400px;
   text-align: center;
   background: transparent url(../img/cover.jpg) no-repeat center 0;
 }
@@ -299,6 +299,10 @@ footer {
 
 .icon-twitter:before {
   content: "a";
+}
+
+iframe {
+  max-width: 100%;
 }
 
 /* latin-ext */

@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="it">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="theme-color" content="#f3df49">
-    <title>Milano JS - Il DOM di Milan</title>
-    <link rel="manifest" href="manifest.json">
-    <link rel="stylesheet" href="bower_components/skeleton/css/skeleton.css">
-    <link rel="stylesheet" href="styles/milanojs.css">
-    <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
-    <link rel="import" href="bower_components/marked-element/marked-element.html">
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="theme-color" content="#f3df49" />
+    <title>Milano JS - Il DOM de Milan</title>
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="bower_components/skeleton/css/skeleton.css" />
+    <link rel="stylesheet" href="styles/milanojs.css" />
   </head>
   <body>
     <section class="cover">
@@ -19,11 +20,11 @@
         <div class="row">
           <div id="logo-col" class="four columns">
             <a class="home" href="/">
-              <img class="logo" src="img/mijs.svg" alt="Milano JS">
+              <img class="logo" src="img/mijs.svg" alt="Milano JS" />
             </a>
-            <h1>Milano JS <span>il DOM di Milan</span></h1>
+            <h1>Milano JS <span>il DOM de Milan</span></h1>
             <nav id="main-nav">
-              <a href="/about">chi siamo</a>
+              <!-- a href="/about">chi siamo</a -->
             </nav>
             <p class="em">info@milanojs.com</p>
           </div>
@@ -35,45 +36,91 @@
     </section>
     <div class="container main-container">
       <section class="newsletter">
-
         <!-- Begin MailChimp Signup Form -->
         <div id="mc_embed_signup">
-          <form action="//milanojs.us10.list-manage.com/subscribe/post?u=812c6e916903b29db2479916d&amp;id=2cf03005c2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-            <div id="mc_embed_signup_scroll" style="overflow: hidden;">
-
+          <form
+            action="//milanojs.us10.list-manage.com/subscribe/post?u=812c6e916903b29db2479916d&amp;id=2cf03005c2"
+            method="post"
+            id="mc-embedded-subscribe-form"
+            name="mc-embedded-subscribe-form"
+            class="validate"
+            target="_blank"
+            novalidate
+          >
+            <div id="mc_embed_signup_scroll" style="overflow: hidden">
               <label for="mce-EMAIL">Iscriviti alla newsletter</label>
-              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-              <input type="submit" value="invia" name="subscribe" id="mc-embedded-subscribe" class="button button-primary">
+              <input
+                type="email"
+                value=""
+                name="EMAIL"
+                class="required email"
+                id="mce-EMAIL"
+              />
+              <input
+                type="submit"
+                value="invia"
+                name="subscribe"
+                id="mc-embedded-subscribe"
+                class="button button-primary"
+              />
               <div id="mce-responses" class="clear">
-                <div class="response" id="mce-error-response" style="display:none"></div>
-                <div class="response" id="mce-success-response" style="display:none"></div>
-              </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-              <div style="position: absolute; left: -5000px;"><input type="text" name="b_812c6e916903b29db2479916d_2cf03005c2" tabindex="-1" value=""></div>
+                <div
+                  class="response"
+                  id="mce-error-response"
+                  style="display: none"
+                ></div>
+                <div
+                  class="response"
+                  id="mce-success-response"
+                  style="display: none"
+                ></div>
+              </div>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px">
+                <input
+                  type="text"
+                  name="b_812c6e916903b29db2479916d_2cf03005c2"
+                  tabindex="-1"
+                  value=""
+                />
+              </div>
             </div>
           </form>
         </div>
         <!--End mc_embed_signup-->
-
       </section>
       <div class="row main-content">
         <div class="eight columns txt">
-          <marked-element id="content" markdown="## loading...">
-            <div class="markdown-html"></div>
-          </marked-element>
+          <h2>Unisciti a noi online!</h2>
+          <p>
+            Cari amici di Milano JS,<br />
+            per il momento ci siamo presi una pausa dai meetup fisici.
+          </p>
+          <p>
+            Ci trovi comnuque sempre online sul server Discord di
+            <a href="https://italia-js.org">Italia JS</a>
+          </p>
+          <iframe
+            src="https://discord.com/widget?id=782921551225028618&theme=dark"
+            width="400"
+            height="250"
+            allowtransparency="true"
+            frameborder="0"
+            sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+          ></iframe>
         </div>
         <div class="four columns">
           <div class="sponsor">
-            <h4>Join us:</h4>
-            <h3>Italia JS</h3>
-            <a href="http://italiajs.herokuapp.com"><img src="img/slack.png" alt="Slack"></a>
             <h4>Sponsored by:</h4>
-            <a href="https://www.jetbrains.com/"><img src="img/jetbrains.png" alt="Jetbrains"></a>
+            <a href="https://www.jetbrains.com/"
+              ><img src="img/jetbrains.png" alt="Jetbrains"
+            /></a>
           </div>
         </div>
       </div>
       <footer>
         <div class="eight columns txt">
-          <p>&copy; 2020 Milano JS - The javascript user group. </p>
+          <p>&copy; 2020 Milano JS - La community JavaScript di Milano.</p>
         </div>
         <div class="four columns txt">
           <div class="social-icons">
@@ -85,14 +132,15 @@
       </footer>
     </div>
     <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', 'UA-46346613-1', 'auto');
-      ga('send', 'pageview');
+      window.ga =
+        window.ga ||
+        function () {
+          (ga.q = ga.q || []).push(arguments);
+        };
+      ga.l = +new Date();
+      ga("create", "UA-46346613-1", "auto");
+      ga("send", "pageview");
     </script>
-    <script async src='https://www.google-analytics.com/analytics.js'></script>
-    <script src="bower_components/fetch/fetch.js"></script>
-    <script src="bower_components/es6-promise/promise.min.js"></script>
-    <script src="bower_components/page.js/page.js"></script>
-    <script src="js/milano.js"></script>
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
   </body>
 </html>
