@@ -10,7 +10,7 @@ export class PhotoGallery extends LitElement {
       :host {
         display: block;
         padding: var(--spacing-xl) var(--spacing-md);
-        background-color: var(--color-light-blue);
+        background-color: var(--bg-surface-alt);
         border-bottom: var(--border-thick);
         position: relative;
         overflow: hidden;
@@ -22,8 +22,8 @@ export class PhotoGallery extends LitElement {
         position: absolute;
         top: 0; left: 0; right: 0; bottom: 0;
         background-image: 
-          linear-gradient(var(--color-dark) 1px, transparent 1px),
-          linear-gradient(90deg, var(--color-dark) 1px, transparent 1px);
+          linear-gradient(var(--pattern-color) 1px, transparent 1px),
+          linear-gradient(90deg, var(--pattern-color) 1px, transparent 1px);
         background-size: 100px 100px;
         opacity: 0.05;
         z-index: 0;
@@ -33,7 +33,7 @@ export class PhotoGallery extends LitElement {
         text-align: center;
         font-family: var(--font-heading);
         font-size: 4rem;
-        color: var(--color-dark);
+        color: var(--text-primary);
         margin-bottom: 4rem;
         text-transform: uppercase;
         letter-spacing: -2px;
@@ -55,7 +55,7 @@ export class PhotoGallery extends LitElement {
       .gallery-item {
         position: relative;
         border: var(--border-thick);
-        background: white;
+        background: var(--bg-card);
         padding: 0.5rem;
         box-shadow: var(--shadow-hard);
         transition: transform 0.2s cubic-bezier(0.1, 0.7, 1.0, 0.1);
@@ -117,7 +117,7 @@ export class PhotoGallery extends LitElement {
         right: -1rem;
         font-family: var(--font-heading);
         font-size: 4rem;
-        color: var(--color-dark);
+        color: var(--text-primary);
         opacity: 0.1;
         font-weight: 900;
         pointer-events: none;
@@ -146,7 +146,7 @@ export class PhotoGallery extends LitElement {
         max-height: 100%;
         border: var(--border-thick);
         padding: 10px;
-        background: var(--color-white);
+        background: var(--bg-card);
         box-shadow: 0 0 50px rgba(0,0,0,0.8);
       }
 

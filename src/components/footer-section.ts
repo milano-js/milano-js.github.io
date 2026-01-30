@@ -10,8 +10,8 @@ export class FooterSection extends LitElement {
       :host {
         display: block;
         padding: 4rem 1rem;
-        background-color: var(--color-white);
-        color: var(--color-dark);
+        background-color: var(--bg-page);
+        color: var(--text-primary);
         border-top: var(--border-thick);
       }
 
@@ -34,7 +34,7 @@ export class FooterSection extends LitElement {
 
       a {
         padding: 1rem 2rem;
-        color: var(--color-dark);
+        color: var(--text-primary);
         text-decoration: none;
         font-family: var(--font-body);
         font-weight: 700;
@@ -49,6 +49,7 @@ export class FooterSection extends LitElement {
 
       a:hover {
         background-color: var(--color-accent-yellow);
+        color: var(--text-on-accent);
       }
 
       .copyright {

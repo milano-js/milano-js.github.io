@@ -10,7 +10,7 @@ export class ContentSection extends LitElement {
       :host {
         display: block;
         padding: var(--spacing-xl) var(--spacing-md);
-        background-color: var(--color-white);
+        background-color: var(--bg-page);
         border-bottom: var(--border-thick);
         position: relative;
         overflow: hidden;
@@ -48,18 +48,17 @@ export class ContentSection extends LitElement {
       }
 
       .text-content {
-        font-family: var(--font-body);
         font-size: 1.1rem;
         border: var(--border-thick);
         padding: 2rem;
-        background: var(--color-white);
+        background: var(--bg-card);
         box-shadow: var(--shadow-hard);
       }
 
       h2 {
         font-family: var(--font-heading);
         font-size: 3rem;
-        color: var(--color-dark);
+        color: var(--text-on-accent);
         margin-top: 0;
         line-height: 1;
         margin-bottom: 2rem;
@@ -78,7 +77,7 @@ export class ContentSection extends LitElement {
 
       /* Brutalist Video Frame */
       .video-wrapper {
-        background: var(--color-dark);
+        background: var(--bg-contrast);
         padding: 0.5rem;
         box-shadow: var(--shadow-hard-lg);
         border: var(--border-thick);
@@ -109,7 +108,7 @@ export class ContentSection extends LitElement {
         width: 12px;
         height: 12px;
         border-radius: 50%;
-        background-color: var(--color-white);
+        background-color: var(--bg-page);
         border: 1px solid black;
       }
 

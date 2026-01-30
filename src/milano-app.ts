@@ -6,6 +6,7 @@ import './components/hero-section.js';
 import './components/content-section.js';
 import './components/photo-gallery.js';
 import './components/footer-section.js';
+import './components/theme-toggle.js';
 
 @customElement('milano-app')
 export class MilanoApp extends LitElement {
@@ -15,9 +16,16 @@ export class MilanoApp extends LitElement {
       :host {
         display: block;
         min-height: 100vh;
-        background-color: var(--color-white);
-        color: var(--color-dark);
+        background-color: var(--bg-page);
+        color: var(--text-primary);
         font-family: var(--font-body);
+      }
+      
+      .app-header {
+        position: fixed;
+        top: 1rem;
+        right: 1rem;
+        z-index: 1000;
       }
     `
   ];
@@ -25,6 +33,9 @@ export class MilanoApp extends LitElement {
   render() {
     return html`
       <header>
+        <div class="app-header">
+          <theme-toggle></theme-toggle>
+        </div>
         <hero-section></hero-section>
       </header>
       <main>

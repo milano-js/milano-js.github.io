@@ -29,7 +29,7 @@ export class HeroSection extends LitElement {
       }
 
       .logo-box {
-        background-color: var(--color-light-blue);
+        background-color: var(--bg-surface-alt);
         padding: 4rem 2rem;
         display: flex;
         flex-direction: column;
@@ -93,7 +93,7 @@ export class HeroSection extends LitElement {
         text-transform: uppercase;
         line-height: 0.9;
         margin: 0;
-        color: var(--color-dark);
+        color: var(--text-on-accent);
         letter-spacing: -2px;
         text-shadow: 2px 2px 0px rgba(255,255,255,0.5);
       }
@@ -104,8 +104,8 @@ export class HeroSection extends LitElement {
 
       .slogan-box {
         margin-top: 1.5rem;
-        background-color: var(--color-dark);
-        color: var(--color-white);
+        background-color: var(--bg-contrast);
+        color: var(--text-inverse);
         padding: 0.5rem 1.5rem;
         font-family: var(--font-body);
         font-size: 1.2rem;
@@ -121,8 +121,8 @@ export class HeroSection extends LitElement {
 
       .cta-button {
         display: inline-block;
-        background-color: var(--color-primary-green);
-        color: var(--color-white);
+        background-color: var(--bg-action-primary);
+        color: var(--text-on-action);
         font-family: var(--font-heading);
         font-size: 1.2rem;
         font-weight: 700;
@@ -149,7 +149,7 @@ export class HeroSection extends LitElement {
       .discord-stats {
         font-family: var(--font-body);
         font-size: 0.9rem;
-        color: var(--color-dark);
+        color: var(--text-primary);
         display: flex;
         gap: 1rem;
         font-weight: bold;
