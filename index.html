@@ -1,149 +1,57 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="it">
-  <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-7Q0D1XH7S5"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
 
-      gtag("config", "G-7Q0D1XH7S5");
-    </script>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
-    />
-    <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="theme-color" content="#f3df49" />
-    <title>Milano JS - Il DOM de Milan</title>
-    <link rel="manifest" href="manifest.json" />
-    <link rel="stylesheet" href="bower_components/skeleton/css/skeleton.css" />
-    <link rel="stylesheet" href="styles/milanojs.css" />
-  </head>
-  <body>
-    <section class="cover">
-      <div class="container">
-        <div class="row">
-          <div id="logo-col" class="four columns">
-            <a class="home" href="/">
-              <img class="logo" src="img/mijs.svg" alt="Milano JS" />
-            </a>
-            <h1>Milano JS <span>il DOM de Milan</span></h1>
-            <nav id="main-nav">
-              <!-- a href="/about">chi siamo</a -->
-            </nav>
-            <p class="em">info@milanojs.com</p>
-          </div>
-          <div class="eight columns">
-            <p class="cover-credits">Foto: Alessandro Bellini</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <div class="container main-container">
-      <section class="newsletter">
-        <!-- Begin MailChimp Signup Form -->
-        <div id="mc_embed_signup">
-          <form
-            action="//milanojs.us10.list-manage.com/subscribe/post?u=812c6e916903b29db2479916d&amp;id=2cf03005c2"
-            method="post"
-            id="mc-embedded-subscribe-form"
-            name="mc-embedded-subscribe-form"
-            class="validate"
-            target="_blank"
-            novalidate
-          >
-            <div id="mc_embed_signup_scroll" style="overflow: hidden">
-              <label for="mce-EMAIL">Iscriviti alla newsletter</label>
-              <input
-                type="email"
-                value=""
-                name="EMAIL"
-                class="required email"
-                id="mce-EMAIL"
-              />
-              <input
-                type="submit"
-                value="invia"
-                name="subscribe"
-                id="mc-embedded-subscribe"
-                class="button button-primary"
-              />
-              <div id="mce-responses" class="clear">
-                <div
-                  class="response"
-                  id="mce-error-response"
-                  style="display: none"
-                ></div>
-                <div
-                  class="response"
-                  id="mce-success-response"
-                  style="display: none"
-                ></div>
-              </div>
-              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-              <div style="position: absolute; left: -5000px">
-                <input
-                  type="text"
-                  name="b_812c6e916903b29db2479916d_2cf03005c2"
-                  tabindex="-1"
-                  value=""
-                />
-              </div>
-            </div>
-          </form>
-        </div>
-        <!--End mc_embed_signup-->
-      </section>
-      <div class="row main-content">
-        <div class="eight columns txt">
-          <h2>Unisciti a noi online!</h2>
-          <p>
-            Cari amici di Milano JS,<br />
-            per il momento ci siamo presi una pausa dai meetup fisici.
-          </p>
-          <p>
-            Ci trovi comnuque sempre online sul server Discord di
-            <a href="https://italia-js.org">Italia JS</a>
-          </p>
-          <iframe
-            src="https://discord.com/widget?id=782921551225028618&theme=dark"
-            width="400"
-            height="250"
-            allowtransparency="true"
-            frameborder="0"
-            sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
-          ></iframe>
-        </div>
-        <div class="four columns">
-          <div class="sponsor">
-            <h4>Sponsored by:</h4>
-            <a href="https://www.jetbrains.com/"
-              ><img src="img/jetbrains.png" alt="Jetbrains"
-            /></a>
-          </div>
-        </div>
-      </div>
-      <footer>
-        <div class="eight columns txt">
-          <p>&copy; 2020 Milano JS - La community JavaScript di Milano.</p>
-        </div>
-        <div class="four columns txt">
-          <div class="social-icons">
-            <a href="https://www.facebook.com/milanojavascript">Facebook</a> |
-            <a href="https://twitter.com/milano_js">Twitter</a> |
-            <a href="https://github.com/milano-js/">Github</a>
-          </div>
-        </div>
-      </footer>
-    </div>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/assets/mijs.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary Meta Tags -->
+  <title>Milano JS - La Community JavaScript di Milano</title>
+  <meta name="description"
+    content="Milano JS è la community di sviluppatori JavaScript di Milano. Unisciti a noi per meetup, workshop e networking nel cuore della tecnologia milanese. Dal 2012.">
+  <meta name="author" content="Milano JS">
+  <meta name="keywords"
+    content="JavaScript, Milano, Community, Meetup, Tech, Frontend, Backend, Node.js, Web Development">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://milano-js.github.io/">
+  <meta property="og:title" content="Milano JS - La Community JavaScript di Milano">
+  <meta property="og:description"
+    content="Dal 2012, il punto di riferimento per gli sviluppatori JS a Milano. Eventi, talk e networking. Il DOM de Milan.">
+  <meta property="og:image" content="https://milano-js.github.io/assets/mijs.svg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://milano-js.github.io/">
+  <meta property="twitter:title" content="Milano JS - La Community JavaScript di Milano">
+  <meta property="twitter:description"
+    content="Dal 2012, il punto di riferimento per gli sviluppatori JS a Milano. Eventi, talk e networking. Il DOM de Milan.">
+  <meta property="twitter:image" content="https://milano-js.github.io/assets/mijs.svg">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://milano-js.github.io/" />
+
+  <!-- Google Fonts: Outfit (Display) + Space Grotesk (Body/Tech) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&family=Space+Grotesk:wght@300;500;700&display=swap"
+    rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+    }
+  </style>
+</head>
+
+<body>
+  <milano-app></milano-app>
+  <script type="module" src="/src/milano-app.ts"></script>
+</body>
+
 </html>

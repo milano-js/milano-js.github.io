@@ -1,23 +1,29 @@
 {
   "name": "milano-js.github.io",
   "version": "1.0.0",
-  "description": "Milano JS Website",
-  "main": "index.html",
-  "scripts": {
-    "build": "npm run precache",
-    "precache": "sw-precache --config=sw-precache-config.json"
+  "description": "Il sito web di Milano JS",
+  "homepage": "https://github.com/milano-js/milano-js.github.io#readme",
+  "bugs": {
+    "url": "https://github.com/milano-js/milano-js.github.io/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/milano-js/milano-js.github.io.git"
   },
-  "author": "Maurizio Mangione",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/milano-js/milano-js.github.io/issues"
+  "author": "Maurizio Mangione",
+  "type": "module",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
-  "homepage": "https://github.com/milano-js/milano-js.github.io#readme",
+  "dependencies": {
+    "lit": "^3.3.2"
+  },
   "devDependencies": {
-    "sw-precache": "^4.2.1"
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
   }
 }
