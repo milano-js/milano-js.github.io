@@ -1,6 +1,7 @@
 import { LitElement, html, css } from 'lit';
 import { customElement } from 'lit/decorators.js';
 import { theme } from './styles/theme.js';
+import './styles/global.css';
 
 import './components/hero-section.js';
 import './components/content-section.js';
