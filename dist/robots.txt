@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://milano-js.github.io/sitemap.xml
