@@ -213,7 +213,7 @@ export class HeroSection extends LitElement {
           </div>
 
           <a href="https://discord.gg/CrHrweEaUg" target="_blank" rel="noopener noreferrer" class="cta-button">
-            Unisciti su Discord
+            Partecipa su Discord
           </a>
           
           <div class="discord-stats">
