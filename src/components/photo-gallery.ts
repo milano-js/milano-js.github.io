@@ -42,6 +42,14 @@ export class PhotoGallery extends LitElement {
         text-shadow: 4px 4px 0px var(--color-accent-yellow);
       }
 
+      @media (max-width: 768px) {
+        h2 {
+          font-size: 2.5rem;
+          margin-bottom: 2rem;
+          word-break: break-all;
+        }
+      }
+
       .gallery-grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));

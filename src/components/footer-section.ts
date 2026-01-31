@@ -32,6 +32,14 @@ export class FooterSection extends LitElement {
         box-shadow: var(--shadow-hard);
       }
 
+      @media (max-width: 768px) {
+        .links {
+          flex-direction: column;
+          width: 100%;
+          max-width: 300px;
+        }
+      }
+
       a {
         padding: 1rem 2rem;
         color: var(--text-primary);
@@ -41,10 +49,21 @@ export class FooterSection extends LitElement {
         text-transform: uppercase;
         border-right: var(--border-thick);
         transition: background-color 0.2s;
+        text-align: center;
+      }
+
+      @media (max-width: 768px) {
+        a {
+          border-right: none;
+          border-bottom: var(--border-thick);
+          width: 100%;
+          box-sizing: border-box;
+        }
       }
 
       a:last-child {
         border-right: none;
+        border-bottom: none;
       }
 
       a:hover {
